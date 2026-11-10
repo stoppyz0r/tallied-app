@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dés en folie – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/fiveDice.html">
+  <link rel="alternate" hreflang="en" href="../en/fiveDice.html">
+  <link rel="alternate" hreflang="fr" href="../fr/fiveDice.html">
+  <link rel="alternate" hreflang="nl" href="../nl/fiveDice.html">
+  <link rel="alternate" hreflang="it" href="../it/fiveDice.html">
+  <link rel="alternate" hreflang="es" href="../es/fiveDice.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/fiveDice.html" lang="de">Deutsch</a> <a href="../en/fiveDice.html" lang="en">English</a> <a class="current" href="../fr/fiveDice.html">Français</a> <a href="../nl/fiveDice.html" lang="nl">Nederlands</a> <a href="../it/fiveDice.html" lang="it">Italiano</a> <a href="../es/fiveDice.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Tous les jeux</a></p>
+    <h1>Dés en folie</h1>
+    <p class="meta">Cinq dés, trois lancers, remplissez la feuille · 1–8 joueurs · Jeux de dés</p>
+    <h2>Qu’est-ce que c’est ?</h2>
+<p>Le classique des dés avec cinq dés, un gobelet et une feuille de score de 13 cases : les 1 à 6 en haut ; brelan, carré, full, petite et grande suite, cinq identiques et chance en bas. Le joueur qui a le plus de points après 13 manches gagne.</p>
+    <h2>Comment on joue</h2>
+<p><strong>Mise en place</strong> : Il vous faut cinq dés, un gobelet et une colonne de 13 cases vides par joueur – l’app tient la feuille pour vous. On joue chacun à son tour.</p>
+<p><strong>Déroulement</strong> : À votre tour, lancez les cinq dés. Vous pouvez ensuite garder les dés de votre choix et relancer les autres, jusqu’à trois lancers au total. Les dés gardés peuvent être relancés au lancer suivant. Vous pouvez aussi vous arrêter plus tôt.</p>
+<p><strong>Inscrire</strong> : Après votre dernier lancer, inscrivez le résultat dans exactement une case libre. Chaque case ne se remplit qu’une fois. Si le lancer ne va dans aucune case libre ou si vous ne voulez pas l’utiliser, barrez une case libre avec 0.</p>
+<p><strong>Partie haute</strong> : Pour les cases 1 à 6, seuls les dés montrant ce chiffre comptent ; trois 4 rapportent donc 12 points. Si votre partie haute totalise au moins 63, vous recevez 35 points de bonus.</p>
+<p>Partie basse :</p>
+<ul><li>Brelan : au moins trois dés identiques, rapporte la somme de tous les dés.</li><li>Carré : au moins quatre dés identiques, rapporte la somme de tous les dés.</li><li>Full : trois d’un chiffre et deux d’un autre, 25 points.</li><li>Petite suite : quatre chiffres consécutifs, 30 points.</li><li>Grande suite : cinq chiffres consécutifs, 40 points.</li><li>Cinq identiques : les cinq dés pareils, 50 points.</li><li>Chance : n’importe quel lancer, rapporte la somme de tous les dés.</li></ul>
+<p><strong>Fin de la partie</strong> : Après 13 manches, toutes les cases sont remplies. Partie haute, bonus et partie basse donnent le total ; le plus élevé gagne. En solo, le total est votre score personnel. Des règles maison comme des bonus pour d’autres cinq identiques, des jokers, un ordre imposé ou trois colonnes se règlent à la création de la partie.</p>
+    <h2>Objectif</h2>
+<p>Ayez le total le plus élevé sur la feuille après 13 manches – avec le bonus pour 63 points dans la partie haute.</p>
+    <div class="card">
+      <h3>Le décompte en bref</h3>
+<p>Chacun lance à son tour jusqu’à trois fois et inscrit le résultat dans une case libre. En haut, seuls les dés du nombre choisi comptent (p. ex. trois quatre = 12), et 63 ou plus rapporte un bonus de 35 points. En bas : brelan et carré comptent tous les dés, full 25, petite suite 30, grande suite 40, cinq identiques 50, chance tous les dés. Si rien ne convient, une case est barrée avec 0.</p>
+      <h3>La saisie dans l’app</h3>
+<p><strong>Jeu à cinq dés</strong> : chacun à son tour lance jusqu’à trois fois et inscrit le résultat dans une case libre, comme brelan, full ou suite. Chaque case ne sert qu’une fois. Vous saisissez la valeur de chaque case, et l’app connaît les valeurs autorisées et calcule les totaux et le bonus de la partie haute.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Télécharger dans l’App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Confidentialité</a> · <a href="../../support.html">Assistance</a></p>
+      <p>Les noms des jeux sont des termes génériques ; l’app n’est liée à aucun éditeur.</p>
+    </footer>
+  </main>
+</body>
+</html>

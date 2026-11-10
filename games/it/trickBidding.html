@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quante prese? – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/trickBidding.html">
+  <link rel="alternate" hreflang="en" href="../en/trickBidding.html">
+  <link rel="alternate" hreflang="fr" href="../fr/trickBidding.html">
+  <link rel="alternate" hreflang="nl" href="../nl/trickBidding.html">
+  <link rel="alternate" hreflang="it" href="../it/trickBidding.html">
+  <link rel="alternate" hreflang="es" href="../es/trickBidding.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/trickBidding.html" lang="de">Deutsch</a> <a href="../en/trickBidding.html" lang="en">English</a> <a href="../fr/trickBidding.html" lang="fr">Français</a> <a href="../nl/trickBidding.html" lang="nl">Nederlands</a> <a class="current" href="../it/trickBidding.html">Italiano</a> <a href="../es/trickBidding.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Tutti i giochi</a></p>
+    <h1>Quante prese?</h1>
+    <p class="meta">Prevedi le prese e centrale in pieno · 3–6 giocatori · Giochi di carte</p>
+    <h2>Cos’è?</h2>
+<p><strong>Un gioco di prese con 60 carte</strong>: quattro semi numerati da 1 a 13, più quattro carte massime e quattro carte zero. Prima di ogni round ognuno dichiara quante prese farà, e a ogni round la mano cresce di una carta. Funziona anche con un mazzo normale senza carte speciali.</p>
+    <h2>Come si gioca</h2>
+<p><strong>Preparazione</strong>: mescola il mazzo da 60 carte. Nel primo round ognuno riceve una carta, e in ogni round successivo una in più. Il mazziere cambia in senso orario. Dopo la distribuzione si scopre la carta successiva del mazzo per stabilire la briscola: le carte di quel seme battono tutte le carte normali degli altri semi. Se è una carta massima, il mazziere sceglie la briscola; se è una carta zero o non resta nessuna carta, non c’è briscola.</p>
+<p><strong>Dichiarazione</strong>: partendo da sinistra del mazziere, ognuno dichiara quante prese farà; anche 0 è ammesso. Una presa è una carta per ogni giocatore. Le dichiarazioni valgono fino alla fine del round.</p>
+<p><strong>Giocare le prese</strong>: il giocatore a sinistra del mazziere apre la prima presa. Devi rispondere al primo seme normale giocato se puoi; altrimenti puoi giocare qualsiasi carta. Le carte massime e le carte zero si possono giocare sempre. Se una presa inizia con carte zero, la prima carta normale stabilisce il seme. Se prima c’è una carta massima o la presa inizia con una, nessuno deve rispondere al seme.</p>
+<p><strong>Vincere una presa</strong>: la prima carta massima vince la presa. Senza carte massime vince la briscola più alta, altrimenti la carta più alta del seme d’apertura. Le carte zero perdono; se ci sono solo carte zero, vince la prima. Chi vince una presa apre la successiva.</p>
+<p><strong>Punteggio</strong>: se fai esattamente tante prese quante ne hai dichiarate, ottieni 20 punti più 10 per presa – vale anche per una dichiarazione corretta di 0. Se sbagli, perdi 10 punti per ogni presa di differenza.</p>
+<p><strong>Fine della partita</strong>: si gioca finché tutto il mazzo è distribuito: 20 round in tre, 15 in quattro, 12 in cinque e 10 in sei. Vince il totale più alto. Con un mazzo normale (52 carte, asso alto) le carte speciali non ci sono e i round possibili sono meno; puoi ridurre il numero di round quando crei la partita.</p>
+    <h2>Obiettivo</h2>
+<p>Fai esattamente il numero di prese dichiarato in ogni round. Dopo l’ultimo round vince il totale più alto.</p>
+    <div class="card">
+      <h3>Il punteggio in breve</h3>
+<p>Nel round 1 tutti ricevono una carta, e una in più a ogni round successivo. Prima di giocare tutti dichiarano quante prese faranno. Una dichiarazione esatta vale 20 punti più 10 per presa; ogni presa di scarto costa 10 punti. Dopo l’ultimo round (60 carte diviso il numero di giocatori) vince il totale più alto.</p>
+      <h3>Come segnarlo nell’app</h3>
+<p>Gioco di prese in cui a ogni round si distribuisce una carta in più; le carte speciali massime e zero rendono difficile la previsione. Solo una dichiarazione esatta dà punti positivi. Inserisci le dichiarazioni e le prese fatte, e l’app calcola i punti.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Scarica su App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Supporto</a></p>
+      <p>I nomi dei giochi sono termini generici; l’app non è legata ad alcun editore.</p>
+    </footer>
+  </main>
+</body>
+</html>

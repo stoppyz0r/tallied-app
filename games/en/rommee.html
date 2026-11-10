@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rummy – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/rommee.html">
+  <link rel="alternate" hreflang="en" href="../en/rommee.html">
+  <link rel="alternate" hreflang="fr" href="../fr/rommee.html">
+  <link rel="alternate" hreflang="nl" href="../nl/rommee.html">
+  <link rel="alternate" hreflang="it" href="../it/rommee.html">
+  <link rel="alternate" hreflang="es" href="../es/rommee.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/rommee.html" lang="de">Deutsch</a> <a class="current" href="../en/rommee.html">English</a> <a href="../fr/rommee.html" lang="fr">Français</a> <a href="../nl/rommee.html" lang="nl">Nederlands</a> <a href="../it/rommee.html" lang="it">Italiano</a> <a href="../es/rommee.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← All games</a></p>
+    <h1>Rummy</h1>
+    <p class="meta">Meld cards into sets and runs · 2–6 players · Card games</p>
+    <h2>What is it?</h2>
+<p>Classic rummy with two 52-card decks and jokers. Players draw, meld sets and runs, and add cards to other players’ melds. Cards still in hand at the end count as penalties – a low total is good.</p>
+    <h2>How it’s played</h2>
+<p><strong>Setup</strong>: Shuffle two 52-card decks with jokers, usually six. Everyone gets 13 cards. The rest is placed face down as the draw pile, and one card is turned face up next to it to start the discard pile. The player to the dealer’s left starts, and play moves clockwise.</p>
+<p><strong>Melds</strong>: A set is at least three cards of the same rank in different suits, such as three queens. A run is at least three consecutive cards of the same suit. An ace may come before the 2 or after the king, but can’t link king and 2. Jokers can stand in for any card; it must be clear which card a joker represents.</p>
+<p><strong>Taking a turn</strong>: On your turn, draw a face-down card or take the top card of the discard pile. Then you may meld. Your first meld usually has to be worth at least 40 points: number cards count their value, face cards 10, the ace 11 (only 1 in the run A-2-3), and a joker as much as the card it stands for. After that you may meld more sets and runs and add matching cards to your own or other players’ melds. You may swap a melded joker for the card it represents, but must meld it again right away. Finish your turn by discarding one card.</p>
+<p><strong>Draw pile</strong>: When it runs out, shuffle the discard pile except for the top card to make a new one.</p>
+<p><strong>End of the round</strong>: The round ends as soon as someone has no cards left. Everyone else counts their leftover cards as penalty points: 2 to 10 at face value, jack, queen and king 10 each, ace 11, joker 20. Hand rummy: if someone melds all their cards in one turn without having melded before, everyone else’s penalties count double.</p>
+<p><strong>End of the game</strong>: Play until someone reaches the agreed limit after a round, usually 500 points, or until a fixed number of rounds has been played. The lowest total wins.</p>
+    <h2>Goal</h2>
+<p>Meld all your cards quickly and collect few penalty points. In the end the lowest total wins.</p>
+    <div class="card">
+      <h3>Scoring at a glance</h3>
+<p>Whoever runs out of cards first ends the round. Everyone else scores their leftover cards as penalties: 2 to 10 at face value; jack, queen and king 10 each; ace 11; joker 20. With hand rummy the penalties count double. The game ends at the point limit or after the fixed number of rounds; the lowest total wins.</p>
+      <h3>Keeping score in the app</h3>
+<p>Card game with two decks and jokers: matching ranks are melded as sets, consecutive cards of one suit as runs. Whoever gets rid of all their cards first ends the round, and everyone else scores their leftover cards as penalties. You enter the leftover cards, and the app adds them up.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Download on the App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Support</a></p>
+      <p>Game names are generic terms; the app is not affiliated with any publisher.</p>
+    </footer>
+  </main>
+</body>
+</html>

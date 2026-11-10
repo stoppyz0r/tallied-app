@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dice Fun – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/fiveDice.html">
+  <link rel="alternate" hreflang="en" href="../en/fiveDice.html">
+  <link rel="alternate" hreflang="fr" href="../fr/fiveDice.html">
+  <link rel="alternate" hreflang="nl" href="../nl/fiveDice.html">
+  <link rel="alternate" hreflang="it" href="../it/fiveDice.html">
+  <link rel="alternate" hreflang="es" href="../es/fiveDice.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/fiveDice.html" lang="de">Deutsch</a> <a class="current" href="../en/fiveDice.html">English</a> <a href="../fr/fiveDice.html" lang="fr">Français</a> <a href="../nl/fiveDice.html" lang="nl">Nederlands</a> <a href="../it/fiveDice.html" lang="it">Italiano</a> <a href="../es/fiveDice.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← All games</a></p>
+    <h1>Dice Fun</h1>
+    <p class="meta">Five dice, three rolls, fill the sheet · 1–8 players · Dice games</p>
+    <h2>What is it?</h2>
+<p>The dice classic with five dice, a dice cup and a score sheet of 13 boxes: ones to sixes at the top; three and four of a kind, full house, small and large straight, five of a kind and chance below. Whoever has the most points after 13 rounds wins.</p>
+    <h2>How it’s played</h2>
+<p><strong>Setup</strong>: You need five dice, a cup and a column of 13 empty boxes for each player – the app keeps the sheet for you. Players take turns.</p>
+<p><strong>Taking a turn</strong>: On your turn, roll all five dice. Then you may keep any dice and roll the others again, up to three rolls in total. Dice you kept may be rolled again on the next roll. You may also stop early.</p>
+<p><strong>Scoring a box</strong>: After your last roll, enter the result in exactly one open box. Each box can be filled only once. If the roll fits no open box or you don’t want to use it, cross out an open box with 0.</p>
+<p><strong>Upper section</strong>: In ones to sixes only the dice showing that number count, so three fours score 12 points. If your upper section totals at least 63, you get 35 bonus points.</p>
+<p>Lower section:</p>
+<ul><li>Three of a kind: at least three matching dice, scores the sum of all dice.</li><li>Four of a kind: at least four matching dice, scores the sum of all dice.</li><li>Full house: three of one number and two of another, 25 points.</li><li>Small straight: four consecutive numbers, 30 points.</li><li>Large straight: five consecutive numbers, 40 points.</li><li>Five of a kind: all five dice the same, 50 points.</li><li>Chance: any roll, scores the sum of all dice.</li></ul>
+<p><strong>End of the game</strong>: After 13 rounds all boxes are filled. Upper section, bonus and lower section make up the total; the highest wins. Playing alone, the total is your personal score. House rules such as bonuses for more fives of a kind, jokers, a fixed order or three columns can be set when you create the game.</p>
+    <h2>Goal</h2>
+<p>Have the highest total on the sheet after 13 rounds – with the bonus for 63 points in the upper section.</p>
+    <div class="card">
+      <h3>Scoring at a glance</h3>
+<p>Everyone takes turns rolling up to three times and enters the result in an open box. In the upper section only the dice of that number count (e.g. three fours = 12), and 63 or more earns a 35-point bonus. Lower section: three and four of a kind score all dice, full house 25, small straight 30, large straight 40, five of a kind 50, chance all dice. If nothing fits, a box is crossed out with 0.</p>
+      <h3>Keeping score in the app</h3>
+<p><strong>Dice game with five dice</strong>: everyone takes turns rolling up to three times and enters the result in an open box, such as three of a kind, full house or a straight. Each box can be used only once. You enter the value per box, and the app knows the allowed values and works out the totals and the upper section bonus.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Download on the App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Support</a></p>
+      <p>Game names are generic terms; the app is not affiliated with any publisher.</p>
+    </footer>
+  </main>
+</body>
+</html>

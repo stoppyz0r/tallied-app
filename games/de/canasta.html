@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Canasta – Mitgezählt</title>
+  <link rel="alternate" hreflang="de" href="../de/canasta.html">
+  <link rel="alternate" hreflang="en" href="../en/canasta.html">
+  <link rel="alternate" hreflang="fr" href="../fr/canasta.html">
+  <link rel="alternate" hreflang="nl" href="../nl/canasta.html">
+  <link rel="alternate" hreflang="it" href="../it/canasta.html">
+  <link rel="alternate" hreflang="es" href="../es/canasta.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a class="current" href="../de/canasta.html">Deutsch</a> <a href="../en/canasta.html" lang="en">English</a> <a href="../fr/canasta.html" lang="fr">Français</a> <a href="../nl/canasta.html" lang="nl">Nederlands</a> <a href="../it/canasta.html" lang="it">Italiano</a> <a href="../es/canasta.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Alle Spiele</a></p>
+    <h1>Canasta</h1>
+    <p class="meta">Sieben Gleiche zur Canasta sammeln · 2, 3, 4, 6 Personen · Kartenspiele</p>
+    <h2>Was ist das?</h2>
+<p>Ein Sammel- und Auslegespiel mit zwei Kartenspielen und vier Jokern. Zweien und Joker ersetzen andere Karten, sieben Karten gleichen Rangs bilden eine Canasta, und rote Dreien bringen Bonuspunkte. Wer den ganzen Ablagestapel aufnimmt, kann eine Runde drehen.</p>
+    <h2>So wird gespielt</h2>
+<p><strong>Vorbereitung</strong>: Zu viert werden zwei Kartenspiele zu je 52 Karten mit vier Jokern gemischt; die Gegenübersitzenden bilden ein Team. Alle erhalten elf Karten, der Rest liegt verdeckt als Nachziehstapel bereit, daneben wird eine Karte aufgedeckt. Ist sie eine rote Drei oder eine Ersatzkarte, kommt eine weitere Karte darauf, und der Ablagestapel ist eingefroren. Links von der gebenden Person beginnt das Spiel, weiter geht es im Uhrzeigersinn.</p>
+<p><strong>Meldungen</strong>: Ausgelegt werden mindestens drei Karten gleichen Rangs, Reihen gibt es nicht. Zweien und Joker sind Ersatzkarten; eine Meldung braucht mindestens zwei echte Karten und höchstens drei Ersatzkarten. Das Team legt gemeinsam aus und ergänzt seine Meldungen. Ab sieben Karten ist eine Meldung eine Canasta: rein ohne Ersatzkarten, gemischt mit Ersatzkarten. Schwarze Dreien darf man nur beim Ausmachen melden.</p>
+<p><strong>Erste Meldung</strong>: Die ersten Karten, die ein Team auslegt, müssen zusammen einen Mindestwert haben, der vom Stand abhängt: unter 0 Punkten 15, ab 0 Punkten 50, ab 1500 Punkten 90, ab 3000 Punkten 120. Die App zeigt den Wert vor jeder Runde an.</p>
+<p><strong>Spielzug</strong>: Wer am Zug ist, zieht eine Karte vom Nachziehstapel oder nimmt unter den Bedingungen unten den ganzen Ablagestapel. Danach darf man melden und an die Meldungen des eigenen Teams anlegen. Zum Schluss wird eine Karte abgeworfen. Rote Dreien legt man sofort offen vor sich hin und zieht dafür eine Ersatzkarte, auch wenn man sie beim Geben bekommt.</p>
+<p><strong>Ablagestapel</strong>: Man darf ihn nur nehmen, wenn man die oberste Karte sofort verwendet. Vor der ersten Meldung des Teams und wenn der Stapel eingefroren ist, braucht man dafür zwei echte Karten desselben Rangs auf der Hand. Sonst genügt es, die oberste Karte an eine Meldung des Teams anzulegen. Wer eine Ersatzkarte abwirft, friert den Stapel ein, bis ihn jemand nimmt. Liegt oben eine schwarze Drei, darf die nächste Person den Stapel nicht nehmen.</p>
+<p><strong>Ausmachen</strong>: Wer alle Handkarten auslegt (mit oder ohne letzten Abwurf), beendet die Runde; das Team braucht dafür mindestens eine Canasta. Man darf vorher die Partnerin oder den Partner fragen und muss sich an die Antwort halten. Verdeckt ausmachen heißt, die ganze Hand samt Canasta auf einmal auszulegen, ohne vorher etwas gemeldet zu haben. Ist der Nachziehstapel aufgebraucht, endet die Runde ebenfalls.</p>
+<p><strong>Wertung</strong>: Ausgelegte Karten zählen plus, Karten auf der Hand minus: Joker 50, Zwei und Ass 20, König bis Acht je 10, Sieben bis Vier und schwarze Drei je 5. Dazu kommen 500 Punkte je reiner und 300 je gemischter Canasta. Rote Dreien zählen je 100, alle vier zusammen 800; hat das Team nichts gemeldet, zählen sie minus. Ausmachen bringt 100 Punkte, verdeckt 200.</p>
+<p><strong>Spielende</strong>: Die Partie endet nach der Runde, in der ein Team 5000 Punkte erreicht; die höhere Summe gewinnt. Zu zweit oder zu dritt spielt jede Person für sich (meist mit 15 bzw. 13 Karten). Zu sechst spielen zwei Dreierteams mit drei Kartenspielen bis 10 000 Punkte. Zu zweit und zu sechst braucht man zum Ausmachen zwei Canastas.</p>
+    <h2>Ziel</h2>
+<p>Mit Canastas, Karten und Boni als Erste 5000 Punkte erreichen. Erreichen beide Teams das Ziel in derselben Runde, gewinnt die höhere Summe.</p>
+    <div class="card">
+      <h3>Wertung in Kürze</h3>
+<p>Ausgelegte Karten zählen plus, Handkarten minus: Joker 50, Zwei und Ass 20, König bis Acht 10, Sieben bis Vier und schwarze Drei 5. Reine Canasta 500, gemischte 300; rote Dreien je 100, alle vier 800, ohne Meldung minus. Ausmachen (mit mindestens einer Canasta) 100, verdeckt 200. Mindestmeldung je nach Stand 15, 50, 90 oder 120. Ab 5000 endet die Partie nach der Runde.</p>
+      <h3>So erfasst du es in der App</h3>
+<p>Kartenspiel mit zwei Kartenspielen und Jokern, zu viert in zwei Teams. Wer Karten gleichen Rangs auslegt, sammelt Punkte; sieben davon sind eine Canasta und bringen einen Bonus. Du gibst je Team Canastas, rote Dreien und die Kartenpunkte ein, ausgelegt und auf der Hand – die App rechnet Boni, zeigt die Mindestmeldung und erkennt, wer 5000 erreicht.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Im App Store laden</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Datenschutz</a> · <a href="../../support.html">Support</a></p>
+      <p>Spielnamen sind allgemeine Bezeichnungen; die App ist mit keinem Verlag verbunden.</p>
+    </footer>
+  </main>
+</body>
+</html>

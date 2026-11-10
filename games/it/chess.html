@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scacchi – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/chess.html">
+  <link rel="alternate" hreflang="en" href="../en/chess.html">
+  <link rel="alternate" hreflang="fr" href="../fr/chess.html">
+  <link rel="alternate" hreflang="nl" href="../nl/chess.html">
+  <link rel="alternate" hreflang="it" href="../it/chess.html">
+  <link rel="alternate" hreflang="es" href="../es/chess.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/chess.html" lang="de">Deutsch</a> <a href="../en/chess.html" lang="en">English</a> <a href="../fr/chess.html" lang="fr">Français</a> <a href="../nl/chess.html" lang="nl">Nederlands</a> <a class="current" href="../it/chess.html">Italiano</a> <a href="../es/chess.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Tutti i giochi</a></p>
+    <h1>Scacchi</h1>
+    <p class="meta">Scacco matto, con orologio se vuoi · 2 giocatori · Giochi da tavolo e di tessere</p>
+    <h2>Cos’è?</h2>
+<p>Il classico gioco di strategia su 64 caselle: bianco e nero muovono a turno con re, donna, torri, alfieri, cavalli e pedoni.</p>
+    <h2>Come si gioca</h2>
+<p><strong>Preparazione</strong>: La scacchiera va messa con una casella chiara in basso a destra. I pedoni vanno sulla seconda traversa, dietro di loro dall’esterno verso l’interno: torri, cavalli, alfieri, la donna sul suo colore e il re. Inizia il bianco.</p>
+<p><strong>Muovere</strong>: Il re si muove di una casella in qualsiasi direzione, la donna di quante caselle vuole in linea retta o in diagonale, la torre in linea retta, l’alfiere in diagonale, il cavallo di due caselle in linea retta e una di lato, saltando. I pedoni avanzano di una casella, di due alla prima mossa, e catturano in diagonale in avanti. Muovendo su una casella occupata da un pezzo avversario lo catturi.</p>
+<p><strong>Mosse speciali</strong>: arrocco (il re si sposta di due caselle verso una torre, che lo scavalca), presa en passant e promozione di un pedone sull’ultima traversa.</p>
+<p><strong>Scacco e matto</strong>: Un re attaccato è sotto scacco e va liberato subito. Se è impossibile, è scacco matto e la partita è persa.</p>
+<p><strong>Patta</strong>: per stallo (nessuna mossa legale ma senza scacco), per accordo, per triplice ripetizione o quando nessuno può più dare matto.</p>
+<p><strong>Orologio</strong>: Con l’orologio ogni parte ha un tempo per tutta la partita, spesso con un incremento dopo ogni mossa. Chi esaurisce il tempo perde.</p>
+    <h2>Obiettivo</h2>
+<p>Dare scacco matto al re avversario: è sotto attacco e non può sfuggire.</p>
+    <div class="card">
+      <h3>Il punteggio in breve</h3>
+<p>Lo scacco matto vince; patta per stallo, accordo o ripetizione. Con l’orologio, chi esaurisce il tempo perde.</p>
+      <h3>Come segnarlo nell’app</h3>
+<p>Il gioco da tavolo per due. Dopo ogni partita tocchi vittoria o patta – l’app registra la sfida, il livello e, se vuoi, un orologio da scacchi con tempo e incremento.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Scarica su App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Supporto</a></p>
+      <p>I nomi dei giochi sono termini generici; l’app non è legata ad alcun editore.</p>
+    </footer>
+  </main>
+</body>
+</html>

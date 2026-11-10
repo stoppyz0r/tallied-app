@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jass (Schieber) – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/jass.html">
+  <link rel="alternate" hreflang="en" href="../en/jass.html">
+  <link rel="alternate" hreflang="fr" href="../fr/jass.html">
+  <link rel="alternate" hreflang="nl" href="../nl/jass.html">
+  <link rel="alternate" hreflang="it" href="../it/jass.html">
+  <link rel="alternate" hreflang="es" href="../es/jass.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/jass.html" lang="de">Deutsch</a> <a href="../en/jass.html" lang="en">English</a> <a href="../fr/jass.html" lang="fr">Français</a> <a href="../nl/jass.html" lang="nl">Nederlands</a> <a class="current" href="../it/jass.html">Italiano</a> <a href="../es/jass.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Tutti i giochi</a></p>
+    <h1>Jass (Schieber)</h1>
+    <p class="meta">In quattro a squadre, con dichiarazioni, Stöck e fattori · 4 giocatori · Giochi di carte</p>
+    <h2>Cos’è?</h2>
+<p>Il gioco di carte più famoso della Svizzera, con 36 carte. Nello Schieber giocano insieme i due giocatori seduti uno di fronte all’altro; chi sceglie la briscola può anche passare la scelta al compagno.</p>
+    <h2>Come si gioca</h2>
+<p><strong>Carte</strong>: 36 carte, in ogni seme asso, re, ober, under, banner (dieci), dal nove al sei. Ognuno riceve nove carte. Il giocatore di mano sceglie la briscola o passa la scelta al compagno.</p>
+<p><strong>Briscole</strong>: Nel seme di briscola l’under (fante) è la carta più alta (20 punti), poi il nell (nove di briscola, 14). Obenabe significa senza briscola, asso alto; Undenufe senza briscola, sei alto.</p>
+<p><strong>Prese</strong>: Devi rispondere al seme, ma puoi sempre tagliare con la briscola; l’under di briscola non sei mai obbligato a giocarlo. Chi prende la presa esce.</p>
+<p><strong>Conteggio</strong>: Le carte valgono 152 punti, l’ultima presa ne porta altri 5, 157 in tutto. Una squadra conta le sue prese, l’altra ha il resto. Se una squadra fa tutte le prese, è match: 257.</p>
+<p><strong>Dichiarazioni e Stöck</strong>: Prima della prima presa si dichiarano le sequenze (tre 20, quattro 50, cinque 100 …) e i quattro uguali (quattro under 200, quattro nove 150, altrimenti 100). Segna solo la squadra con la dichiarazione più alta. Re e ober di briscola insieme sono lo Stöck, 20 punti.</p>
+<p><strong>Fattore</strong>: A seconda della briscola, tutti i punti contano una, due o tre volte. Si gioca fino al punteggio obiettivo.</p>
+    <h2>Obiettivo</h2>
+<p>Sii la prima squadra a raggiungere il punteggio obiettivo, di solito 2500 con i fattori o 1000 senza.</p>
+    <div class="card">
+      <h3>Il punteggio in breve</h3>
+<p>157 punti a mano, un match 257; solo la squadra con la dichiarazione più alta la segna, Stöck 20. Tutto conta per il fattore della briscola.</p>
+      <h3>Come segnarlo nell’app</h3>
+<p>Il gioco di carte svizzero in quattro, in due squadre. Per ogni mano tocchi la briscola, i punti carta contati, il match, le dichiarazioni e lo Stöck – l’app applica il fattore della briscola e tiene il punteggio fino all’obiettivo.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Scarica su App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Supporto</a></p>
+      <p>I nomi dei giochi sono termini generici; l’app non è legata ad alcun editore.</p>
+    </footer>
+  </main>
+</body>
+</html>

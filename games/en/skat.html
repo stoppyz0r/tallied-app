@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skat – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/skat.html">
+  <link rel="alternate" hreflang="en" href="../en/skat.html">
+  <link rel="alternate" hreflang="fr" href="../fr/skat.html">
+  <link rel="alternate" hreflang="nl" href="../nl/skat.html">
+  <link rel="alternate" hreflang="it" href="../it/skat.html">
+  <link rel="alternate" hreflang="es" href="../es/skat.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/skat.html" lang="de">Deutsch</a> <a class="current" href="../en/skat.html">English</a> <a href="../fr/skat.html" lang="fr">Français</a> <a href="../nl/skat.html" lang="nl">Nederlands</a> <a href="../it/skat.html" lang="it">Italiano</a> <a href="../es/skat.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← All games</a></p>
+    <h1>Skat</h1>
+    <p class="meta">Bid, name trumps, play one against two · 3–4 players · Card games</p>
+    <h2>What is it?</h2>
+<p>The traditional German card game with 32 cards and two face-down cards in the middle, the skat. The bidding decides who plays alone against the other two. The games are suit games, grand, where only the jacks are trumps, and null, where the declarer must not take a single trick.</p>
+    <h2>How it’s played</h2>
+<p><strong>Setup</strong>: The deck has 32 cards from 7 to ace in four suits. Each of the three players gets ten cards, and two lie face down in the middle as the skat; deal three, skat, four, three. With four players the dealer sits out. To the dealer’s left sits forehand, followed by middlehand and rearhand.</p>
+<p><strong>Bidding</strong>: Middlehand calls rising bids to forehand (18, 20, 22, 23, 24, 27 …); forehand says “yes” or passes. Then rearhand bids against whoever is left. The highest bidder plays alone and must declare a game worth at least the bid. If everyone passes, you play Ramsch (or redeal if you play without it).</p>
+<p><strong>Declaring</strong>: The declarer picks up the skat and discards two cards face down, or plays “hand” without looking at the skat. In a suit game the four jacks are the highest trumps (clubs, spades, hearts, diamonds), followed by the trump suit with ace, 10, king, queen, 9, 8, 7. In grand only the jacks are trumps. The other suits rank ace, 10, king, queen, 9, 8, 7. In null there are no trumps, and the order is ace, king, queen, jack, 10, 9, 8, 7.</p>
+<p><strong>Tricks</strong>: Forehand leads. You must follow the suit led, and trump if trump is led; if you can’t, you may play any card. The highest trump wins, otherwise the highest card of the suit led. The winner of a trick leads the next.</p>
+<p><strong>Card points</strong>: Ace counts 11, ten 10, king 4, queen 3, jack 2 and the rest 0 – 120 in total. The skat counts for the declarer, who wins a suit game or grand with at least 61 points. Schneider means a side has 30 points or fewer, schwarz means a side took no trick. The declarer wins null only by taking no trick at all.</p>
+<p><strong>Game value</strong>: Base value diamonds 9, hearts 10, spades 11, clubs 12, grand 24. Multiply it by the matadors – how many jacks from the jack of clubs down you have or lack in an unbroken run (with or without), skat included – plus 1 for the game and 1 each for hand, schneider, schneider announced, schwarz, schwarz announced and ouvert. Announcements are only possible in a hand game; ouvert means taking every trick with your cards face up. Null is worth a fixed 23, null hand 35, null ouvert 46, null ouvert hand 59. If the game value is lower than the bid, the game is overbid and lost; it then counts as the smallest multiple of the base value that reaches the bid. Kontra and Re from the other side double the value each.</p>
+<p><strong>Scoring (Seeger-Fabian)</strong>: A declarer who wins gets the game value plus 50. A declarer who loses loses twice the game value plus 50, and the other two get 40 each; with four players all three others get 30 each, the dealer included. In the simple list only the game value counts, double when lost.</p>
+<p><strong>Ramsch</strong>: Everyone plays for themselves, and only the jacks are trumps. Whoever has the most card points gets them as minus points. This doubles for each player without a trick. If someone takes every trick (durchmarsch), they get 120 plus points.</p>
+<p><strong>End of the game</strong>: Play up to the agreed number of rounds or open-ended; the highest total wins. Bock rounds after special games can be set when you create the game.</p>
+    <h2>Goal</h2>
+<p>As declarer, take at least 61 card points, or no trick in null, and reach your bid. At the end of the list the highest score wins.</p>
+    <div class="card">
+      <h3>Scoring at a glance</h3>
+<p><strong>Game value</strong>: base value (diamonds 9, hearts 10, spades 11, clubs 12, grand 24) times matadors plus 1 for the game plus 1 each for hand, schneider, schwarz, announcements and ouvert; null 23, hand 35, ouvert 46, ouvert hand 59. Below the bid the game is overbid and lost. Seeger-Fabian: a win scores value plus 50; a loss twice the value plus 50, and the others get 40 each, 30 each with four.</p>
+      <h3>Keeping score in the app</h3>
+<p>Card game for three with 32 cards; with four, the dealer sits out. In the bidding, players bid how much their game is at least worth; the highest bidder plays alone against the other two and needs 61 card points. You enter the game, bid, declarations and card points, and the app works out the game value and score.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Download on the App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Support</a></p>
+      <p>Game names are generic terms; the app is not affiliated with any publisher.</p>
+    </footer>
+  </main>
+</body>
+</html>

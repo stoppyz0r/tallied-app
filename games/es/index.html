@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tallied – Los juegos y su puntuación</title>
+  <link rel="alternate" hreflang="de" href="../de/index.html">
+  <link rel="alternate" hreflang="en" href="../en/index.html">
+  <link rel="alternate" hreflang="fr" href="../fr/index.html">
+  <link rel="alternate" hreflang="nl" href="../nl/index.html">
+  <link rel="alternate" hreflang="it" href="../it/index.html">
+  <link rel="alternate" hreflang="es" href="../es/index.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/index.html" lang="de">Deutsch</a> <a href="../en/index.html" lang="en">English</a> <a href="../fr/index.html" lang="fr">Français</a> <a href="../nl/index.html" lang="nl">Nederlands</a> <a href="../it/index.html" lang="it">Italiano</a> <a class="current" href="../es/index.html">Español</a></nav>
+    <h1>Los juegos y su puntuación</h1>
+    <p class="meta">Tallied</p>
+    <p>Tallied lleva la cuenta de juegos de cartas, dados y tablero, dardos, bolos y deportes. Tú solo anotas lo que pasa en la mesa; la app hace las cuentas. Aquí ves cómo se juega y cómo se puntúa cada juego.</p>
+    <p><a class="store" href="https://apps.apple.com/app/id6824289370">Descargar en el App Store</a></p>
+    <h2>Juegos de cartas</h2>
+    <ul class="games">
+        <li><a href="colorDiscard.html"><strong>¡Descarta!</strong><span>Color sobre color, número sobre número</span></a></li>
+        <li><a href="trickBidding.html"><strong>¿Cuántas bazas?</strong><span>Predice tus bazas y acierta de lleno</span></a></li>
+        <li><a href="rommee.html"><strong>Rummy</strong><span>Baja cartas en grupos y escaleras</span></a></li>
+        <li><a href="phaseRummy.html"><strong>Rummy por fases</strong><span>Completa diez fases en orden</span></a></li>
+        <li><a href="doppelkopf.html"><strong>Doppelkopf</strong><span>Las reinas de tréboles van juntas</span></a></li>
+        <li><a href="skat.html"><strong>Skat</strong><span>Puja, elige triunfo y juega uno contra dos</span></a></li>
+        <li><a href="schafkopf.html"><strong>Schafkopf</strong><span>Llama a un as o juega en solitario a 61</span></a></li>
+        <li><a href="watten.html"><strong>Watten</strong><span>Nombra rango y triunfo, sube, echa faroles</span></a></li>
+        <li><a href="sixtySix.html"><strong>Sesenta y seis</strong><span>Entre dos a por 66, partida a 7</span></a></li>
+        <li><a href="jass.html"><strong>Jass (Schieber)</strong><span>Cuatro en equipos, con cantes, Stöck y factores</span></a></li>
+        <li><a href="tarot.html"><strong>Tarot francés</strong><span>78 cartas, quien toma contra el resto</span></a></li>
+        <li><a href="belote.html"><strong>Belote</strong><span>A cuatro, triunfo y belote-rebelote</span></a></li>
+        <li><a href="klaverjas.html"><strong>Klaverjas</strong><span>Cuatro personas, roem, nat y pit</span></a></li>
+        <li><a href="canasta.html"><strong>Canasta</strong><span>Reúne siete iguales para una canasta</span></a></li>
+        <li><a href="burraco.html"><strong>Burraco</strong><span>Para dos o cuatro, burracos y pozzetto</span></a></li>
+        <li><a href="scopa.html"><strong>Scopa</strong><span>Scopas, settebello y primiera</span></a></li>
+        <li><a href="mus.html"><strong>Mus</strong><span>En parejas, con señas, envites y órdago</span></a></li>
+        <li><a href="tute.html"><strong>Tute</strong><span>Cantar las veinte y las cuarenta</span></a></li>
+        <li><a href="chinchon.html"><strong>Chinchón</strong><span>Ligar, cerrar y reengancharse</span></a></li>
+        <li><a href="cardGolf.html"><strong>Golf de cartas</strong><span>Cambia cartas ocultas y suma poco</span></a></li>
+        <li><a href="hearts.html"><strong>Corazones</strong><span>Evita los corazones y la reina de picas</span></a></li>
+        <li><a href="swimming.html"><strong>Treinta y uno</strong><span>Cambia cartas y busca el 31</span></a></li>
+        <li><a href="mauMau.html"><strong>Mau-Mau</strong><span>Mismo palo o valor; la jota pide palo</span></a></li>
+    </ul>
+    <h2>Juegos de dados</h2>
+    <ul class="games">
+        <li><a href="fiveDice.html"><strong>Cinco dados</strong><span>Cinco dados, tres tiradas, llena la hoja</span></a></li>
+        <li><a href="schocken.html"><strong>Schocken</strong><span>Tres dados, posavasos y Schock out</span></a></li>
+        <li><a href="maexchen.html"><strong>Mia</strong><span>Tira en secreto, canta más alto, ve de farol</span></a></li>
+        <li><a href="crossRows.html"><strong>Filas cruzadas</strong><span>Seis dados, cuatro filas de colores</span></a></li>
+        <li><a href="tenThousand.html"><strong>Diez mil</strong><span>Tira, aparta, arriésgate</span></a></li>
+    </ul>
+    <h2>Juegos de tablero y de fichas</h2>
+    <ul class="games">
+        <li><a href="tileLaying.html"><strong>Castillos y caminos</strong><span>Crea un paisaje, ocupa ciudades y caminos</span></a></li>
+        <li><a href="wordTiles.html"><strong>Forma palabras</strong><span>Coloca palabras, aprovecha los premios</span></a></li>
+        <li><a href="backgammon.html"><strong>Backgammon</strong><span>Lleva todas tus fichas a casa y sácalas</span></a></li>
+        <li><a href="chess.html"><strong>Ajedrez</strong><span>Jaque mate, con reloj si quieres</span></a></li>
+        <li><a href="checkers.html"><strong>Damas</strong><span>Mueve en diagonal, salta y corona</span></a></li>
+        <li><a href="mill.html"><strong>Molino</strong><span>Tres en línea y quitas una ficha</span></a></li>
+        <li><a href="rummyTiles.html"><strong>Rummy de fichas</strong><span>Baja fichas numeradas y reorganízalas</span></a></li>
+    </ul>
+    <h2>Dardos</h2>
+    <ul class="games">
+        <li><a href="dartsX01.html"><strong>Dardos X01</strong><span>De 501 o 301 hasta cero justo</span></a></li>
+        <li><a href="dartsCricket.html"><strong>Dardos Cricket</strong><span>Cierra del 20 al 15 y el bull, y puntúa</span></a></li>
+        <li><a href="dartsAroundTheClock.html"><strong>Dardos Around the Clock</strong><span>Del 1 al 20 en orden</span></a></li>
+        <li><a href="dartsShanghai.html"><strong>Dardos Shanghai</strong><span>Un número por ronda; el Shanghai gana al instante</span></a></li>
+        <li><a href="dartsKiller.html"><strong>Dardos Killer</strong><span>Acierta tu doble y luego quita vidas</span></a></li>
+        <li><a href="dartsHalveIt.html"><strong>Dardos Halve-It</strong><span>Acierta o te quedas en la mitad</span></a></li>
+        <li><a href="dartsBobs27.html"><strong>Dardos Bob&#x27;s 27</strong><span>Entrena dobles del D1 al bull</span></a></li>
+        <li><a href="dartsCountUp.html"><strong>Dardos Count-Up</strong><span>Ocho turnos, todo cuenta</span></a></li>
+        <li><a href="dartsCheckout121.html"><strong>Dardos Checkout 121</strong><span>Nueve dardos para 121, luego más</span></a></li>
+    </ul>
+    <h2>Juegos de bolas, lanzamiento y pista</h2>
+    <ul class="games">
+        <li><a href="ninePin.html"><strong>Bolos de nueve</strong><span>Bolos completos, limpiar y juegos de bolos</span></a></li>
+        <li><a href="bowling.html"><strong>Bolos</strong><span>Diez bolos, diez frames, strikes y spares</span></a></li>
+        <li><a href="minigolf.html"><strong>Minigolf</strong><span>Emboca con el menor número de golpes</span></a></li>
+        <li><a href="boule.html"><strong>Petanca</strong><span>Cerca del boliche, primero a 13</span></a></li>
+        <li><a href="skittleToss.html"><strong>Bolos finlandeses</strong><span>Derriba doce bolos y llega justo a 50</span></a></li>
+        <li><a href="sjoelen.html"><strong>Sjoelen</strong><span>30 discos, cuatro puertas, cada serie vale 20</span></a></li>
+        <li><a href="vikingChess.html"><strong>Ajedrez vikingo</strong><span>Derriba los bloques y luego el rey</span></a></li>
+    </ul>
+    <h2>Deportes</h2>
+    <ul class="games">
+        <li><a href="tableTennis.html"><strong>Ping-pong</strong><span>A 11, con dos puntos de ventaja</span></a></li>
+        <li><a href="tableSoccer.html"><strong>Futbolín</strong><span>A 10 goles, casi siempre al mejor de tres</span></a></li>
+        <li><a href="tennis.html"><strong>Tenis</strong><span>Punto a punto: 15, 30, 40, juego</span></a></li>
+        <li><a href="padel.html"><strong>Pádel</strong><span>Tenis en una jaula de cristal, casi siempre en dobles</span></a></li>
+        <li><a href="badminton.html"><strong>Bádminton</strong><span>Volante por encima de la red, sets a 21</span></a></li>
+        <li><a href="volleyball.html"><strong>Voleibol</strong><span>Dos equipos, sets a 25</span></a></li>
+        <li><a href="squash.html"><strong>Squash</strong><span>Contra la pared, juegos a 11</span></a></li>
+        <li><a href="snooker.html"><strong>Snooker</strong><span>Roja, color, roja – tacadas de hasta 147</span></a></li>
+        <li><a href="straightPool.html"><strong>Billar 14/1</strong><span>Cada bola, un punto, hasta la meta</span></a></li>
+    </ul>
+    <h2>Puntuación libre</h2>
+    <ul class="games">
+        <li><a href="cityCountryRiver.html"><strong>Stop</strong><span>Una letra, muchas palabras</span></a></li>
+        <li><a href="wordGuessing.html"><strong>Adivina la palabra</strong><span>Explica, dibuja, actúa: adivinad en equipo</span></a></li>
+    </ul>
+    <footer>
+      <p><a href="../../index.html">Privacidad</a> · <a href="../../support.html">Soporte</a></p>
+      <p>Los nombres de los juegos son genéricos; la app no está vinculada a ninguna editorial.</p>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Canasta – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/canasta.html">
+  <link rel="alternate" hreflang="en" href="../en/canasta.html">
+  <link rel="alternate" hreflang="fr" href="../fr/canasta.html">
+  <link rel="alternate" hreflang="nl" href="../nl/canasta.html">
+  <link rel="alternate" hreflang="it" href="../it/canasta.html">
+  <link rel="alternate" hreflang="es" href="../es/canasta.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/canasta.html" lang="de">Deutsch</a> <a href="../en/canasta.html" lang="en">English</a> <a href="../fr/canasta.html" lang="fr">Français</a> <a href="../nl/canasta.html" lang="nl">Nederlands</a> <a href="../it/canasta.html" lang="it">Italiano</a> <a class="current" href="../es/canasta.html">Español</a></nav>
+    <p><a href="index.html">← Todos los juegos</a></p>
+    <h1>Canasta</h1>
+    <p class="meta">Reúne siete iguales para una canasta · 2, 3, 4, 6 personas · Juegos de cartas</p>
+    <h2>¿Qué es?</h2>
+<p>Un juego de reunir y bajar cartas con dos barajas y cuatro jokers. Los doses y los jokers sustituyen a otras cartas, siete cartas del mismo valor forman una canasta y los treses rojos dan puntos extra. Coger todo el pozo puede darle la vuelta a una ronda.</p>
+    <h2>Cómo se juega</h2>
+<p><strong>Preparación</strong>: A cuatro, se barajan juntas dos barajas de 52 cartas con cuatro jokers; cada pareja se sienta frente a frente. Todos reciben once cartas, el resto se coloca boca abajo como mazo y al lado se descubre una carta para empezar el pozo. Si es un tres rojo o un comodín, se pone otra carta encima y el pozo queda congelado. Empieza quien está a la izquierda de quien reparte, y se sigue en el sentido de las agujas del reloj.</p>
+<p><strong>Combinaciones</strong>: Una combinación son al menos tres cartas del mismo valor; no hay escaleras. Los doses y los jokers son comodines; una combinación necesita al menos dos cartas naturales y como máximo tres comodines. Cada pareja baja en común y amplía las combinaciones de su equipo. A partir de siete cartas, una combinación es una canasta: limpia sin comodines, sucia con comodines. Los treses negros solo se pueden bajar al cerrar.</p>
+<p><strong>Primera bajada</strong>: Las primeras cartas que baja un equipo tienen que sumar un mínimo que depende de su puntuación: por debajo de 0 puntos, 15; desde 0 puntos, 50; desde 1500 puntos, 90; desde 3000 puntos, 120. La app muestra el valor antes de cada ronda.</p>
+<p><strong>Turno</strong>: En tu turno, roba una carta del mazo o coge todo el pozo en las condiciones de abajo. Después puedes bajar combinaciones y añadir cartas a las de tu equipo. Para terminar, descarta una carta. Los treses rojos se colocan enseguida boca arriba delante de ti y robas otra carta para reponerlos, aunque te hayan tocado al repartir.</p>
+<p><strong>Pozo</strong>: Solo puedes cogerlo si usas en el momento la carta de arriba. Antes de la primera bajada de tu equipo y cuando el pozo está congelado, necesitas en la mano dos cartas naturales de ese valor. Si no, basta con añadir la carta de arriba a una combinación de tu equipo. Descartar un comodín congela el pozo hasta que alguien lo coja. Si arriba hay un tres negro, la siguiente persona no puede coger el pozo.</p>
+<p><strong>Cerrar</strong>: Quien baja todas sus cartas (con o sin un último descarte) termina la ronda; para ello, el equipo necesita al menos una canasta. Antes puedes preguntar a tu pareja y tienes que respetar su respuesta. Cerrar de mano significa bajar toda la mano de una vez, con una canasta incluida, sin haber bajado nada antes. Cuando se acaba el mazo, la ronda también termina.</p>
+<p><strong>Puntuación</strong>: Las cartas bajadas suman y las de la mano restan: joker 50, dos y as 20, del rey al ocho 10 cada una, del siete al cuatro y tres negro 5 cada una. Además, 500 puntos por cada canasta limpia y 300 por cada canasta sucia. Los treses rojos valen 100 cada uno y los cuatro juntos, 800; si el equipo no ha bajado nada, restan. Cerrar da 100 puntos; cerrar de mano, 200.</p>
+<p><strong>Fin de la partida</strong>: La partida termina después de la ronda en la que un equipo llega a 5000 puntos; gana el total más alto. A dos o a tres, cada persona juega por su cuenta (normalmente con 15 o 13 cartas). A seis, juegan dos equipos de tres con tres barajas hasta 10.000 puntos. A dos y a seis se necesitan dos canastas para cerrar.</p>
+    <h2>Objetivo</h2>
+<p>Llega antes que nadie a 5000 puntos con canastas, cartas y bonificaciones. Si los dos equipos lo consiguen en la misma ronda, gana el total más alto.</p>
+    <div class="card">
+      <h3>La puntuación en resumen</h3>
+<p>Las cartas bajadas suman y las de la mano restan: joker 50, dos y as 20, del rey al ocho 10, del siete al cuatro y tres negro 5. Canasta limpia 500, sucia 300; treses rojos 100 cada uno, los cuatro 800, en negativo sin bajada. Cerrar (con al menos una canasta) 100, de mano 200. Bajada mínima de 15, 50, 90 o 120 según la puntuación. La partida termina tras la ronda en la que se llega a 5000.</p>
+      <h3>Cómo anotarlo en la app</h3>
+<p>Juego de cartas con dos barajas y jokers, para cuatro en dos equipos. Bajar cartas del mismo valor da puntos; siete forman una canasta y dan una bonificación. Anotas las canastas, los treses rojos y los puntos de cartas de cada equipo, bajadas y en la mano – la app suma las bonificaciones, muestra la bajada mínima y detecta quién llega a 5000.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Descargar en el App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacidad</a> · <a href="../../support.html">Soporte</a></p>
+      <p>Los nombres de los juegos son genéricos; la app no está vinculada a ninguna editorial.</p>
+    </footer>
+  </main>
+</body>
+</html>

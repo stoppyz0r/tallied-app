@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Backgammon – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/backgammon.html">
+  <link rel="alternate" hreflang="en" href="../en/backgammon.html">
+  <link rel="alternate" hreflang="fr" href="../fr/backgammon.html">
+  <link rel="alternate" hreflang="nl" href="../nl/backgammon.html">
+  <link rel="alternate" hreflang="it" href="../it/backgammon.html">
+  <link rel="alternate" hreflang="es" href="../es/backgammon.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/backgammon.html" lang="de">Deutsch</a> <a href="../en/backgammon.html" lang="en">English</a> <a class="current" href="../fr/backgammon.html">Français</a> <a href="../nl/backgammon.html" lang="nl">Nederlands</a> <a href="../it/backgammon.html" lang="it">Italiano</a> <a href="../es/backgammon.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Tous les jeux</a></p>
+    <h1>Backgammon</h1>
+    <p class="meta">Ramener tous ses pions et les sortir · 2 joueurs · Jeux de plateau et de tuiles</p>
+    <h2>Qu’est-ce que c’est ?</h2>
+<p>Le classique jeu de dés et de plateau à deux, avec 24 flèches triangulaires et 15 pions chacun. Les deux camps font le tour du plateau en sens inverse, frappent les pions isolés adverses et finissent par sortir leurs propres pions. Le videau fait monter les points en jeu, généralement dans un match en 7 points.</p>
+    <h2>Comment on joue</h2>
+<p><strong>Mise en place</strong> : Il vous faut un plateau de 24 flèches, 15 pions par camp, deux dés et un videau (dé de doublement). Du point de vue d’un camp, les flèches de son parcours sont numérotées de 24 à 1, et les six dernières (6 à 1) forment son jan intérieur. Ce camp place deux pions sur la 24, cinq sur la 13, trois sur la 8 et cinq sur la 6. L’autre camp se place en miroir et avance dans le sens inverse. La barre au milieu accueille les pions frappés. Le videau commence au milieu sur 64 et compte alors 1.</p>
+<p><strong>Début</strong> : Chacun lance un dé ; en cas d’égalité, on relance. Le plus haut commence et joue les deux nombres obtenus. Ensuite, chacun lance deux dés à tour de rôle.</p>
+<p><strong>Déplacement</strong> : Chaque dé est un déplacement distinct vers votre jan intérieur ; vous pouvez jouer les deux avec un seul pion, la flèche intermédiaire doit alors aussi être libre. Un pion peut aller sur une flèche vide, sur l’une des vôtres ou sur une flèche avec exactement un pion adverse ; les flèches avec deux pions adverses ou plus sont bloquées. Avec un double, vous jouez le nombre quatre fois. Vous devez jouer les deux nombres si possible ; si un seul peut être joué, ce doit être le plus haut si possible.</p>
+<p><strong>Frapper et rentrer</strong> : Si un pion arrive sur une flèche avec exactement un pion adverse, ce pion va sur la barre. Un camp qui a des pions sur la barre doit d’abord les rentrer dans le jan intérieur adverse : un 1 rentre sur la flèche 24, un 2 sur la 23, et ainsi de suite. Tant qu’un pion est sur la barre, aucun autre pion ne peut bouger.</p>
+<p><strong>Sortir</strong> : Ce n’est que lorsque tous vos pions sont dans votre jan intérieur que vous pouvez les sortir. Un nombre correspondant sort un pion de cette flèche ; vous pouvez aussi avancer à l’intérieur du jan à la place. Avec un nombre plus élevé, vous pouvez sortir votre pion le plus reculé s’il n’y a aucun pion sur des flèches plus hautes. Si un pion est frappé pendant la sortie, il doit d’abord revenir dans le jan intérieur.</p>
+<p><strong>Doubler</strong> : Avant votre lancer, vous pouvez proposer de doubler si le videau est au milieu ou vous appartient. L’autre camp accepte et prend le videau, ou abandonne et perd la manche à la valeur actuelle (dans l’app, une victoire simple avec le videau actuel). Seul le propriétaire du videau peut redoubler.</p>
+<p><strong>Décompte</strong> : Qui sort ses 15 pions en premier remporte une victoire simple (1 point). Si l’autre camp n’a sorti aucun pion, c’est un gammon (2 points) ; si l’un de ses pions est en plus encore sur la barre ou dans le jan intérieur du gagnant, un backgammon (3 points). Le videau multiplie la valeur.</p>
+<p><strong>Fin du match</strong> : On joue jusqu’à un nombre de points convenu, souvent 7. Qui l’atteint en premier gagne le match. La première fois qu’un camp est à un point de l’objectif, la manche suivante se joue sans doublement (règle de Crawford) ; ensuite, on peut de nouveau doubler.</p>
+    <h2>Objectif</h2>
+<p>Sortir le premier tous ses pions et marquer ainsi des points. Qui atteint le premier le nombre de points convenu gagne le match.</p>
+    <div class="card">
+      <h3>Le décompte en bref</h3>
+<p>Le premier à sortir toutes ses dames gagne une partie simple (1 point) ; si l’adversaire n’en a sorti aucune, un gammon (2) ; s’il a encore une dame sur la barre ou dans le jan intérieur du gagnant, un backgammon (3). Le videau multiplie la valeur. La première fois qu’un camp est à un point de l’objectif, une partie se joue sans videau. Atteindre l’objectif fait gagner.</p>
+      <h3>La saisie dans l’app</h3>
+<p><strong>Jeu de plateau à deux</strong> : avec deux dés, chaque camp amène ses 15 pions dans son jan intérieur et les sort, tandis que le videau fait monter l’enjeu. Vous touchez le gagnant, le type de victoire et le videau – l’app tient le score du match jusqu’à l’objectif et connaît la règle de Crawford.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Télécharger dans l’App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Confidentialité</a> · <a href="../../support.html">Assistance</a></p>
+      <p>Les noms des jeux sont des termes génériques ; l’app n’est liée à aucun éditeur.</p>
+    </footer>
+  </main>
+</body>
+</html>

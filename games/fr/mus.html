@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mus – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/mus.html">
+  <link rel="alternate" hreflang="en" href="../en/mus.html">
+  <link rel="alternate" hreflang="fr" href="../fr/mus.html">
+  <link rel="alternate" hreflang="nl" href="../nl/mus.html">
+  <link rel="alternate" hreflang="it" href="../it/mus.html">
+  <link rel="alternate" hreflang="es" href="../es/mus.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/mus.html" lang="de">Deutsch</a> <a href="../en/mus.html" lang="en">English</a> <a class="current" href="../fr/mus.html">Français</a> <a href="../nl/mus.html" lang="nl">Nederlands</a> <a href="../it/mus.html" lang="it">Italiano</a> <a href="../es/mus.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Tous les jeux</a></p>
+    <h1>Mus</h1>
+    <p class="meta">À quatre, avec señas, envites et órdago · 2, 4, 6 joueurs · Jeux de cartes</p>
+    <h2>Qu’est-ce que c’est ?</h2>
+<p>Le jeu de cartes de l’Espagne, venu du Pays basque : deux équipes jouent avec 40 cartes espagnoles pour quatre lances, communiquent par signes (señas) et misent des tantos, jusqu’à l’órdago où tout se joue.</p>
+    <h2>Comment on joue</h2>
+<p><strong>Cartes</strong> : 40 cartes espagnoles (oros, copas, espadas, bastos), le plus souvent avec huit rois : le trois compte comme un roi, le deux comme un as. Pour le juego, les figures valent 10, les autres leur valeur, l’as 1.</p>
+<p><strong>Jouer</strong> : chacun reçoit quatre cartes. Tant que tout le monde dit « mus », on peut échanger des cartes. On mise ensuite sur quatre lances : grande (les cartes les plus hautes), chica (les plus basses), pares (paire, medias = brelan, duples = deux paires) et juego (31 points ou plus ; si personne n’a de juego, le punto : le plus près de 30). On passe, on mise (envite, au moins 2), on accepte (« quiero ») ou on refuse (« no quiero »). Un órdago met tout le juego en jeu.</p>
+<p><strong>Points</strong> : un envite refusé donne tout de suite au camp qui a misé les tantos déjà sur la table (1 pour la première mise). À la fin, on montre les cartes et on compte dans l’ordre grande, chica, pares, juego : grande et chica passées 1, acceptées la mise ; pares 1, 2 ou 3 par personne, juego 3 pour 31, sinon 2, punto 1, chaque fois en plus de la mise. Le premier camp à 40 tantos gagne le juego, même en plein décompte.</p>
+    <h2>Objectif</h2>
+<p>Être le premier camp à 40 tantos et gagner ainsi le plus de juegos (souvent deux sur trois).</p>
+    <div class="card">
+      <h3>Le décompte en bref</h3>
+<p>Les envites refusés comptent tout de suite, le reste à la fin dans l’ordre grande, chica, pares, juego/punto. Passé : grande et chica 1, punto 1, pares 1/2/3 par personne, juego 3 (31) ou 2. Accepté : la mise plus ces valeurs. Un órdago accepté décide du juego. 40 tantos gagnent le juego, le plus de juegos la partie.</p>
+      <h3>La saisie dans l’app</h3>
+<p>Pour chaque main, vous indiquez quel camp remporte grande, chica, pares et juego (ou punto) et comment : passé, envite accepté ou refusé, órdago. L’app compte les tantos dans le bon ordre, termine le juego à 40 et la partie selon les juegos gagnés.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Télécharger dans l’App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Confidentialité</a> · <a href="../../support.html">Assistance</a></p>
+      <p>Les noms des jeux sont des termes génériques ; l’app n’est liée à aucun éditeur.</p>
+    </footer>
+  </main>
+</body>
+</html>

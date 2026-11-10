@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bowling – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/bowling.html">
+  <link rel="alternate" hreflang="en" href="../en/bowling.html">
+  <link rel="alternate" hreflang="fr" href="../fr/bowling.html">
+  <link rel="alternate" hreflang="nl" href="../nl/bowling.html">
+  <link rel="alternate" hreflang="it" href="../it/bowling.html">
+  <link rel="alternate" hreflang="es" href="../es/bowling.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/bowling.html" lang="de">Deutsch</a> <a href="../en/bowling.html" lang="en">English</a> <a href="../fr/bowling.html" lang="fr">Français</a> <a href="../nl/bowling.html" lang="nl">Nederlands</a> <a class="current" href="../it/bowling.html">Italiano</a> <a href="../es/bowling.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Tutti i giochi</a></p>
+    <h1>Bowling</h1>
+    <p class="meta">Dieci birilli, dieci frame, strike e spare · 1–8 giocatori · Bocce, lancio e pista</p>
+    <h2>Cos’è?</h2>
+<p>Bowling su una pista con dieci birilli disposti a triangolo. Una partita ha dieci frame con fino a due tiri ciascuno, e strike e spare aggiungono i tiri successivi come bonus. Il massimo è 300 punti – la partita perfetta di dodici strike.</p>
+    <h2>Come si gioca</h2>
+<p><strong>Preparazione</strong>: Servono una pista da bowling con dieci birilli e le palle. Decidete l’ordine e se giocate una partita o una serie di più partite. Tutti partono da 0 punti.</p>
+<p><strong>Frame da 1 a 9</strong>: Ogni giocatore tira il suo frame intero, poi tocca al successivo. Il primo tiro va contro tutti e dieci i birilli. Se cadono tutti, è uno strike e il frame è finito. Altrimenti un secondo tiro va contro i birilli rimasti in piedi. Per il frame successivo i birilli vengono rimessi in piedi.</p>
+<p>Punteggio:<br>Quindi il valore di un frame con strike o spare si conosce solo dopo i tiri seguenti.</p>
+<ul><li>Frame aperto: dopo due tiri restano birilli in piedi; contano i birilli abbattuti.</li><li>Spare: tutti e dieci i birilli cadono in due tiri; il frame vale 10 più i birilli del tiro successivo.</li><li>Strike: tutti e dieci cadono al primo tiro; il frame vale 10 più i birilli dei due tiri successivi.</li></ul>
+<p><strong>Frame 10</strong>: Dopo uno spare hai un tiro bonus, dopo uno strike due. Se in questi cadono tutti i birilli, vengono rimessi in piedi. Senza strike o spare restano due tiri; non ce ne sono mai più di tre.</p>
+<p><strong>Fallo e split</strong>: Superare la linea di fallo durante un tiro è un fallo: il tiro vale 0 e i birilli restano come prima. Uno split è ciò che resta dopo il primo tiro quando il birillo di testa è caduto e quelli in piedi sono distanti tra loro; è difficile da chiudere ma non cambia il punteggio.</p>
+<p><strong>Fine della partita</strong>: Dopo dieci frame vince il totale più alto, al massimo 300. In una serie si sommano tutte le partite. Il numero di frame, la serie, le squadre e una cassa multe per canalette (un primo tiro senza birilli), tiri a zero e falli si possono impostare quando crei la partita.</p>
+    <h2>Obiettivo</h2>
+<p>Ottieni il totale più alto dopo dieci frame con strike e spare, al massimo 300. In una serie contano tutte le partite insieme.</p>
+    <div class="card">
+      <h3>Il punteggio in breve</h3>
+<p>Una partita ha dieci frame con fino a due tiri. Strike: 10 più i due tiri successivi; spare: 10 più il tiro successivo; altrimenti contano i birilli abbattuti. Nel decimo frame uno strike dà due tiri bonus, uno spare uno. Un fallo vale 0. Vince il totale più alto, al massimo 300.</p>
+      <h3>Come segnarlo nell’app</h3>
+<p>Bowling a dieci birilli con il punteggio classico: strike e spare danno punti bonus, l’ultimo frame tiri bonus. Dopo ogni tiro tocchi il numero di birilli abbattuti o i birilli sul triangolo. L’app sa chi è di turno e cosa è ancora in piedi, riconosce gli split, conta i falli e la cassa multe e calcola ogni frame.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Scarica su App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Supporto</a></p>
+      <p>I nomi dei giochi sono termini generici; l’app non è legata ad alcun editore.</p>
+    </footer>
+  </main>
+</body>
+</html>

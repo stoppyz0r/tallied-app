@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cinque dadi – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/fiveDice.html">
+  <link rel="alternate" hreflang="en" href="../en/fiveDice.html">
+  <link rel="alternate" hreflang="fr" href="../fr/fiveDice.html">
+  <link rel="alternate" hreflang="nl" href="../nl/fiveDice.html">
+  <link rel="alternate" hreflang="it" href="../it/fiveDice.html">
+  <link rel="alternate" hreflang="es" href="../es/fiveDice.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/fiveDice.html" lang="de">Deutsch</a> <a href="../en/fiveDice.html" lang="en">English</a> <a href="../fr/fiveDice.html" lang="fr">Français</a> <a href="../nl/fiveDice.html" lang="nl">Nederlands</a> <a class="current" href="../it/fiveDice.html">Italiano</a> <a href="../es/fiveDice.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Tutti i giochi</a></p>
+    <h1>Cinque dadi</h1>
+    <p class="meta">Cinque dadi, tre lanci, riempi il segnapunti · 1–8 giocatori · Giochi di dadi</p>
+    <h2>Cos’è?</h2>
+<p>Il classico dei dadi con cinque dadi, un bicchiere e un segnapunti di 13 caselle: da uno a sei in alto; tris, poker, full, scala minore e maggiore, cinque uguali e chance in basso. Vince chi ha più punti dopo 13 round.</p>
+    <h2>Come si gioca</h2>
+<p><strong>Preparazione</strong>: Vi servono cinque dadi, un bicchiere e per ogni giocatore una colonna di 13 caselle vuote – il segnapunti lo tiene l’app per voi. Si gioca a turno.</p>
+<p><strong>Il turno</strong>: Quando tocca a te, lanci tutti e cinque i dadi. Poi puoi tenere i dadi che vuoi e rilanciare gli altri, fino a tre lanci in tutto. I dadi tenuti si possono rilanciare al lancio successivo. Puoi anche fermarti prima.</p>
+<p><strong>Segnare una casella</strong>: Dopo l’ultimo lancio scrivi il risultato in una sola casella libera. Ogni casella si può riempire una sola volta. Se il lancio non va bene per nessuna casella libera o non vuoi usarlo, cancelli una casella libera con 0.</p>
+<p><strong>Parte superiore</strong>: Da uno a sei contano solo i dadi con quel numero, quindi tre 4 valgono 12 punti. Se la parte superiore fa almeno 63, ricevi 35 punti bonus.</p>
+<p>Parte inferiore:</p>
+<ul><li>Tris: almeno tre dadi uguali, vale la somma di tutti i dadi.</li><li>Poker: almeno quattro dadi uguali, vale la somma di tutti i dadi.</li><li>Full: tre di un numero e due di un altro, 25 punti.</li><li>Scala minore: quattro numeri consecutivi, 30 punti.</li><li>Scala maggiore: cinque numeri consecutivi, 40 punti.</li><li>Cinque uguali: tutti e cinque i dadi uguali, 50 punti.</li><li>Chance: qualsiasi lancio, vale la somma di tutti i dadi.</li></ul>
+<p><strong>Fine della partita</strong>: Dopo 13 round tutte le caselle sono piene. Parte superiore, bonus e parte inferiore danno il totale; vince il più alto. Se giochi da solo, il totale è il tuo risultato personale. Regole della casa come bonus per altri cinque uguali, jolly, ordine obbligato o tre colonne si impostano quando crei la partita.</p>
+    <h2>Obiettivo</h2>
+<p>Fai il totale più alto sul segnapunti dopo 13 round – con il bonus per 63 punti nella parte superiore.</p>
+    <div class="card">
+      <h3>Il punteggio in breve</h3>
+<p>A turno, ognuno tira fino a tre volte e segna il risultato in una casella libera. Nella sezione superiore contano solo i dadi di quel numero (es. tre quattro = 12), e con 63 o più si ottiene un bonus di 35 punti. Sezione inferiore: tris e poker valgono la somma di tutti i dadi, full 25, scala piccola 30, scala grande 40, cinque uguali 50, chance la somma di tutti i dadi. Se nulla va bene, si cancella una casella con 0.</p>
+      <h3>Come segnarlo nell’app</h3>
+<p><strong>Gioco con cinque dadi</strong>: a turno ognuno lancia fino a tre volte e scrive il risultato in una casella libera, come tris, full o scala. Ogni casella si usa una sola volta. Inserisci il valore per casella, e l’app conosce i valori ammessi e calcola i totali e il bonus della parte superiore.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Scarica su App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Supporto</a></p>
+      <p>I nomi dei giochi sono termini generici; l’app non è legata ad alcun editore.</p>
+    </footer>
+  </main>
+</body>
+</html>

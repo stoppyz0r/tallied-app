@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Golf de cartas – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/cardGolf.html">
+  <link rel="alternate" hreflang="en" href="../en/cardGolf.html">
+  <link rel="alternate" hreflang="fr" href="../fr/cardGolf.html">
+  <link rel="alternate" hreflang="nl" href="../nl/cardGolf.html">
+  <link rel="alternate" hreflang="it" href="../it/cardGolf.html">
+  <link rel="alternate" hreflang="es" href="../es/cardGolf.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/cardGolf.html" lang="de">Deutsch</a> <a href="../en/cardGolf.html" lang="en">English</a> <a href="../fr/cardGolf.html" lang="fr">Français</a> <a href="../nl/cardGolf.html" lang="nl">Nederlands</a> <a href="../it/cardGolf.html" lang="it">Italiano</a> <a class="current" href="../es/cardGolf.html">Español</a></nav>
+    <p><a href="index.html">← Todos los juegos</a></p>
+    <h1>Golf de cartas</h1>
+    <p class="meta">Cambia cartas ocultas y suma poco · 2–8 personas · Juegos de cartas</p>
+    <h2>¿Qué es?</h2>
+<p>Un juego de cartas en el que cada persona tiene delante una cuadrícula de cartas boca abajo que va cambiando y destapando poco a poco. La versión clásica usa dos filas de tres cartas de una baraja normal; la versión con cartas numeradas, tres filas de cuatro con valores del −2 al 12. Las cartas iguales en una columna bajan tus puntos.</p>
+    <h2>Cómo se juega</h2>
+<p><strong>Preparación</strong>: La variante se elige antes de la partida. Con seis cartas se juega con una baraja de rummy con jokers, o con dos barajas si sois muchos; con doce cartas, con cartas numeradas del −2 al 12. Cada persona coloca sus cartas boca abajo delante de sí en forma de cuadrícula: dos filas de tres o tres filas de cuatro. El resto forma el mazo, y se descubre una carta para empezar la pila de descartes. Todos destapan dos de sus cartas. Con seis cartas empieza quien está a la izquierda de quien reparte; con doce, quien tiene la suma más alta de cartas destapadas; después se sigue en el sentido de las agujas del reloj.</p>
+<p><strong>Turno</strong>: En tu turno, o bien coges la carta de arriba de la pila de descartes y la cambias por una carta de tu cuadrícula, o bien robas una carta del mazo. Una carta robada puedes cambiarla igual, o descartarla y destapar a cambio una de tus cartas boca abajo. Las cartas que entran quedan boca arriba, y la carta sustituida va a la pila de descartes. No puedes mirar las cartas boca abajo antes de cambiarlas. Cuando se acaba el mazo, se baraja la pila de descartes, salvo la carta de arriba, para formar uno nuevo.</p>
+<p><strong>Columnas</strong>: Con seis cartas, dos cartas iguales en una columna suman 0 entre las dos. Con doce cartas, una columna se retira en cuanto sus tres cartas muestran boca arriba el mismo número.</p>
+<p><strong>Fin de la ronda</strong>: En cuanto alguien ha destapado todas sus cartas, el resto juega exactamente un turno más. Luego se destapan todas las cartas y se cuentan.</p>
+<p><strong>Puntuación con seis cartas</strong>: as 1, del 2 al 10 su valor, jota y reina 10 cada una, rey 0, joker −2. Las cartas iguales en una columna valen 0, y dos jokers también.</p>
+<p><strong>Puntuación con doce cartas</strong>: Cuentan los números de las cartas que quedan; las columnas retiradas no cuentan. Si quien terminó la ronda no tiene, en solitario, la puntuación más baja, sus puntos se duplican, siempre que estén por encima de 0.</p>
+<p><strong>Fin de la partida</strong>: Con seis cartas se suelen jugar nueve rondas; con doce, hasta que alguien llega a 100 puntos. Gana el total más bajo. El número de rondas, la meta y la penalización por terminar se pueden cambiar al crear la partida.</p>
+    <h2>Objetivo</h2>
+<p>Suma los menos puntos posibles cambiando cartas con astucia y juntando cartas iguales en una columna. Al final gana el total más bajo.</p>
+    <div class="card">
+      <h3>La puntuación en resumen</h3>
+<p>Quien destapa primero todas sus cartas termina la ronda; los demás juegan un turno más. Con seis cartas: as 1, del 2 al 10 su valor, jota y reina 10, rey 0, comodín −2; las cartas iguales en una columna cuentan 0. Con doce cartas: valores de −2 a 12, tres iguales en una columna se retiran, y quien termina sin ir en cabeza en solitario puntúa el doble. Gana el total más bajo.</p>
+      <h3>Cómo anotarlo en la app</h3>
+<p>Juego de cartas con una cuadrícula oculta delante de cada persona: en versión clásica con seis cartas de una baraja de rummy o con doce cartas numeradas del −2 al 12. Cambias y destapas cartas hasta tener delante los menos puntos posibles. Tras cada ronda anotas los puntos de todos y quién la terminó, y la app se encarga de las parejas, la penalización y el final.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Descargar en el App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacidad</a> · <a href="../../support.html">Soporte</a></p>
+      <p>Los nombres de los juegos son genéricos; la app no está vinculada a ninguna editorial.</p>
+    </footer>
+  </main>
+</body>
+</html>

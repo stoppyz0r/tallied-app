@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bowling – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/bowling.html">
+  <link rel="alternate" hreflang="en" href="../en/bowling.html">
+  <link rel="alternate" hreflang="fr" href="../fr/bowling.html">
+  <link rel="alternate" hreflang="nl" href="../nl/bowling.html">
+  <link rel="alternate" hreflang="it" href="../it/bowling.html">
+  <link rel="alternate" hreflang="es" href="../es/bowling.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/bowling.html" lang="de">Deutsch</a> <a class="current" href="../en/bowling.html">English</a> <a href="../fr/bowling.html" lang="fr">Français</a> <a href="../nl/bowling.html" lang="nl">Nederlands</a> <a href="../it/bowling.html" lang="it">Italiano</a> <a href="../es/bowling.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← All games</a></p>
+    <h1>Bowling</h1>
+    <p class="meta">Ten pins, ten frames, strikes and spares · 1–8 players · Ball, throwing and lane games</p>
+    <h2>What is it?</h2>
+<p>Bowling on a lane with ten pins set up in a triangle. A game has ten frames with up to two rolls each, and strikes and spares add later rolls as a bonus. The maximum is 300 points – the perfect game of twelve strikes.</p>
+    <h2>How it’s played</h2>
+<p><strong>Setup</strong>: You need a bowling lane with ten pins and balls. Agree on the order and whether you play one game or a series of several. Everyone starts at 0 points.</p>
+<p><strong>Frames 1 to 9</strong>: Each player bowls their whole frame, then the next player. The first roll goes at all ten pins. If all fall, that is a strike, and the frame is over. Otherwise a second roll goes at the pins still standing. The pins are reset for the next frame.</p>
+<p>Scoring:<br>So the value of a frame with a strike or spare is only known after the following rolls.</p>
+<ul><li>Open frame: Pins are still standing after two rolls; the pins knocked down count.</li><li>Spare: All ten pins fall in two rolls; the frame counts 10 plus the pins of the next roll.</li><li>Strike: All ten fall with the first roll; the frame counts 10 plus the pins of the next two rolls.</li></ul>
+<p><strong>Frame 10</strong>: After a spare you get one bonus roll, after a strike two. If all pins fall in them, they are reset. Without a strike or spare it stays at two rolls; there are never more than three.</p>
+<p><strong>Foul and split</strong>: Stepping over the foul line during a roll is a foul: the roll counts 0, and the pins stand as before. A split is what remains after the first roll when the head pin is down and the standing pins are apart; it is hard to pick up but doesn’t change the scoring.</p>
+<p><strong>End of the game</strong>: After ten frames the highest total wins, 300 at most. In a series, all games are added up. The number of frames, the series, teams and a kitty for gutter balls (a first roll with no pins), zero rolls and fouls can be set when you create the game.</p>
+    <h2>Goal</h2>
+<p>Reach the highest total after ten frames with strikes and spares, 300 at most. In a series all games count together.</p>
+    <div class="card">
+      <h3>Scoring at a glance</h3>
+<p>A game has ten frames with up to two rolls. Strike: 10 plus the next two rolls; spare: 10 plus the next roll; otherwise the pins down count. In the tenth frame a strike earns two bonus rolls, a spare one. A foul counts 0. The highest total wins, 300 at most.</p>
+      <h3>Keeping score in the app</h3>
+<p>Tenpin bowling with classic scoring: strikes and spares earn bonus points, the last frame bonus rolls. After each roll you tap the number of pins down or the pins on the triangle. The app knows whose turn it is and what is still standing, spots splits, counts fouls and the kitty, and scores every frame.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Download on the App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Support</a></p>
+      <p>Game names are generic terms; the app is not affiliated with any publisher.</p>
+    </footer>
+  </main>
+</body>
+</html>

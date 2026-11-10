@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rummy – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/rommee.html">
+  <link rel="alternate" hreflang="en" href="../en/rommee.html">
+  <link rel="alternate" hreflang="fr" href="../fr/rommee.html">
+  <link rel="alternate" hreflang="nl" href="../nl/rommee.html">
+  <link rel="alternate" hreflang="it" href="../it/rommee.html">
+  <link rel="alternate" hreflang="es" href="../es/rommee.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/rommee.html" lang="de">Deutsch</a> <a href="../en/rommee.html" lang="en">English</a> <a href="../fr/rommee.html" lang="fr">Français</a> <a href="../nl/rommee.html" lang="nl">Nederlands</a> <a href="../it/rommee.html" lang="it">Italiano</a> <a class="current" href="../es/rommee.html">Español</a></nav>
+    <p><a href="index.html">← Todos los juegos</a></p>
+    <h1>Rummy</h1>
+    <p class="meta">Baja cartas en grupos y escaleras · 2–6 personas · Juegos de cartas</p>
+    <h2>¿Qué es?</h2>
+<p>El rummy clásico con dos barajas de 52 cartas y comodines. Se roba, se bajan grupos y escaleras y se añaden cartas a las combinaciones de los demás. Las cartas que quedan en la mano al final cuentan como penalización – un total bajo es bueno.</p>
+    <h2>Cómo se juega</h2>
+<p><strong>Preparación</strong>: Se barajan dos barajas de 52 cartas con comodines, normalmente seis. Cada persona recibe 13 cartas. El resto se coloca boca abajo como mazo para robar, y al lado se da la vuelta a una carta para empezar el montón de descartes. Empieza quien está a la izquierda de quien reparte, y se juega en el sentido de las agujas del reloj.</p>
+<p><strong>Combinaciones</strong>: Un grupo son al menos tres cartas del mismo valor y de palos distintos, como tres reinas. Una escalera son al menos tres cartas consecutivas del mismo palo. El as puede ir antes del 2 o después del rey, pero no puede unir el rey con el 2. Los comodines pueden sustituir cualquier carta; tiene que quedar claro qué carta representa cada comodín.</p>
+<p><strong>Turno</strong>: En tu turno, roba una carta boca abajo o coge la carta de arriba del montón de descartes. Después puedes bajar combinaciones. Tu primera bajada normalmente tiene que sumar al menos 40 puntos: las cartas numéricas cuentan su valor, las figuras 10, el as 11 (solo 1 en la escalera A-2-3) y un comodín lo mismo que la carta que sustituye. Después puedes bajar más grupos y escaleras y añadir cartas que encajen a tus combinaciones o a las de los demás. Puedes cambiar un comodín bajado por la carta que representa, pero tienes que volver a bajarlo enseguida. Termina tu turno descartando una carta.</p>
+<p><strong>Mazo</strong>: Cuando se acaba, se baraja el montón de descartes, excepto la carta de arriba, para formar uno nuevo.</p>
+<p><strong>Fin de la ronda</strong>: La ronda termina en cuanto alguien se queda sin cartas. Los demás cuentan las cartas que les quedan como puntos de penalización: del 2 al 10 según su valor, jota, reina y rey 10 cada una, as 11, comodín 20. Rummy de mano: si alguien baja todas sus cartas en un solo turno sin haber bajado nada antes, la penalización de los demás cuenta doble.</p>
+<p><strong>Fin de la partida</strong>: Se juega hasta que alguien alcanza el límite acordado al final de una ronda, normalmente 500 puntos, o hasta completar un número fijo de rondas. Gana el total más bajo.</p>
+    <h2>Objetivo</h2>
+<p>Baja todas tus cartas cuanto antes y acumula pocos puntos de penalización. Al final gana el total más bajo.</p>
+    <div class="card">
+      <h3>La puntuación en resumen</h3>
+<p>Quien se queda antes sin cartas termina la ronda. Los demás suman sus cartas restantes como penalización: del 2 al 10 su valor; jota, reina y rey 10 cada una; as 11; comodín 20. Con rummy de mano las penalizaciones cuentan doble. La partida termina al llegar al límite de puntos o tras el número fijo de rondas; gana el total más bajo.</p>
+      <h3>Cómo anotarlo en la app</h3>
+<p>Juego de cartas con dos barajas y comodines: las cartas del mismo valor se bajan en grupos, y las consecutivas de un mismo palo, en escaleras. Quien se queda primero sin cartas termina la ronda, y los demás se apuntan como penalización las cartas que les quedan. Tú introduces las cartas restantes y la app las suma.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Descargar en el App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacidad</a> · <a href="../../support.html">Soporte</a></p>
+      <p>Los nombres de los juegos son genéricos; la app no está vinculada a ninguna editorial.</p>
+    </footer>
+  </main>
+</body>
+</html>

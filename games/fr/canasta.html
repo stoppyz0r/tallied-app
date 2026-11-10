@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Canasta – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/canasta.html">
+  <link rel="alternate" hreflang="en" href="../en/canasta.html">
+  <link rel="alternate" hreflang="fr" href="../fr/canasta.html">
+  <link rel="alternate" hreflang="nl" href="../nl/canasta.html">
+  <link rel="alternate" hreflang="it" href="../it/canasta.html">
+  <link rel="alternate" hreflang="es" href="../es/canasta.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/canasta.html" lang="de">Deutsch</a> <a href="../en/canasta.html" lang="en">English</a> <a class="current" href="../fr/canasta.html">Français</a> <a href="../nl/canasta.html" lang="nl">Nederlands</a> <a href="../it/canasta.html" lang="it">Italiano</a> <a href="../es/canasta.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Tous les jeux</a></p>
+    <h1>Canasta</h1>
+    <p class="meta">Sept cartes identiques font une canasta · 2, 3, 4, 6 joueurs · Jeux de cartes</p>
+    <h2>Qu’est-ce que c’est ?</h2>
+<p>Un jeu de collecte et de pose avec deux jeux et quatre jokers. Les deux et les jokers remplacent d’autres cartes, sept cartes de même valeur forment une canasta et les trois rouges rapportent des points de prime. Ramasser toute la défausse peut renverser une manche.</p>
+    <h2>Comment on joue</h2>
+<p><strong>Mise en place</strong> : à quatre, on mélange deux jeux de 52 cartes avec quatre jokers ; les partenaires sont assis face à face. Chacun reçoit onze cartes, le reste forme la pioche, face cachée, et une carte est retournée à côté. Si c’est un trois rouge ou une frime, on pose une autre carte dessus et la défausse est gelée. Le joueur à gauche du donneur commence, puis on joue dans le sens des aiguilles d’une montre.</p>
+<p><strong>Combinaisons</strong> : une combinaison compte au moins trois cartes de même valeur ; les suites n’existent pas. Les deux et les jokers sont des frimes (ils remplacent d’autres cartes) ; une combinaison exige au moins deux cartes naturelles et au plus trois frimes. Les partenaires posent ensemble et complètent les combinaisons de leur équipe. À partir de sept cartes, une combinaison devient une canasta : pure sans frime, impure avec des frimes. Les trois noirs ne se posent qu’au moment de sortir.</p>
+<p><strong>Première pose</strong> : les premières cartes posées par une équipe doivent atteindre ensemble un minimum qui dépend de son score : en dessous de 0 point, 15 ; à partir de 0 point, 50 ; à partir de 1500 points, 90 ; à partir de 3000 points, 120. L’app affiche la valeur avant chaque manche.</p>
+<p><strong>Votre tour</strong> : piochez une carte ou prenez toute la défausse aux conditions ci-dessous. Vous pouvez ensuite poser et compléter les combinaisons de votre équipe. Terminez en défaussant une carte. Les trois rouges se posent aussitôt face visible devant vous, et vous piochez une carte de remplacement, même si vous les avez reçus à la donne.</p>
+<p><strong>Défausse</strong> : vous ne pouvez la prendre que si vous utilisez aussitôt la carte du dessus. Avant la première pose de votre équipe et quand la défausse est gelée, il vous faut pour cela deux cartes naturelles de cette valeur en main. Sinon, il suffit d’ajouter la carte du dessus à une combinaison de votre équipe. Défausser une frime gèle la défausse jusqu’à ce que quelqu’un la prenne. Si un trois noir est sur le dessus, le joueur suivant ne peut pas prendre la défausse.</p>
+<p><strong>Sortir</strong> : celui qui pose toutes ses cartes (avec ou sans dernière défausse) termine la manche ; l’équipe doit pour cela avoir au moins une canasta. Vous pouvez d’abord demander à votre partenaire et devez alors suivre sa réponse. Sortir en main, c’est poser toute sa main d’un coup, canasta comprise, sans avoir rien posé auparavant. La manche se termine aussi quand la pioche est épuisée.</p>
+<p><strong>Décompte</strong> : les cartes posées comptent en plus, les cartes en main en moins : joker 50, deux et as 20, du roi au huit 10 chacun, du sept au quatre et trois noir 5 chacun. S’y ajoutent 500 points par canasta pure et 300 par canasta impure. Les trois rouges valent 100 chacun, les quatre ensemble 800 ; si l’équipe n’a rien posé, ils comptent en moins. Sortir rapporte 100 points, sortir en main 200.</p>
+<p><strong>Fin de la partie</strong> : la partie se termine après la manche où une équipe atteint 5000 points ; le total le plus élevé l’emporte. À deux ou à trois, chacun joue pour soi (souvent avec 15 ou 13 cartes). À six, deux équipes de trois jouent avec trois jeux jusqu’à 10 000 points. À deux et à six, il faut deux canastas pour sortir.</p>
+    <h2>Objectif</h2>
+<p>Être la première équipe à atteindre 5000 points grâce aux canastas, aux cartes et aux primes. Si les deux équipes y parviennent dans la même manche, le total le plus élevé l’emporte.</p>
+    <div class="card">
+      <h3>Le décompte en bref</h3>
+<p>Les cartes posées comptent en plus, celles en main en moins : joker 50, deux et as 20, roi à huit 10, sept à quatre et trois noir 5. Canasta pure 500, mixte 300 ; trois rouges 100 chacun, les quatre 800, en négatif sans pose. Sortie (avec au moins une canasta) 100, sortie en main 200. Première pose minimale de 15, 50, 90 ou 120 selon le score. La partie se termine après la manche où quelqu’un atteint 5000.</p>
+      <h3>La saisie dans l’app</h3>
+<p>Jeu de cartes avec deux jeux et des jokers, à quatre en deux équipes. Poser des cartes de même valeur rapporte des points ; sept d’entre elles forment une canasta et donnent une prime. Vous saisissez pour chaque équipe les canastas, les trois rouges et les points des cartes, posées et en main – l’app ajoute les primes, affiche la première pose minimale et repère qui atteint 5000.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Télécharger dans l’App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Confidentialité</a> · <a href="../../support.html">Assistance</a></p>
+      <p>Les noms des jeux sont des termes génériques ; l’app n’est liée à aucun éditeur.</p>
+    </footer>
+  </main>
+</body>
+</html>

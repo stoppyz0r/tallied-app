@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>¿Cuántas bazas? – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/trickBidding.html">
+  <link rel="alternate" hreflang="en" href="../en/trickBidding.html">
+  <link rel="alternate" hreflang="fr" href="../fr/trickBidding.html">
+  <link rel="alternate" hreflang="nl" href="../nl/trickBidding.html">
+  <link rel="alternate" hreflang="it" href="../it/trickBidding.html">
+  <link rel="alternate" hreflang="es" href="../es/trickBidding.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/trickBidding.html" lang="de">Deutsch</a> <a href="../en/trickBidding.html" lang="en">English</a> <a href="../fr/trickBidding.html" lang="fr">Français</a> <a href="../nl/trickBidding.html" lang="nl">Nederlands</a> <a href="../it/trickBidding.html" lang="it">Italiano</a> <a class="current" href="../es/trickBidding.html">Español</a></nav>
+    <p><a href="index.html">← Todos los juegos</a></p>
+    <h1>¿Cuántas bazas?</h1>
+    <p class="meta">Predice tus bazas y acierta de lleno · 3–6 personas · Juegos de cartas</p>
+    <h2>¿Qué es?</h2>
+<p><strong>Un juego de bazas con 60 cartas</strong>: cuatro palos numerados del 1 al 13, además de cuatro cartas máximas y cuatro cartas cero. Antes de cada ronda, cada persona apuesta cuántas bazas hará, y en cada ronda la mano crece una carta. También se puede jugar con una baraja normal sin las cartas especiales.</p>
+    <h2>Cómo se juega</h2>
+<p><strong>Preparación</strong>: Baraja las 60 cartas. En la primera ronda cada persona recibe una carta, y en cada ronda siguiente, una más. El reparto pasa en el sentido de las agujas del reloj. Tras repartir, se descubre la siguiente carta del mazo para fijar el palo de triunfo: las cartas de ese palo ganan a todas las cartas normales de otros palos. Si es una carta máxima, quien reparte elige el triunfo; si es una carta cero o no queda ninguna carta, no hay triunfo.</p>
+<p><strong>Apuestas</strong>: Empezando por la izquierda de quien reparte, cada persona apuesta cuántas bazas va a ganar; se permite 0. Una baza es una carta de cada persona. Las apuestas valen hasta el final de la ronda.</p>
+<p><strong>Jugar las bazas</strong>: Quien está a la izquierda de quien reparte sale en la primera baza. Hay que seguir el primer palo normal jugado si se tiene; si no, se puede jugar cualquier carta. Las cartas máximas y las cartas cero se pueden jugar siempre. Si una baza empieza con cartas cero, la primera carta normal fija el palo. Si antes sale una carta máxima o la baza empieza con una, nadie tiene que seguir el palo.</p>
+<p><strong>Ganar una baza</strong>: La primera carta máxima gana la baza. Sin carta máxima, gana el triunfo más alto; si no, la carta más alta del palo de salida. Las cartas cero pierden; si solo se han jugado cartas cero, gana la primera. Quien gana una baza sale en la siguiente.</p>
+<p><strong>Puntuación</strong>: Si ganas exactamente las bazas que has apostado, recibes 20 puntos más 10 por baza; también vale un 0 acertado. Si fallas, pierdes 10 puntos por cada baza de diferencia.</p>
+<p><strong>Final de la partida</strong>: Se juega hasta repartir toda la baraja: 20 rondas con tres personas, 15 con cuatro, 12 con cinco y 10 con seis. Gana el total más alto. Con una baraja normal (52 cartas, el as es la más alta) se quitan las cartas especiales y caben menos rondas; puedes acortar el número de rondas al crear la partida.</p>
+    <h2>Objetivo</h2>
+<p>Hacer en cada ronda exactamente las bazas apostadas. Tras la última ronda gana el total más alto.</p>
+    <div class="card">
+      <h3>La puntuación en resumen</h3>
+<p>En la ronda 1 cada persona recibe una carta, y una más en cada ronda siguiente. Antes de jugar, todos apuestan su número de bazas. Acertar exactamente da 20 puntos más 10 por baza; cada baza de diferencia cuesta 10 puntos. Tras la última ronda (60 cartas entre el número de personas) gana el total más alto.</p>
+      <h3>Cómo anotarlo en la app</h3>
+<p>Juego de bazas en el que cada ronda se reparte una carta más; las cartas especiales máximas y cero complican la predicción. Solo una apuesta exacta suma puntos. Introduces las apuestas y las bazas ganadas, y la app calcula los puntos.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Descargar en el App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacidad</a> · <a href="../../support.html">Soporte</a></p>
+      <p>Los nombres de los juegos son genéricos; la app no está vinculada a ninguna editorial.</p>
+    </footer>
+  </main>
+</body>
+</html>

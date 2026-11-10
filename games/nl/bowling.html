@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bowlen – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/bowling.html">
+  <link rel="alternate" hreflang="en" href="../en/bowling.html">
+  <link rel="alternate" hreflang="fr" href="../fr/bowling.html">
+  <link rel="alternate" hreflang="nl" href="../nl/bowling.html">
+  <link rel="alternate" hreflang="it" href="../it/bowling.html">
+  <link rel="alternate" hreflang="es" href="../es/bowling.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/bowling.html" lang="de">Deutsch</a> <a href="../en/bowling.html" lang="en">English</a> <a href="../fr/bowling.html" lang="fr">Français</a> <a class="current" href="../nl/bowling.html">Nederlands</a> <a href="../it/bowling.html" lang="it">Italiano</a> <a href="../es/bowling.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Alle spellen</a></p>
+    <h1>Bowlen</h1>
+    <p class="meta">Tien kegels, tien frames, strikes en spares · 1–8 spelers · Bal-, werp- en baanspellen</p>
+    <h2>Wat is het?</h2>
+<p>Bowlen op een baan met tien kegels in een driehoek. Een game heeft tien frames met elk maximaal twee worpen, en strikes en spares tellen latere worpen als bonus mee. Het maximum is 300 punten – de perfecte game van twaalf strikes.</p>
+    <h2>Zo speel je het</h2>
+<p><strong>Voorbereiding</strong>: Je hebt een bowlingbaan met tien kegels en ballen nodig. Spreek de volgorde af en of je één game speelt of een serie van meerdere. Iedereen begint met 0 punten.</p>
+<p><strong>Frames 1 tot 9</strong>: Elke speler gooit zijn hele frame, daarna de volgende. De eerste worp gaat op alle tien kegels. Vallen ze allemaal, dan is dat een strike en is het frame voorbij. Anders volgt een tweede worp op de kegels die nog staan. Voor het volgende frame worden de kegels opnieuw neergezet.</p>
+<p>Telling:<br>De waarde van een frame met een strike of spare ken je dus pas na de volgende worpen.</p>
+<ul><li>Open frame: Na twee worpen staan er nog kegels; de omgegooide kegels tellen.</li><li>Spare: Alle tien kegels vallen in twee worpen; het frame telt 10 plus de kegels van de volgende worp.</li><li>Strike: Alle tien vallen met de eerste worp; het frame telt 10 plus de kegels van de volgende twee worpen.</li></ul>
+<p><strong>Frame 10</strong>: Na een spare krijg je één bonusworp, na een strike twee. Vallen daarbij alle kegels, dan worden ze opnieuw neergezet. Zonder strike of spare blijft het bij twee worpen; meer dan drie zijn het er nooit.</p>
+<p><strong>Foul en split</strong>: Wie tijdens een worp over de foutlijn stapt, maakt een foul: de worp telt 0, en de kegels staan weer zoals ervoor. Een split is wat er na de eerste worp overblijft als de voorste kegel om is en de staande kegels uit elkaar staan; hij is lastig op te ruimen, maar verandert de telling niet.</p>
+<p><strong>Einde van het spel</strong>: Na tien frames wint het hoogste totaal, maximaal 300. Bij een serie worden alle games opgeteld. Het aantal frames, de serie, teams en een pot voor gootballen (een eerste worp zonder kegels), nulworpen en fouls stel je in bij het aanmaken.</p>
+    <h2>Doel</h2>
+<p>Haal met strikes en spares na tien frames het hoogste totaal, maximaal 300. In een serie tellen alle games samen.</p>
+    <div class="card">
+      <h3>De telling in het kort</h3>
+<p>Een game heeft tien frames met maximaal twee worpen. Strike: 10 plus de volgende twee worpen; spare: 10 plus de volgende worp; anders tellen de omgevallen pins. In het tiende frame levert een strike twee bonusworpen op, een spare één. Een foul telt 0. Het hoogste totaal wint, hoogstens 300.</p>
+      <h3>Zo houd je het bij in de app</h3>
+<p>Bowlen met tien kegels en de klassieke telling: strikes en spares leveren bonuspunten op, het laatste frame bonusworpen. Na elke worp tik je het aantal omgegooide kegels of de kegels in de driehoek aan. De app weet wie aan de beurt is en wat er nog staat, herkent splits, telt fouls en de pot en rekent elk frame uit.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Download in de App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Support</a></p>
+      <p>Spelnamen zijn algemene benamingen; de app is niet verbonden aan een uitgever.</p>
+    </footer>
+  </main>
+</body>
+</html>

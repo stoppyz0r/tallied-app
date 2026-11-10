@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mini Golf – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/minigolf.html">
+  <link rel="alternate" hreflang="en" href="../en/minigolf.html">
+  <link rel="alternate" hreflang="fr" href="../fr/minigolf.html">
+  <link rel="alternate" hreflang="nl" href="../nl/minigolf.html">
+  <link rel="alternate" hreflang="it" href="../it/minigolf.html">
+  <link rel="alternate" hreflang="es" href="../es/minigolf.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/minigolf.html" lang="de">Deutsch</a> <a class="current" href="../en/minigolf.html">English</a> <a href="../fr/minigolf.html" lang="fr">Français</a> <a href="../nl/minigolf.html" lang="nl">Nederlands</a> <a href="../it/minigolf.html" lang="it">Italiano</a> <a href="../es/minigolf.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← All games</a></p>
+    <h1>Mini Golf</h1>
+    <p class="meta">Hole out in as few strokes as possible · 1–8 players · Ball, throwing and lane games</p>
+    <h2>What is it?</h2>
+<p>Mini golf on a course with holes full of obstacles – ramps, loops, tubes. With a putter and ball you play each hole from the tee to the cup and count your strokes. A hole in one means holing out with the first stroke.</p>
+    <h2>How it’s played</h2>
+<p><strong>Setup</strong>: You need a putter, a ball and the course’s scorecard – the app replaces it. Usually 18 holes are played, with a stroke limit per hole, usually six.</p>
+<p><strong>Playing a hole</strong>: Place the ball in the tee area. One player finishes the hole, then the next; only when everyone is done do you move on to the next hole. Every stroke counts, even a miss.</p>
+<p><strong>Continuing</strong>: Play from wherever the ball stops. If it leaves the hole or fails to clear an obstacle, the course rules apply, often restarting from the tee or a marked line. You may not simply move the ball closer to the cup.</p>
+<p><strong>Holing out and the limit</strong>: Holing out with the first stroke is a hole in one and scores 1. If the ball still isn’t in the cup after the limit, pick it up and write down one stroke more than the limit – 7 with a limit of six. If you hole out with the last stroke allowed, write down the actual number.</p>
+<p><strong>Scoring and end</strong>: After the last hole all strokes are added up; the lowest total wins. On a tie, whoever has more holes in one is ahead. If you enter the par of each hole, you also see how many strokes you are over or under par; this doesn’t change the standings.</p>
+    <h2>Goal</h2>
+<p>Play every hole in as few strokes as possible. After the last hole the lowest total wins.</p>
+    <div class="card">
+      <h3>Scoring at a glance</h3>
+<p>Every stroke counts, holing out with the first is a hole in one. If you haven’t holed out by the limit, one stroke more is recorded, 7 with a limit of six. After the last hole the lowest total wins, on a tie more holes in one. Par only shows the difference to the expected strokes.</p>
+      <h3>Keeping score in the app</h3>
+<p><strong>Mini golf on 1 to 36 holes</strong>: every stroke into the cup counts, and fewer is better. After each hole you tap everyone’s strokes. The app knows the stroke limit and records one extra for a ball that wasn’t holed, shows the difference to par, counts holes in one and works out the totals and standings.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Download on the App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Support</a></p>
+      <p>Game names are generic terms; the app is not affiliated with any publisher.</p>
+    </footer>
+  </main>
+</body>
+</html>

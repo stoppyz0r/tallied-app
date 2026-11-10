@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Échecs – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/chess.html">
+  <link rel="alternate" hreflang="en" href="../en/chess.html">
+  <link rel="alternate" hreflang="fr" href="../fr/chess.html">
+  <link rel="alternate" hreflang="nl" href="../nl/chess.html">
+  <link rel="alternate" hreflang="it" href="../it/chess.html">
+  <link rel="alternate" hreflang="es" href="../es/chess.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/chess.html" lang="de">Deutsch</a> <a href="../en/chess.html" lang="en">English</a> <a class="current" href="../fr/chess.html">Français</a> <a href="../nl/chess.html" lang="nl">Nederlands</a> <a href="../it/chess.html" lang="it">Italiano</a> <a href="../es/chess.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Tous les jeux</a></p>
+    <h1>Échecs</h1>
+    <p class="meta">Échec et mat, avec pendule si vous voulez · 2 joueurs · Jeux de plateau et de tuiles</p>
+    <h2>Qu’est-ce que c’est ?</h2>
+<p>Le grand classique de la stratégie sur 64 cases : les blancs et les noirs jouent à tour de rôle avec roi, dame, tours, fous, cavaliers et pions.</p>
+    <h2>Comment on joue</h2>
+<p><strong>Mise en place</strong> : placez l’échiquier avec une case claire en bas à droite. Les pions occupent la deuxième rangée ; derrière eux, de l’extérieur vers l’intérieur : tours, cavaliers, fous, la dame sur sa couleur et le roi. Les blancs commencent.</p>
+<p><strong>Déplacement</strong> : le roi se déplace d’une case dans toutes les directions, la dame d’autant de cases qu’elle veut en ligne droite ou en diagonale, la tour en ligne droite, le fou en diagonale, le cavalier de deux cases en ligne droite puis d’une sur le côté, en sautant. Les pions avancent d’une case, de deux au premier coup, et prennent en diagonale vers l’avant. Aller sur une case occupée par une pièce adverse la prend.</p>
+<p><strong>Coups spéciaux</strong> : le roque (le roi se déplace de deux cases vers une tour, qui saute par-dessus lui), la prise en passant et la promotion d’un pion sur la dernière rangée.</p>
+<p><strong>Échec et mat</strong> : un roi attaqué est en échec et doit être libéré aussitôt. Si c’est impossible, il est mat et la partie est perdue.</p>
+<p><strong>Nulle</strong> : par pat (aucun coup légal sans être en échec), d’un commun accord, par triple répétition ou quand plus personne ne peut mater.</p>
+<p><strong>Pendule</strong> : avec une pendule, chaque camp dispose d’un temps pour toute la partie, souvent avec un incrément après chaque coup. Celui qui dépasse son temps perd.</p>
+    <h2>Objectif</h2>
+<p>Mettre le roi adverse échec et mat : il est attaqué et ne peut plus s’échapper.</p>
+    <div class="card">
+      <h3>Le décompte en bref</h3>
+<p>L’échec et mat gagne ; nulle par pat, accord ou répétition. Avec une pendule, celui dont le temps s’écoule perd.</p>
+      <h3>La saisie dans l’app</h3>
+<p>Le jeu de plateau à deux. Après chaque partie, vous indiquez d’un toucher la victoire ou la nulle – l’app tient le bilan des duels, le niveau de chacun et, si vous le souhaitez, une pendule avec temps et incrément.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Télécharger dans l’App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Confidentialité</a> · <a href="../../support.html">Assistance</a></p>
+      <p>Les noms des jeux sont des termes génériques ; l’app n’est liée à aucun éditeur.</p>
+    </footer>
+  </main>
+</body>
+</html>

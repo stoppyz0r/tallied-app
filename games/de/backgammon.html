@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Backgammon – Mitgezählt</title>
+  <link rel="alternate" hreflang="de" href="../de/backgammon.html">
+  <link rel="alternate" hreflang="en" href="../en/backgammon.html">
+  <link rel="alternate" hreflang="fr" href="../fr/backgammon.html">
+  <link rel="alternate" hreflang="nl" href="../nl/backgammon.html">
+  <link rel="alternate" hreflang="it" href="../it/backgammon.html">
+  <link rel="alternate" hreflang="es" href="../es/backgammon.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a class="current" href="../de/backgammon.html">Deutsch</a> <a href="../en/backgammon.html" lang="en">English</a> <a href="../fr/backgammon.html" lang="fr">Français</a> <a href="../nl/backgammon.html" lang="nl">Nederlands</a> <a href="../it/backgammon.html" lang="it">Italiano</a> <a href="../es/backgammon.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Alle Spiele</a></p>
+    <h1>Backgammon</h1>
+    <p class="meta">Alle Steine heimbringen und abtragen · 2 Personen · Brett- und Legespiele</p>
+    <h2>Was ist das?</h2>
+<p>Das klassische Würfel-Brettspiel für zwei mit 24 dreieckigen Zungen und je 15 Steinen. Beide Seiten ziehen gegeneinander um das Brett, schlagen einzelne Steine der anderen Seite und tragen am Ende ihre Steine ab. Mit dem Dopplerwürfel wird um immer höhere Punkte gespielt, meist in einem Match bis 7.</p>
+    <h2>So wird gespielt</h2>
+<p><strong>Aufbau</strong>: Ihr braucht ein Brett mit 24 Zungen, je 15 Steine, zwei Würfel und einen Dopplerwürfel. Aus Sicht einer Seite sind die Zungen auf ihrem Weg von 24 bis 1 nummeriert, die letzten sechs (6 bis 1) sind ihr Heimfeld. Diese Seite stellt zwei Steine auf 24, fünf auf 13, drei auf 8 und fünf auf 6. Die andere Seite steht spiegelbildlich und zieht in die Gegenrichtung. Die Bar in der Mitte nimmt geschlagene Steine auf. Der Doppler liegt zu Beginn in der Mitte und zeigt 64, er zählt dann 1.</p>
+<p><strong>Beginn</strong>: Beide würfeln mit einem Würfel, bei Gleichstand noch einmal. Wer höher würfelt, beginnt und zieht mit beiden gewürfelten Zahlen. Danach würfeln beide abwechselnd mit zwei Würfeln.</p>
+<p><strong>Ziehen</strong>: Jeder Würfel ist ein eigener Zug in Richtung Heimfeld; man darf beide mit demselben Stein ziehen, dann muss auch das Zwischenfeld erreichbar sein. Ein Stein darf auf eine leere Zunge, eine eigene oder eine mit genau einem fremden Stein ziehen; Zungen mit zwei oder mehr fremden Steinen sind gesperrt. Bei einem Pasch zieht man die Zahl viermal. Beide Zahlen müssen genutzt werden, wenn es geht; geht nur eine, muss es die höhere sein, wenn möglich.</p>
+<p><strong>Schlagen und Einwürfeln</strong>: Zieht ein Stein auf eine Zunge mit genau einem fremden Stein, kommt dieser auf die Bar. Wer Steine auf der Bar hat, muss sie zuerst im Heimfeld der anderen Seite einwürfeln: Eine 1 setzt auf Zunge 24, eine 2 auf 23 und so weiter. Solange ein Stein auf der Bar liegt, darf kein anderer ziehen.</p>
+<p><strong>Abtragen</strong>: Erst wenn alle eigenen Steine im Heimfeld stehen, darf man sie abtragen. Eine passende Zahl nimmt einen Stein von der entsprechenden Zunge; man darf stattdessen auch innerhalb des Heimfelds ziehen. Mit einer höheren Zahl darf man den hintersten Stein abtragen, wenn auf höheren Zungen keiner mehr steht. Wird dabei ein Stein geschlagen, muss er erst wieder ins Heimfeld zurück.</p>
+<p><strong>Doppeln</strong>: Vor dem eigenen Wurf darf man eine Verdopplung anbieten, wenn der Doppler in der Mitte liegt oder einem selbst gehört. Die andere Seite nimmt an und bekommt den Doppler, oder sie gibt auf und verliert das Spiel zum bisherigen Wert (in der App ein einfacher Sieg mit dem bisherigen Doppler). Weiter doppeln darf nur, wem der Doppler gehört.</p>
+<p><strong>Wertung</strong>: Wer zuerst alle 15 Steine abgetragen hat, gewinnt einfach (1 Punkt). Hat die andere Seite noch keinen Stein abgetragen, ist es ein Gammon (2 Punkte); steht dann noch ein Stein von ihr auf der Bar oder im Heimfeld der gewinnenden Seite, ein Backgammon (3 Punkte). Der Doppler vervielfacht den Wert.</p>
+<p><strong>Matchende</strong>: Gespielt wird bis zu einer vereinbarten Punktzahl, meist 7. Wer sie zuerst erreicht, gewinnt das Match. Steht eine Seite zum ersten Mal einen Punkt vor dem Ziel, wird das nächste Spiel ohne Doppeln gespielt (Crawford-Regel); danach darf wieder gedoppelt werden.</p>
+    <h2>Ziel</h2>
+<p>Als Erste:r alle Steine abtragen und so Punkte sammeln. Wer zuerst die vereinbarte Punktzahl erreicht, gewinnt das Match.</p>
+    <div class="card">
+      <h3>Wertung in Kürze</h3>
+<p>Wer zuerst alle Steine abträgt, gewinnt einfach (1 Punkt); hat die andere Seite noch keinen abgetragen, Gammon (2); steht dann noch ein Stein von ihr auf der Bar oder im gegnerischen Heimfeld, Backgammon (3). Der Doppler vervielfacht den Wert. Steht eine Seite erstmals einen Punkt vor dem Ziel, wird ein Spiel ohne Doppler gespielt. Wer das Ziel erreicht, gewinnt.</p>
+      <h3>So erfasst du es in der App</h3>
+<p><strong>Brettspiel für zwei</strong>: Mit zwei Würfeln zieht jede Seite ihre 15 Steine ins eigene Heimfeld und trägt sie ab, der Dopplerwürfel erhöht den Einsatz. Du tippst Sieger, Art des Siegs und Doppler an – die App führt das Match bis zum Ziel und kennt die Crawford-Regel.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Im App Store laden</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Datenschutz</a> · <a href="../../support.html">Support</a></p>
+      <p>Spielnamen sind allgemeine Bezeichnungen; die App ist mit keinem Verlag verbunden.</p>
+    </footer>
+  </main>
+</body>
+</html>

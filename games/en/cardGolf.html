@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Card Golf – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/cardGolf.html">
+  <link rel="alternate" hreflang="en" href="../en/cardGolf.html">
+  <link rel="alternate" hreflang="fr" href="../fr/cardGolf.html">
+  <link rel="alternate" hreflang="nl" href="../nl/cardGolf.html">
+  <link rel="alternate" hreflang="it" href="../it/cardGolf.html">
+  <link rel="alternate" hreflang="es" href="../es/cardGolf.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/cardGolf.html" lang="de">Deutsch</a> <a class="current" href="../en/cardGolf.html">English</a> <a href="../fr/cardGolf.html" lang="fr">Français</a> <a href="../nl/cardGolf.html" lang="nl">Nederlands</a> <a href="../it/cardGolf.html" lang="it">Italiano</a> <a href="../es/cardGolf.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← All games</a></p>
+    <h1>Card Golf</h1>
+    <p class="meta">Swap hidden cards, keep your score low · 2–8 players · Card games</p>
+    <h2>What is it?</h2>
+<p>A card game in which each player has a hidden grid of cards that they gradually swap and reveal. The classic version uses two rows of three cards from a standard deck; the number-card version uses three rows of four with values from −2 to 12. Matching cards in a column bring your points down.</p>
+    <h2>How it’s played</h2>
+<p><strong>Setup</strong>: Choose the variant before the game. With six cards you play with a rummy deck including jokers, or two decks for a large group; with twelve cards you use number cards from −2 to 12. Everyone lays out their cards face down as a grid: two rows of three or three rows of four. The rest becomes the draw pile, and one card is turned up as the discard pile. Everyone turns over two of their own cards. With six cards the player to the dealer’s left starts, with twelve cards the player with the highest total of face-up cards; then play moves clockwise.</p>
+<p><strong>Taking a turn</strong>: On your turn, either take the top card of the discard pile and swap it for a card in your grid, or draw a card from the draw pile. You can swap a drawn card in the same way, or discard it and turn over one of your face-down cards instead. Swapped-in cards lie face up, and the replaced card goes on the discard pile. You may not look at face-down cards before swapping. When the draw pile runs out, shuffle the discard pile except for the top card to make a new one.</p>
+<p><strong>Columns</strong>: With six cards, two matching cards in a column count 0 together. With twelve cards, a column is removed as soon as all three cards show the same number face up.</p>
+<p><strong>End of the round</strong>: As soon as someone has turned over all their cards, everyone else gets exactly one more turn. Then all cards are revealed and counted.</p>
+<p><strong>Scoring with six cards</strong>: Ace 1, 2 to 10 at face value, jack and queen 10 each, king 0, joker −2. Matching cards in a column count 0, two jokers as well.</p>
+<p><strong>Scoring with twelve cards</strong>: The numbers on the remaining cards count; removed columns don’t. If the player who ended the round doesn’t have the lowest score alone, their points are doubled, as long as they are above 0.</p>
+<p><strong>End of the game</strong>: With six cards you usually play nine rounds, with twelve cards until someone reaches 100 points. The lowest total wins. The number of rounds, the target and the penalty for ending can be changed when you create the game.</p>
+    <h2>Goal</h2>
+<p>Collect as few points as possible by clever swapping and matching cards in a column. In the end the lowest total wins.</p>
+    <div class="card">
+      <h3>Scoring at a glance</h3>
+<p>Whoever turns over all their cards first ends the round; everyone else gets one more turn. Six cards: ace 1, 2 to 10 face value, jack and queen 10, king 0, joker −2, matching cards in a column count 0. Twelve cards: values −2 to 12, three of a kind in a column are removed, and whoever ends without being alone in the lead scores double. The lowest total wins.</p>
+      <h3>Keeping score in the app</h3>
+<p>Card game with a hidden grid in front of each player: classic with six cards from a rummy deck or with twelve number cards from −2 to 12. You swap and reveal cards until as few points as possible lie in front of you. After each round you enter everyone’s points and who ended it, and the app handles pairs, penalty and the end.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Download on the App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Support</a></p>
+      <p>Game names are generic terms; the app is not affiliated with any publisher.</p>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dama – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/checkers.html">
+  <link rel="alternate" hreflang="en" href="../en/checkers.html">
+  <link rel="alternate" hreflang="fr" href="../fr/checkers.html">
+  <link rel="alternate" hreflang="nl" href="../nl/checkers.html">
+  <link rel="alternate" hreflang="it" href="../it/checkers.html">
+  <link rel="alternate" hreflang="es" href="../es/checkers.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/checkers.html" lang="de">Deutsch</a> <a href="../en/checkers.html" lang="en">English</a> <a href="../fr/checkers.html" lang="fr">Français</a> <a href="../nl/checkers.html" lang="nl">Nederlands</a> <a class="current" href="../it/checkers.html">Italiano</a> <a href="../es/checkers.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Tutti i giochi</a></p>
+    <h1>Dama</h1>
+    <p class="meta">Muovi in diagonale, salta, diventa dama · 2 giocatori · Giochi da tavolo e di tessere</p>
+    <h2>Cos’è?</h2>
+<p>Un gioco da tavolo con dodici pedine a testa sulle caselle scure di una scacchiera. Le pedine si muovono in diagonale e catturano scavalcando quelle avversarie.</p>
+    <h2>Come si gioca</h2>
+<p><strong>Preparazione</strong>: Ogni parte mette dodici pedine sulle caselle scure delle tre file davanti a sé. Iniziano le scure.</p>
+<p><strong>Muovere</strong>: Una pedina si sposta di una casella in diagonale in avanti su una casella libera.</p>
+<p><strong>Catturare</strong>: Se una pedina avversaria si trova in diagonale davanti con una casella libera dietro, la scavalchi e la togli. Se è possibile un’altra presa, continui a saltare. La presa è obbligatoria.</p>
+<p><strong>Dama</strong>: Una pedina che raggiunge l’ultima fila diventa dama (una seconda pedina sopra). La dama muove e cattura anche all’indietro; in molte regole si muove di quante caselle vuole.</p>
+<p><strong>Fine</strong>: Chi non ha più pedine o non può muovere perde. Se nessuna delle due parti può più vincere, è patta.</p>
+    <h2>Obiettivo</h2>
+<p>Catturare tutte le pedine avversarie o bloccarle in modo che l’altra parte non possa più muovere.</p>
+    <div class="card">
+      <h3>Il punteggio in breve</h3>
+<p>Si muove in diagonale, si mangia saltando in diagonale, mangiare è obbligatorio. Chi non può più muovere perde.</p>
+      <h3>Come segnarlo nell’app</h3>
+<p>Il gioco da tavolo per due sulle caselle scure. Dopo ogni partita tocchi vittoria o patta – l’app registra la sfida e il livello.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Scarica su App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Supporto</a></p>
+      <p>I nomi dei giochi sono termini generici; l’app non è legata ad alcun editore.</p>
+    </footer>
+  </main>
+</body>
+</html>

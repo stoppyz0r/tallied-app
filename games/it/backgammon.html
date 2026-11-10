@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Backgammon – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/backgammon.html">
+  <link rel="alternate" hreflang="en" href="../en/backgammon.html">
+  <link rel="alternate" hreflang="fr" href="../fr/backgammon.html">
+  <link rel="alternate" hreflang="nl" href="../nl/backgammon.html">
+  <link rel="alternate" hreflang="it" href="../it/backgammon.html">
+  <link rel="alternate" hreflang="es" href="../es/backgammon.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/backgammon.html" lang="de">Deutsch</a> <a href="../en/backgammon.html" lang="en">English</a> <a href="../fr/backgammon.html" lang="fr">Français</a> <a href="../nl/backgammon.html" lang="nl">Nederlands</a> <a class="current" href="../it/backgammon.html">Italiano</a> <a href="../es/backgammon.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Tutti i giochi</a></p>
+    <h1>Backgammon</h1>
+    <p class="meta">Porta a casa e fuori tutte le pedine · 2 giocatori · Giochi da tavolo e di tessere</p>
+    <h2>Cos’è?</h2>
+<p>Il classico gioco da tavola con i dadi per due, con 24 punte triangolari e 15 pedine a testa. I due giocatori girano intorno alla tavola in direzioni opposte, colpiscono le pedine isolate dell’avversario e infine portano fuori le proprie. Il cubo del raddoppio alza i punti in palio, di solito in un match a 7.</p>
+    <h2>Come si gioca</h2>
+<p><strong>Preparazione</strong>: Servono una tavola con 24 punte, 15 pedine a testa, due dadi e un cubo del raddoppio. Dal punto di vista di un giocatore, le punte lungo il suo percorso sono numerate da 24 a 1, e le ultime sei (da 6 a 1) sono la sua tavola interna. Quel giocatore mette due pedine sulla 24, cinque sulla 13, tre sulla 8 e cinque sulla 6. L’altro si dispone in modo speculare e muove nella direzione opposta. La barra al centro accoglie le pedine colpite. Il cubo parte al centro mostrando 64 e vale quindi 1.</p>
+<p><strong>Inizio</strong>: Entrambi tirano un dado, ripetendo in caso di parità. Chi fa il numero più alto inizia e muove con entrambi i numeri usciti. Poi si tirano a turno due dadi.</p>
+<p><strong>Muovere</strong>: Ogni dado è una mossa separata verso la tua tavola interna; puoi muovere una sola pedina con entrambi, ma allora anche la punta intermedia deve essere libera. Una pedina può andare su una punta vuota, su una tua o su una con esattamente una pedina avversaria; le punte con due o più pedine avversarie sono bloccate. Con un doppio muovi il numero quattro volte. Devi usare entrambi i numeri se puoi; se se ne può usare solo uno, dev’essere il più alto, quando possibile.</p>
+<p><strong>Colpire e rientrare</strong>: Se una pedina arriva su una punta con esattamente una pedina avversaria, quest’ultima va sulla barra. Chi ha pedine sulla barra deve prima farle rientrare nella tavola interna dell’avversario: un 1 rientra sulla punta 24, un 2 sulla 23 e così via. Finché una pedina è sulla barra, nessun’altra può muoversi.</p>
+<p><strong>Portare fuori</strong>: Solo quando tutte le tue pedine sono nella tua tavola interna puoi portarle fuori. Un numero corrispondente toglie una pedina da quella punta; in alternativa puoi anche muovere all’interno della tavola interna. Con un numero più alto puoi portare fuori la pedina più arretrata se non ci sono pedine su punte più alte. Se una pedina viene colpita mentre porti fuori, deve prima tornare a casa.</p>
+<p><strong>Raddoppio</strong>: Prima del tuo tiro puoi offrire il raddoppio se il cubo è al centro o è tuo. L’avversario accetta e prende il cubo, oppure abbandona e perde la partita al valore attuale (nell’app, una vittoria semplice con il cubo attuale). Solo chi possiede il cubo può raddoppiare di nuovo.</p>
+<p><strong>Punteggio</strong>: Chi porta fuori per primo tutte le 15 pedine vince una partita semplice (1 punto). Se l’avversario non ha portato fuori nessuna pedina, è un gammon (2 punti); se ha anche ancora una pedina sulla barra o nella tavola interna del vincitore, è un backgammon (3 punti). Il cubo moltiplica il valore.</p>
+<p><strong>Fine del match</strong>: Si gioca fino a un numero di punti concordato, di solito 7. Chi lo raggiunge per primo vince il match. La prima volta che un giocatore è a un punto dal traguardo, la partita successiva si gioca senza raddoppio (regola Crawford); dopo si può di nuovo raddoppiare.</p>
+    <h2>Obiettivo</h2>
+<p>Porta fuori per primo tutte le tue pedine e raccogli punti. Chi raggiunge per primo il numero di punti concordato vince il match.</p>
+    <div class="card">
+      <h3>Il punteggio in breve</h3>
+<p>Chi porta fuori per primo tutte le pedine vince una partita semplice (1 punto); se l’avversario non ne ha portata fuori nessuna, un gammon (2); se ha ancora una pedina sulla barra o nel campo interno del vincitore, un backgammon (3). Il cubo moltiplica il valore. La prima volta che qualcuno è a un punto dal traguardo, si gioca una partita senza cubo. Chi raggiunge il traguardo vince.</p>
+      <h3>Come segnarlo nell’app</h3>
+<p><strong>Gioco da tavolo per due</strong>: tirando due dadi, ciascuno porta le sue 15 pedine nella tavola interna e poi fuori, mentre il cubo del raddoppio alza la posta. Tocchi il vincitore, il tipo di vittoria e il cubo – l’app tiene il punteggio del match fino al traguardo e conosce la regola Crawford.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Scarica su App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Supporto</a></p>
+      <p>I nomi dei giochi sono termini generici; l’app non è legata ad alcun editore.</p>
+    </footer>
+  </main>
+</body>
+</html>

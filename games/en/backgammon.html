@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Backgammon – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/backgammon.html">
+  <link rel="alternate" hreflang="en" href="../en/backgammon.html">
+  <link rel="alternate" hreflang="fr" href="../fr/backgammon.html">
+  <link rel="alternate" hreflang="nl" href="../nl/backgammon.html">
+  <link rel="alternate" hreflang="it" href="../it/backgammon.html">
+  <link rel="alternate" hreflang="es" href="../es/backgammon.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/backgammon.html" lang="de">Deutsch</a> <a class="current" href="../en/backgammon.html">English</a> <a href="../fr/backgammon.html" lang="fr">Français</a> <a href="../nl/backgammon.html" lang="nl">Nederlands</a> <a href="../it/backgammon.html" lang="it">Italiano</a> <a href="../es/backgammon.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← All games</a></p>
+    <h1>Backgammon</h1>
+    <p class="meta">Bring all your checkers home and off · 2 players · Board and tile games</p>
+    <h2>What is it?</h2>
+<p>The classic dice board game for two with 24 triangular points and 15 checkers each. The two sides move around the board in opposite directions, hit lone checkers of the other side and finally bear their own checkers off. The doubling cube raises the points at stake, usually in a match to 7.</p>
+    <h2>How it’s played</h2>
+<p><strong>Setup</strong>: You need a board with 24 points, 15 checkers each, two dice and a doubling cube. From one side’s view, the points along its path are numbered 24 down to 1, and the last six (6 to 1) are its home board. That side places two checkers on 24, five on 13, three on 8 and five on 6. The other side sets up as a mirror image and moves the opposite way. The bar in the middle holds hit checkers. The cube starts in the middle showing 64 and then counts as 1.</p>
+<p><strong>Starting</strong>: Both roll one die, rerolling ties. The higher roll starts and moves using both numbers rolled. After that, both take turns rolling two dice.</p>
+<p><strong>Moving</strong>: Each die is a separate move toward your home board; you may move one checker with both, in which case the point in between must be open too. A checker may move to an empty point, one of your own or one with exactly one opposing checker; points with two or more opposing checkers are blocked. With doubles you move the number four times. You must use both numbers if you can; if only one can be used, it has to be the higher one where possible.</p>
+<p><strong>Hitting and entering</strong>: If a checker lands on a point with exactly one opposing checker, that checker goes to the bar. A side with checkers on the bar must first enter them in the other side’s home board: a 1 enters on point 24, a 2 on 23 and so on. As long as a checker is on the bar, no other checker may move.</p>
+<p><strong>Bearing off</strong>: Only when all your checkers are in your home board may you bear them off. A matching number removes a checker from that point; you may also move within your home board instead. With a higher number you may bear off your rearmost checker if no checkers are on higher points. If a checker is hit while bearing off, it must return home first.</p>
+<p><strong>Doubling</strong>: Before your roll you may offer a double if the cube is in the middle or belongs to you. The other side accepts and takes the cube, or concedes and loses the game at the current value (in the app, a single win with the current cube). Only the cube’s owner may double again.</p>
+<p><strong>Scoring</strong>: Whoever bears off all 15 checkers first wins a single game (1 point). If the other side hasn’t borne off any checker, it is a gammon (2 points); if one of their checkers is also still on the bar or in the winner’s home board, a backgammon (3 points). The cube multiplies the value.</p>
+<p><strong>End of the match</strong>: Play up to an agreed number of points, usually 7. Whoever reaches it first wins the match. The first time a side is one point short of the target, the next game is played without doubling (Crawford rule); after that, doubling is allowed again.</p>
+    <h2>Goal</h2>
+<p>Be the first to bear off all your checkers and collect points. Whoever reaches the agreed number of points first wins the match.</p>
+    <div class="card">
+      <h3>Scoring at a glance</h3>
+<p>Whoever bears off all checkers first wins a single (1 point); if the other side has borne off none, a gammon (2); if they also still have a checker on the bar or in the winner’s home board, a backgammon (3). The cube multiplies the value. The first time a side is one point short of the target, one game is played without the cube. Reaching the target wins.</p>
+      <h3>Keeping score in the app</h3>
+<p><strong>Board game for two</strong>: rolling two dice, each side moves its 15 checkers into its home board and bears them off, while the doubling cube raises the stakes. You tap the winner, the kind of win and the cube – the app keeps the match score up to the target and knows the Crawford rule.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Download on the App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Support</a></p>
+      <p>Game names are generic terms; the app is not affiliated with any publisher.</p>
+    </footer>
+  </main>
+</body>
+</html>

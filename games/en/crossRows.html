@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cross Rows – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/crossRows.html">
+  <link rel="alternate" hreflang="en" href="../en/crossRows.html">
+  <link rel="alternate" hreflang="fr" href="../fr/crossRows.html">
+  <link rel="alternate" hreflang="nl" href="../nl/crossRows.html">
+  <link rel="alternate" hreflang="it" href="../it/crossRows.html">
+  <link rel="alternate" hreflang="es" href="../es/crossRows.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/crossRows.html" lang="de">Deutsch</a> <a class="current" href="../en/crossRows.html">English</a> <a href="../fr/crossRows.html" lang="fr">Français</a> <a href="../nl/crossRows.html" lang="nl">Nederlands</a> <a href="../it/crossRows.html" lang="it">Italiano</a> <a href="../es/crossRows.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← All games</a></p>
+    <h1>Cross Rows</h1>
+    <p class="meta">Six dice, cross off four colored rows · 1–5 players · Dice games</p>
+    <h2>What is it?</h2>
+<p>A roll-and-write game with six dice – two white and one each in red, yellow, green and blue – and a sheet with four colored rows. Red and yellow run from 2 to 12, green and blue from 12 to 2. Everyone uses the white dice, and the player whose turn it is may also use a colored die.</p>
+    <h2>How it’s played</h2>
+<p><strong>Setup</strong>: You need two white dice and one die each in red, yellow, green and blue. Everyone has an empty sheet with four colored rows, a lock at the end of each and four boxes for misses – the app keeps the sheets for you. Players take turns rolling.</p>
+<p><strong>Crossing off</strong>: In every row you cross off from left to right. You may skip numbers, but then they are lost for good.</p>
+<p>A turn has two steps:<br>1. The player whose turn it is rolls all dice and calls out the sum of the two white dice. Everyone may cross off that number in any row; nobody has to.<br>2. Then only the player whose turn it is may add one white and one colored die and cross off the sum in the row of that color. This is optional too.</p>
+<p><strong>Misses</strong>: If the player whose turn it is crosses off nothing in either step, they must mark a miss. Players who aren’t on turn never get a miss.</p>
+<p><strong>Locking a row</strong>: You may only cross off the last number of a row (12 for red and yellow, 2 for green and blue) once the row already has at least five crosses. Then you also cross off the lock, which counts as an extra cross. The row is now closed for everyone, and that color’s die leaves the game; others may still cross off the number on the same roll.</p>
+<p><strong>End of the game</strong>: The game ends at once when someone marks their fourth miss or two rows are closed. Solo play works the same, you simply roll every turn yourself.</p>
+<p><strong>Scoring</strong>: In each row, crosses (lock included) score increasing points: 1 cross 1 point, 2 crosses 3, then 6, 10, 15, 21, 28, 36, 45, 55, 66 and 78 for 12 crosses. Each miss costs 5 points. The highest total wins. A match can consist of several games; the penalty, the number of misses and the number of games can be set when you create the game.</p>
+    <h2>Goal</h2>
+<p>Cross off rows as long as possible and avoid misses. After the fourth miss or the second closed row, the highest total wins.</p>
+    <div class="card">
+      <h3>Scoring at a glance</h3>
+<p>Everyone may use the white sum; the player on turn may also use white plus color, always crossing to the right. If the player on turn crosses nothing, it is a miss (−5). The last number needs five crosses first, and the lock counts too. 1 to 12 crosses score 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66 or 78 points. The game ends at the fourth miss or with two closed rows.</p>
+      <h3>Keeping score in the app</h3>
+<p>Fast dice game with a score sheet of four colored rows that you cross off from left to right; everyone plays along, even when it isn’t their turn. You tap each cross and each miss right on the sheet. The app knows which numbers are still open, locks rows, ends the game and adds up the points.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Download on the App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Support</a></p>
+      <p>Game names are generic terms; the app is not affiliated with any publisher.</p>
+    </footer>
+  </main>
+</body>
+</html>

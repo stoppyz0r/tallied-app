@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Canasta – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/canasta.html">
+  <link rel="alternate" hreflang="en" href="../en/canasta.html">
+  <link rel="alternate" hreflang="fr" href="../fr/canasta.html">
+  <link rel="alternate" hreflang="nl" href="../nl/canasta.html">
+  <link rel="alternate" hreflang="it" href="../it/canasta.html">
+  <link rel="alternate" hreflang="es" href="../es/canasta.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/canasta.html" lang="de">Deutsch</a> <a href="../en/canasta.html" lang="en">English</a> <a href="../fr/canasta.html" lang="fr">Français</a> <a href="../nl/canasta.html" lang="nl">Nederlands</a> <a class="current" href="../it/canasta.html">Italiano</a> <a href="../es/canasta.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Tutti i giochi</a></p>
+    <h1>Canasta</h1>
+    <p class="meta">Sette carte uguali fanno canasta · 2, 3, 4, 6 giocatori · Giochi di carte</p>
+    <h2>Cos’è?</h2>
+<p>Un gioco di raccolta e calata con due mazzi e quattro jolly. I due e i jolly sostituiscono altre carte, sette carte dello stesso valore formano una canasta e i tre rossi danno punti bonus. Chi raccoglie l’intera pila degli scarti può ribaltare un round.</p>
+    <h2>Come si gioca</h2>
+<p><strong>Preparazione</strong>: In quattro si mescolano due mazzi da 52 carte con quattro jolly; i compagni siedono uno di fronte all’altro. Ognuno riceve undici carte, il resto va coperto come mazzo da cui pescare e accanto si scopre una carta. Se è un tre rosso o una matta, ci si mette sopra un’altra carta e la pila degli scarti è bloccata. Inizia chi siede a sinistra del mazziere e si prosegue in senso orario.</p>
+<p><strong>Combinazioni</strong>: Una combinazione è formata da almeno tre carte dello stesso valore; le scale non esistono. I due e i jolly sono matte; una combinazione richiede almeno due carte naturali e non più di tre matte. I compagni calano insieme e aggiungono carte alle combinazioni della squadra. Da sette carte in su una combinazione è una canasta: pulita senza matte, sporca con matte. I tre neri si possono calare solo chiudendo.</p>
+<p><strong>Prima calata</strong>: Le prime carte calate da una squadra devono raggiungere insieme un minimo che dipende dal suo punteggio: sotto 0 punti 15, da 0 punti 50, da 1500 punti 90, da 3000 punti 120. L’app mostra il valore prima di ogni round.</p>
+<p><strong>Il turno</strong>: Al tuo turno peschi una carta dal mazzo o prendi l’intera pila degli scarti alle condizioni indicate sotto. Poi puoi calare e aggiungere carte alle combinazioni della tua squadra. Finisci scartando una carta. I tre rossi li metti subito scoperti davanti a te e peschi una carta sostitutiva, anche se li hai ricevuti nella distribuzione.</p>
+<p><strong>Pila degli scarti</strong>: Puoi prenderla solo se usi subito la carta in cima. Prima della prima calata della tua squadra e quando la pila è bloccata, ti servono in mano due carte naturali di quel valore. Altrimenti basta aggiungere la carta in cima a una combinazione della squadra. Scartare una matta blocca la pila finché qualcuno non la prende. Se in cima c’è un tre nero, il giocatore successivo non può prendere la pila.</p>
+<p><strong>Chiusura</strong>: Chi cala tutte le sue carte (con o senza scarto finale) chiude il round; per farlo la squadra deve avere almeno una canasta. Prima puoi chiedere al compagno e devi seguire la sua risposta. Chiudere in mano significa calare tutta la mano, canasta compresa, in una volta sola senza aver calato nulla prima. Il round termina anche quando il mazzo finisce.</p>
+<p><strong>Punteggio</strong>: Le carte calate contano in positivo, quelle in mano in negativo: jolly 50, due e asso 20, dal re all’otto 10 ciascuna, dal sette al quattro e tre nero 5 ciascuna. Si aggiungono 500 punti per ogni canasta pulita e 300 per ogni canasta sporca. I tre rossi valgono 100 ciascuno, tutti e quattro insieme 800; se la squadra non ha calato nulla, contano in negativo. Chiudere vale 100 punti, chiudere in mano 200.</p>
+<p><strong>Fine della partita</strong>: La partita termina dopo il round in cui una squadra raggiunge 5000 punti; vince il totale più alto. In due o in tre ognuno gioca da solo (di solito con 15 o 13 carte). In sei, due squadre da tre giocano con tre mazzi fino a 10.000 punti. In due e in sei servono due canaste per chiudere.</p>
+    <h2>Obiettivo</h2>
+<p>Raggiungere per primi 5000 punti con canaste, carte e bonus. Se entrambe le squadre ci arrivano nello stesso round, vince il totale più alto.</p>
+    <div class="card">
+      <h3>Il punteggio in breve</h3>
+<p>Le carte calate contano in positivo, quelle in mano in negativo: jolly 50, due e asso 20, dal re all’otto 10, dal sette al quattro e tre nero 5. Canasta pulita 500, sporca 300; tre rossi 100 l’uno, tutti e quattro 800, in negativo senza calata. Chiusura (con almeno una canasta) 100, in mano 200. Calata minima iniziale 15, 50, 90 o 120 a seconda del punteggio. La partita finisce dopo il round in cui si raggiunge 5000.</p>
+      <h3>Come segnarlo nell’app</h3>
+<p>Gioco di carte con due mazzi e jolly, in quattro divisi in due squadre. Calando carte dello stesso valore si fanno punti; sette di queste formano una canasta e danno un bonus. Inserisci per ogni squadra canaste, tre rossi e punti delle carte, calate e in mano – l’app aggiunge i bonus, mostra la prima calata minima e riconosce chi arriva a 5000.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Scarica su App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Supporto</a></p>
+      <p>I nomi dei giochi sono termini generici; l’app non è legata ad alcun editore.</p>
+    </footer>
+  </main>
+</body>
+</html>

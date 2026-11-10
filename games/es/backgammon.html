@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Backgammon – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/backgammon.html">
+  <link rel="alternate" hreflang="en" href="../en/backgammon.html">
+  <link rel="alternate" hreflang="fr" href="../fr/backgammon.html">
+  <link rel="alternate" hreflang="nl" href="../nl/backgammon.html">
+  <link rel="alternate" hreflang="it" href="../it/backgammon.html">
+  <link rel="alternate" hreflang="es" href="../es/backgammon.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/backgammon.html" lang="de">Deutsch</a> <a href="../en/backgammon.html" lang="en">English</a> <a href="../fr/backgammon.html" lang="fr">Français</a> <a href="../nl/backgammon.html" lang="nl">Nederlands</a> <a href="../it/backgammon.html" lang="it">Italiano</a> <a class="current" href="../es/backgammon.html">Español</a></nav>
+    <p><a href="index.html">← Todos los juegos</a></p>
+    <h1>Backgammon</h1>
+    <p class="meta">Lleva todas tus fichas a casa y sácalas · 2 personas · Juegos de tablero y de fichas</p>
+    <h2>¿Qué es?</h2>
+<p>El clásico juego de tablero con dados para dos, con 24 puntas triangulares y 15 fichas por bando. Los dos bandos recorren el tablero en sentidos opuestos, comen fichas sueltas del otro y al final sacan las suyas. Con el doblador se juega por cada vez más puntos, normalmente en una partida a 7.</p>
+    <h2>Cómo se juega</h2>
+<p><strong>Preparación</strong>: Necesitáis un tablero con 24 puntas, 15 fichas por bando, dos dados y un doblador. Vistas desde un bando, las puntas de su recorrido van numeradas del 24 al 1, y las seis últimas (del 6 al 1) son su casa. Ese bando coloca dos fichas en la 24, cinco en la 13, tres en la 8 y cinco en la 6. El otro bando se coloca en espejo y avanza en sentido contrario. La barra del centro recoge las fichas comidas. El doblador empieza en el centro mostrando el 64 y entonces vale 1.</p>
+<p><strong>Inicio</strong>: Los dos tiran un dado; si empatan, repiten. Quien obtiene el número más alto empieza y mueve con los dos números obtenidos. Después, los dos tiran dos dados por turnos.</p>
+<p><strong>Movimiento</strong>: Cada dado es un movimiento propio hacia tu casa; puedes mover una misma ficha con los dos, y entonces la punta intermedia también tiene que estar libre. Una ficha puede ir a una punta vacía, a una propia o a una con exactamente una ficha rival; las puntas con dos o más fichas rivales están bloqueadas. Con dobles mueves el número cuatro veces. Tienes que usar los dos números si puedes; si solo puedes usar uno, tiene que ser el mayor siempre que sea posible.</p>
+<p><strong>Comer y entrar</strong>: Si una ficha cae en una punta con exactamente una ficha rival, esa ficha va a la barra. Quien tiene fichas en la barra debe entrarlas primero en la casa del otro bando: un 1 entra en la punta 24, un 2 en la 23, y así sucesivamente. Mientras haya una ficha en la barra, ninguna otra puede moverse.</p>
+<p><strong>Sacar fichas</strong>: Solo cuando todas tus fichas están en tu casa puedes sacarlas. Un número exacto saca una ficha de esa punta; en su lugar también puedes mover dentro de tu casa. Con un número mayor puedes sacar tu ficha más retrasada si no quedan fichas en puntas más altas. Si te comen una ficha mientras sacas, primero tiene que volver a casa.</p>
+<p><strong>Doblar</strong>: Antes de tu tirada puedes ofrecer doblar si el doblador está en el centro o es tuyo. El otro bando acepta y se queda el doblador, o se rinde y pierde el juego por el valor actual (en la app, una victoria simple con el doblador actual). Solo quien tiene el doblador puede volver a doblar.</p>
+<p><strong>Puntuación</strong>: Quien saca primero sus 15 fichas gana un juego simple (1 punto). Si el otro bando aún no ha sacado ninguna ficha, es un gammon (2 puntos); si además le queda alguna ficha en la barra o en la casa del bando ganador, un backgammon (3 puntos). El doblador multiplica el valor.</p>
+<p><strong>Fin de la partida</strong>: Se juega hasta un número de puntos acordado, normalmente 7. Quien lo alcanza primero gana la partida. La primera vez que un bando se queda a un punto del objetivo, el siguiente juego se juega sin doblar (regla Crawford); después se puede volver a doblar.</p>
+    <h2>Objetivo</h2>
+<p>Saca todas tus fichas antes que el rival y suma puntos así. Quien llega primero a los puntos acordados gana la partida.</p>
+    <div class="card">
+      <h3>La puntuación en resumen</h3>
+<p>Quien saca primero todas sus fichas gana un juego simple (1 punto); si la otra parte no ha sacado ninguna, un gammon (2); si además le queda una ficha en la barra o en el cuadrante interior del ganador, un backgammon (3). El cubo multiplica el valor. La primera vez que una parte se queda a un punto del objetivo, se juega un juego sin cubo. Gana quien alcanza el objetivo.</p>
+      <h3>Cómo anotarlo en la app</h3>
+<p><strong>Juego de tablero para dos</strong>: con dos dados, cada bando lleva sus 15 fichas a su casa y las saca, mientras el doblador sube lo que está en juego. Tú tocas quién gana, el tipo de victoria y el doblador; la app lleva el marcador de la partida hasta el objetivo y conoce la regla Crawford.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Descargar en el App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacidad</a> · <a href="../../support.html">Soporte</a></p>
+      <p>Los nombres de los juegos son genéricos; la app no está vinculada a ninguna editorial.</p>
+    </footer>
+  </main>
+</body>
+</html>

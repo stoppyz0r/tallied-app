@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Filas cruzadas – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/crossRows.html">
+  <link rel="alternate" hreflang="en" href="../en/crossRows.html">
+  <link rel="alternate" hreflang="fr" href="../fr/crossRows.html">
+  <link rel="alternate" hreflang="nl" href="../nl/crossRows.html">
+  <link rel="alternate" hreflang="it" href="../it/crossRows.html">
+  <link rel="alternate" hreflang="es" href="../es/crossRows.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/crossRows.html" lang="de">Deutsch</a> <a href="../en/crossRows.html" lang="en">English</a> <a href="../fr/crossRows.html" lang="fr">Français</a> <a href="../nl/crossRows.html" lang="nl">Nederlands</a> <a href="../it/crossRows.html" lang="it">Italiano</a> <a class="current" href="../es/crossRows.html">Español</a></nav>
+    <p><a href="index.html">← Todos los juegos</a></p>
+    <h1>Filas cruzadas</h1>
+    <p class="meta">Seis dados, cuatro filas de colores · 1–5 personas · Juegos de dados</p>
+    <h2>¿Qué es?</h2>
+<p>Un juego de tirar y tachar con seis dados – dos blancos y uno rojo, uno amarillo, uno verde y uno azul – y una hoja con cuatro filas de colores. El rojo y el amarillo van del 2 al 12; el verde y el azul, del 12 al 2. Todos usan los dados blancos, y quien tiene el turno puede usar además un dado de color.</p>
+    <h2>Cómo se juega</h2>
+<p><strong>Preparación</strong>: Necesitáis dos dados blancos y un dado de cada color: rojo, amarillo, verde y azul. Cada persona tiene una hoja vacía con cuatro filas de colores, un candado al final de cada una y cuatro casillas para fallos – la app lleva las hojas por vosotros. Se tiran los dados por turnos.</p>
+<p><strong>Tachar</strong>: En cada fila se tacha de izquierda a derecha. Puedes saltarte números, pero entonces se pierden para siempre.</p>
+<p>Un turno tiene dos pasos:<br>1. Quien tiene el turno tira todos los dados y anuncia la suma de los dos blancos. Todos pueden tachar ese número en cualquier fila; nadie está obligado.<br>2. Después, solo quien tiene el turno puede sumar un dado blanco y uno de color y tachar la suma en la fila de ese color. Esto también es opcional.</p>
+<p><strong>Fallos</strong>: Si quien tiene el turno no tacha nada en ninguno de los dos pasos, tiene que marcar un fallo. Quien no tiene el turno nunca se lleva un fallo.</p>
+<p><strong>Cerrar una fila</strong>: El último número de una fila (12 en rojo y amarillo, 2 en verde y azul) solo se puede tachar cuando la fila ya tiene al menos cinco cruces. Entonces también se tacha el candado, que cuenta como una cruz extra. La fila queda cerrada para todos y el dado de ese color sale del juego; con la misma tirada, los demás aún pueden tachar ese número.</p>
+<p><strong>Fin del juego</strong>: El juego termina en el acto cuando alguien marca su cuarto fallo o hay dos filas cerradas. En solitario se juega igual: simplemente tiras tú en cada turno.</p>
+<p><strong>Puntuación</strong>: En cada fila, las cruces (candado incluido) dan puntos crecientes: 1 cruz, 1 punto; 2 cruces, 3; después 6, 10, 15, 21, 28, 36, 45, 55, 66 y 78 con 12 cruces. Cada fallo resta 5 puntos. Gana el total más alto. Una partida puede constar de varios juegos; la penalización, el número de fallos y el número de juegos se ajustan al crear la partida.</p>
+    <h2>Objetivo</h2>
+<p>Tacha filas lo más largas posible y evita los fallos. Tras el cuarto fallo o la segunda fila cerrada, gana el total más alto.</p>
+    <div class="card">
+      <h3>La puntuación en resumen</h3>
+<p>Todos pueden usar la suma blanca; quien tiene el turno también puede usar blanco más color, tachando siempre hacia la derecha. Si quien tiene el turno no tacha nada, es un fallo (−5). Para el último número hacen falta antes cinco cruces, y el candado también cuenta. De 1 a 12 cruces dan 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66 o 78 puntos. La partida termina con el cuarto fallo o con dos filas cerradas.</p>
+      <h3>Cómo anotarlo en la app</h3>
+<p>Juego de dados rápido con una hoja de cuatro filas de colores que se tachan de izquierda a derecha; todos juegan, aunque no sea su turno. Tocas cada cruz y cada fallo directamente en la hoja. La app sabe qué números quedan libres, cierra filas, termina el juego y suma los puntos.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Descargar en el App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacidad</a> · <a href="../../support.html">Soporte</a></p>
+      <p>Los nombres de los juegos son genéricos; la app no está vinculada a ninguna editorial.</p>
+    </footer>
+  </main>
+</body>
+</html>

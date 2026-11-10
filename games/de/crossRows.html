@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kreuzreihen – Mitgezählt</title>
+  <link rel="alternate" hreflang="de" href="../de/crossRows.html">
+  <link rel="alternate" hreflang="en" href="../en/crossRows.html">
+  <link rel="alternate" hreflang="fr" href="../fr/crossRows.html">
+  <link rel="alternate" hreflang="nl" href="../nl/crossRows.html">
+  <link rel="alternate" hreflang="it" href="../it/crossRows.html">
+  <link rel="alternate" hreflang="es" href="../es/crossRows.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a class="current" href="../de/crossRows.html">Deutsch</a> <a href="../en/crossRows.html" lang="en">English</a> <a href="../fr/crossRows.html" lang="fr">Français</a> <a href="../nl/crossRows.html" lang="nl">Nederlands</a> <a href="../it/crossRows.html" lang="it">Italiano</a> <a href="../es/crossRows.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Alle Spiele</a></p>
+    <h1>Kreuzreihen</h1>
+    <p class="meta">Sechs Würfel, vier Farbreihen ankreuzen · 1–5 Personen · Würfelspiele</p>
+    <h2>Was ist das?</h2>
+<p>Ein Ankreuzspiel mit sechs Würfeln – zwei weißen und je einem roten, gelben, grünen und blauen – und einem Block mit vier Farbreihen. Rot und Gelb laufen von 2 bis 12, Grün und Blau von 12 bis 2. Die weißen Würfel nutzen alle, wer am Zug ist, darf zusätzlich einen Farbwürfel verwenden.</p>
+    <h2>So wird gespielt</h2>
+<p><strong>Vorbereitung</strong>: Ihr braucht zwei weiße Würfel und je einen roten, gelben, grünen und blauen Würfel. Alle haben einen leeren Block mit vier Farbreihen, je einem Schloss am Ende und vier Feldern für Fehlwürfe – die App führt die Blöcke für euch. Gewürfelt wird reihum.</p>
+<p><strong>Ankreuzen</strong>: In jeder Reihe kreuzt man von links nach rechts an. Zahlen darf man überspringen, sie sind dann aber für immer verloren.</p>
+<p>Ein Zug hat zwei Schritte:<br>1. Wer am Zug ist, würfelt mit allen Würfeln und sagt die Summe der beiden weißen an. Alle dürfen diese Zahl in einer beliebigen Reihe ankreuzen, niemand muss.<br>2. Danach darf nur, wer am Zug ist, einen weißen und einen farbigen Würfel zusammenzählen und die Summe in der Reihe dieser Farbe ankreuzen. Auch das ist freiwillig.</p>
+<p><strong>Fehlwurf</strong>: Kreuzt die Person am Zug in keinem der beiden Schritte etwas an, muss sie einen Fehlwurf markieren. Wer nicht am Zug ist, bekommt nie einen Fehlwurf.</p>
+<p><strong>Reihe abschließen</strong>: Die letzte Zahl einer Reihe (12 bei Rot und Gelb, 2 bei Grün und Blau) darf man erst ankreuzen, wenn in der Reihe schon mindestens fünf Kreuze stehen. Dann kreuzt man auch das Schloss an, das als zusätzliches Kreuz zählt. Die Reihe ist damit für alle geschlossen, und der Würfel dieser Farbe kommt aus dem Spiel; im selben Wurf dürfen andere die Zahl aber noch ankreuzen.</p>
+<p><strong>Spielende</strong>: Das Spiel endet sofort, wenn jemand den vierten Fehlwurf markiert oder zwei Reihen geschlossen sind. Allein spielt man genauso und würfelt jeden Zug selbst.</p>
+<p><strong>Wertung</strong>: Je Reihe bringen die Kreuze (Schloss mitgezählt) steigend Punkte: 1 Kreuz 1 Punkt, 2 Kreuze 3, dann 6, 10, 15, 21, 28, 36, 45, 55, 66 und 78 für 12 Kreuze. Jeder Fehlwurf zieht 5 Punkte ab. Die höchste Summe gewinnt. Eine Partie kann aus mehreren Spielen bestehen; Abzug, Zahl der Fehlwürfe und Zahl der Spiele lassen sich beim Anlegen einstellen.</p>
+    <h2>Ziel</h2>
+<p>Möglichst lange Reihen ankreuzen und Fehlwürfe vermeiden. Nach dem vierten Fehlwurf oder der zweiten geschlossenen Reihe gewinnt die höchste Summe.</p>
+    <div class="card">
+      <h3>Wertung in Kürze</h3>
+<p>Die weiße Summe dürfen alle ankreuzen, wer am Zug ist, zusätzlich Weiß plus Farbe; angekreuzt wird nur nach rechts. Kreuzt die Person am Zug nichts an, ist das ein Fehlwurf (−5). Die letzte Zahl erst ab fünf Kreuzen, das Schloss zählt mit. 1 bis 12 Kreuze bringen 1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66 oder 78 Punkte. Schluss beim vierten Fehlwurf oder bei zwei geschlossenen Reihen.</p>
+      <h3>So erfasst du es in der App</h3>
+<p>Schnelles Würfelspiel mit Block und vier Farbreihen, in denen von links nach rechts angekreuzt wird; alle spielen mit, auch wenn sie nicht am Zug sind. Du tippst jedes Kreuz und jeden Fehlwurf direkt im Block an. Die App weiß, welche Zahlen noch frei sind, schließt Reihen ab, beendet das Spiel und rechnet die Punkte.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Im App Store laden</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Datenschutz</a> · <a href="../../support.html">Support</a></p>
+      <p>Spielnamen sind allgemeine Bezeichnungen; die App ist mit keinem Verlag verbunden.</p>
+    </footer>
+  </main>
+</body>
+</html>

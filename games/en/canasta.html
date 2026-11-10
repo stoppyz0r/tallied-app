@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Canasta – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/canasta.html">
+  <link rel="alternate" hreflang="en" href="../en/canasta.html">
+  <link rel="alternate" hreflang="fr" href="../fr/canasta.html">
+  <link rel="alternate" hreflang="nl" href="../nl/canasta.html">
+  <link rel="alternate" hreflang="it" href="../it/canasta.html">
+  <link rel="alternate" hreflang="es" href="../es/canasta.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/canasta.html" lang="de">Deutsch</a> <a class="current" href="../en/canasta.html">English</a> <a href="../fr/canasta.html" lang="fr">Français</a> <a href="../nl/canasta.html" lang="nl">Nederlands</a> <a href="../it/canasta.html" lang="it">Italiano</a> <a href="../es/canasta.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← All games</a></p>
+    <h1>Canasta</h1>
+    <p class="meta">Collect seven of a kind for a canasta · 2, 3, 4, 6 players · Card games</p>
+    <h2>What is it?</h2>
+<p>A collecting and melding game with two decks and four jokers. Twos and jokers stand in for other cards, seven cards of the same rank make a canasta, and red threes earn bonus points. Picking up the whole discard pile can turn a round around.</p>
+    <h2>How it’s played</h2>
+<p><strong>Setup</strong>: With four players, shuffle two 52-card decks with four jokers; partners sit opposite each other. Everyone gets eleven cards, the rest is placed face down as the draw pile, and one card is turned up next to it. If it is a red three or a wild card, another card goes on top and the discard pile is frozen. The player to the dealer’s left starts, and play moves clockwise.</p>
+<p><strong>Melds</strong>: A meld is at least three cards of the same rank; there are no runs. Twos and jokers are wild; a meld needs at least two natural cards and no more than three wild cards. Partners meld together and add to their team’s melds. From seven cards on, a meld is a canasta: natural without wild cards, mixed with wild cards. Black threes may only be melded when going out.</p>
+<p><strong>First meld</strong>: The first cards a team melds must together reach a minimum that depends on its score: below 0 points 15, from 0 points 50, from 1500 points 90, from 3000 points 120. The app shows the value before each round.</p>
+<p><strong>Taking a turn</strong>: On your turn, draw a card from the draw pile or take the whole discard pile under the conditions below. Then you may meld and add to your team’s melds. Finish by discarding one card. Red threes are placed face up in front of you at once, and you draw a replacement, even if you were dealt them.</p>
+<p><strong>Discard pile</strong>: You may only take it if you use the top card right away. Before your team’s first meld and when the pile is frozen, you need two natural cards of that rank in your hand. Otherwise it is enough to add the top card to one of your team’s melds. Discarding a wild card freezes the pile until someone takes it. If a black three is on top, the next player may not take the pile.</p>
+<p><strong>Going out</strong>: Whoever melds all their cards (with or without a final discard) ends the round; the team needs at least one canasta for this. You may ask your partner first and must follow the answer. Going out concealed means melding your whole hand, including a canasta, at once without having melded anything before. When the draw pile runs out, the round ends as well.</p>
+<p><strong>Scoring</strong>: Melded cards count plus, cards in hand minus: joker 50, two and ace 20, king to eight 10 each, seven to four and black three 5 each. Add 500 points per natural and 300 per mixed canasta. Red threes count 100 each, all four together 800; if the team has melded nothing, they count minus. Going out earns 100 points, concealed 200.</p>
+<p><strong>End of the game</strong>: The game ends after the round in which a team reaches 5000 points; the higher total wins. With two or three players everyone plays alone (usually with 15 or 13 cards). With six, two teams of three play with three decks to 10,000 points. With two and with six players you need two canastas to go out.</p>
+    <h2>Goal</h2>
+<p>Be the first to reach 5000 points with canastas, cards and bonuses. If both teams get there in the same round, the higher total wins.</p>
+    <div class="card">
+      <h3>Scoring at a glance</h3>
+<p>Melded cards count plus, cards in hand minus: joker 50, two and ace 20, king to eight 10, seven to four and black three 5. Natural canasta 500, mixed 300; red threes 100 each, all four 800, minus without a meld. Going out (with at least one canasta) 100, concealed 200. Minimum first meld 15, 50, 90 or 120 depending on the score. The game ends after the round that reaches 5000.</p>
+      <h3>Keeping score in the app</h3>
+<p>Card game with two decks and jokers, played by four in two teams. Melding cards of the same rank scores points; seven of them make a canasta and earn a bonus. You enter each team’s canastas, red threes and card points, melded and in hand – the app adds the bonuses, shows the minimum first meld and spots who reaches 5000.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Download on the App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Support</a></p>
+      <p>Game names are generic terms; the app is not affiliated with any publisher.</p>
+    </footer>
+  </main>
+</body>
+</html>

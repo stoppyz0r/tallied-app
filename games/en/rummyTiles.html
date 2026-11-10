@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rummy Tiles – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/rummyTiles.html">
+  <link rel="alternate" hreflang="en" href="../en/rummyTiles.html">
+  <link rel="alternate" hreflang="fr" href="../fr/rummyTiles.html">
+  <link rel="alternate" hreflang="nl" href="../nl/rummyTiles.html">
+  <link rel="alternate" hreflang="it" href="../it/rummyTiles.html">
+  <link rel="alternate" hreflang="es" href="../es/rummyTiles.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/rummyTiles.html" lang="de">Deutsch</a> <a class="current" href="../en/rummyTiles.html">English</a> <a href="../fr/rummyTiles.html" lang="fr">Français</a> <a href="../nl/rummyTiles.html" lang="nl">Nederlands</a> <a href="../it/rummyTiles.html" lang="it">Italiano</a> <a href="../es/rummyTiles.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← All games</a></p>
+    <h1>Rummy Tiles</h1>
+    <p class="meta">Lay down number tiles and rearrange them · 2–4 players · Board and tile games</p>
+    <h2>What is it?</h2>
+<p><strong>Rummy with 106 tiles</strong>: each number from 1 to 13 twice in four colors, plus two jokers. Everyone keeps their tiles on small racks so nobody else can see them. What sets it apart is that anyone may rearrange the groups and runs on the table to get rid of their own tiles.</p>
+    <h2>How it’s played</h2>
+<p><strong>Setup</strong>: Shuffle the 106 tiles face down. Everyone takes 14 tiles onto their rack, and the rest stays as the pool. Players take turns.</p>
+<p><strong>Combinations</strong>: A group is three or four of the same number in different colors. A run is at least three consecutive numbers of the same color; 1 doesn’t follow 13. A joker stands in for any tile.</p>
+<p><strong>First meld</strong>: The first time, you must lay down combinations worth at least 30 points using tiles from your own rack; a joker counts as much as the tile it replaces. Before that you may not change anything on the table.</p>
+<p><strong>Later turns</strong>: After that you may lay down new groups and runs, add tiles and rearrange everything on the table – for example split a long run or take one tile from a group of four. At the end of your turn everything on the table must again form valid combinations of at least three tiles. You may swap a joker for the matching tile, but must lay it down again in the same turn.</p>
+<p><strong>Not playing</strong>: If you can’t or don’t want to lay anything down, draw a tile from the pool; that ends your turn.</p>
+<p><strong>End of the round and scoring</strong>: Whoever lays down all their tiles first wins the round. Everyone else adds up their leftover tiles – each number its value, a joker 30 – and loses those points. The winner is credited with the sum of all leftovers.</p>
+<p><strong>Empty pool</strong>: If the pool runs out and nobody can play, the lowest leftover total wins. Everyone else loses the difference between their leftover and that total, and the winner gets all the differences combined. If several share the lowest total, each of them gets the full amount.</p>
+<p><strong>End of the game</strong>: Play open-ended or an agreed number of rounds, usually four. The highest total wins.</p>
+    <h2>Goal</h2>
+<p>Be the first to lay down all your tiles and collect the others’ leftovers. In the end the highest total wins.</p>
+    <div class="card">
+      <h3>Scoring at a glance</h3>
+<p>Whoever runs out of tiles first gets the sum of everyone else’s leftover tiles; they each lose their own leftovers. Tiles count their number, a joker 30. If nobody goes out, the lowest leftover total wins, and the others lose the difference to it. The highest total wins.</p>
+      <h3>Keeping score in the app</h3>
+<p>Rummy with number tiles from 1 to 13 in four colors instead of cards: groups and runs are laid down and rearranged. Whoever gets rid of all their tiles first is credited with the others’ leftover values, and the others lose theirs. You enter the leftover tiles, and the app works out the points.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Download on the App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Support</a></p>
+      <p>Game names are generic terms; the app is not affiliated with any publisher.</p>
+    </footer>
+  </main>
+</body>
+</html>

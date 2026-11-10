@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bolos – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/bowling.html">
+  <link rel="alternate" hreflang="en" href="../en/bowling.html">
+  <link rel="alternate" hreflang="fr" href="../fr/bowling.html">
+  <link rel="alternate" hreflang="nl" href="../nl/bowling.html">
+  <link rel="alternate" hreflang="it" href="../it/bowling.html">
+  <link rel="alternate" hreflang="es" href="../es/bowling.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/bowling.html" lang="de">Deutsch</a> <a href="../en/bowling.html" lang="en">English</a> <a href="../fr/bowling.html" lang="fr">Français</a> <a href="../nl/bowling.html" lang="nl">Nederlands</a> <a href="../it/bowling.html" lang="it">Italiano</a> <a class="current" href="../es/bowling.html">Español</a></nav>
+    <p><a href="index.html">← Todos los juegos</a></p>
+    <h1>Bolos</h1>
+    <p class="meta">Diez bolos, diez frames, strikes y spares · 1–8 personas · Juegos de bolas, lanzamiento y pista</p>
+    <h2>¿Qué es?</h2>
+<p>Bolos en una pista con diez bolos colocados en triángulo. Una línea tiene diez frames de hasta dos tiradas cada uno, y el strike y el spare suman tiradas posteriores como bonificación. El máximo son 300 puntos: la línea perfecta de doce strikes.</p>
+    <h2>Cómo se juega</h2>
+<p><strong>Preparación</strong>: Necesitáis una pista de bolos con diez bolos y bolas. Acordad el orden y si jugáis una línea o una serie de varias. Todos empiezan con 0 puntos.</p>
+<p><strong>Frames 1 a 9</strong>: Cada persona juega su frame completo y luego la siguiente. La primera tirada va contra los diez bolos. Si caen todos, es un strike y el frame termina. Si no, hay una segunda tirada contra los bolos que siguen en pie. Para el siguiente frame se vuelven a colocar todos los bolos.</p>
+<p>Puntuación:<br>Así, el valor de un frame con strike o spare solo se conoce tras las tiradas siguientes.</p>
+<ul><li>Frame abierto: Tras dos tiradas aún quedan bolos en pie; cuentan los bolos derribados.</li><li>Spare: Los diez bolos caen en dos tiradas; el frame vale 10 más los bolos de la tirada siguiente.</li><li>Strike: Los diez caen en la primera tirada; el frame vale 10 más los bolos de las dos tiradas siguientes.</li></ul>
+<p><strong>Frame 10</strong>: Tras un spare hay una tirada extra; tras un strike, dos. Si en ellas caen todos los bolos, se vuelven a colocar. Sin strike ni spare se queda en dos tiradas; nunca hay más de tres.</p>
+<p><strong>Falta y split</strong>: Pisar la línea de falta al tirar es falta: la tirada vale 0 y los bolos quedan como estaban. Un split es lo que queda tras la primera tirada cuando el bolo delantero ha caído y los que siguen en pie están separados; es difícil de derribar, pero no cambia la puntuación.</p>
+<p><strong>Fin de la partida</strong>: Tras diez frames gana el total más alto, como máximo 300. En una serie se suman todas las líneas. El número de frames, la serie, los equipos y una caja de multas para las bolas al canal (una primera tirada sin derribar ningún bolo), las tiradas a cero y las faltas se pueden ajustar al crear la partida.</p>
+    <h2>Objetivo</h2>
+<p>Consigue el total más alto tras diez frames con strikes y spares, como máximo 300. En una serie cuentan todas las líneas juntas.</p>
+    <div class="card">
+      <h3>La puntuación en resumen</h3>
+<p>Una línea tiene diez frames con hasta dos tiradas. Strike: 10 más las dos tiradas siguientes; spare: 10 más la tirada siguiente; si no, cuentan los bolos derribados. En el décimo frame, un strike da dos tiradas extra, y un spare, una. Una falta cuenta 0. Gana el total más alto, 300 como máximo.</p>
+      <h3>Cómo anotarlo en la app</h3>
+<p>Bolos de diez con la puntuación clásica: el strike y el spare dan puntos extra, y el último frame, tiradas extra. Tras cada tirada tocas el número de bolos derribados o los bolos en el triángulo. La app sabe a quién le toca y qué sigue en pie, reconoce los splits, cuenta las faltas y la caja de multas, y calcula cada frame.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Descargar en el App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacidad</a> · <a href="../../support.html">Soporte</a></p>
+      <p>Los nombres de los juegos son genéricos; la app no está vinculada a ninguna editorial.</p>
+    </footer>
+  </main>
+</body>
+</html>

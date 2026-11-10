@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Schocken – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/schocken.html">
+  <link rel="alternate" hreflang="en" href="../en/schocken.html">
+  <link rel="alternate" hreflang="fr" href="../fr/schocken.html">
+  <link rel="alternate" hreflang="nl" href="../nl/schocken.html">
+  <link rel="alternate" hreflang="it" href="../it/schocken.html">
+  <link rel="alternate" hreflang="es" href="../es/schocken.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/schocken.html" lang="de">Deutsch</a> <a class="current" href="../en/schocken.html">English</a> <a href="../fr/schocken.html" lang="fr">Français</a> <a href="../nl/schocken.html" lang="nl">Nederlands</a> <a href="../it/schocken.html" lang="it">Italiano</a> <a href="../es/schocken.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← All games</a></p>
+    <h1>Schocken</h1>
+    <p class="meta">Three dice, lids and Schock out · 2–10 players · Dice games</p>
+    <h2>What is it?</h2>
+<p>A pub dice game from the Rhineland with three dice, a cup and beer mats as penalty points. Rolls with two ones are called a Schock and beat triples and straights; three ones are “Schock out”. Whoever ends up with all the lids loses the half.</p>
+    <h2>How it’s played</h2>
+<p><strong>Setup</strong>: You need three dice, a cup and lids, usually 13, placed in the middle. A game has two halves and, if needed, a final; at the start of each half all lids are in the middle.</p>
+<p><strong>Rolling</strong>: The first player rolls up to three times and thereby sets how often the others may roll at most this round. You may set ones aside and keep rolling with the other dice. If you roll two sixes, you may turn one of them into a one and set it aside. Everyone rolls in turn, then the rolls are compared.</p>
+<p>Ranking, from best to worst:<br>With equal rolls, whoever needed fewer rolls is better, then whoever rolled earlier.</p>
+<ul><li>Schock out: three ones.</li><li>Schock 6 to Schock 2: two ones and another number, worth as many lids as that number.</li><li>General: three of a kind, 3 lids; higher numbers are better.</li><li>Straight: three consecutive numbers, 2 lids; higher straights are better.</li><li>Number: all other rolls, read in descending order as a three-digit number, 1 lid; 6-6-5 is the best, 2-2-1 the worst.</li></ul>
+<p><strong>Handing out lids</strong>: The worst roll gets as many lids as the best roll is worth. As long as there are lids in the middle, they come from there. Once the middle is empty, the player with the best roll passes lids from their own pile; anyone left without lids is out for the rest of the half. If someone rolls Schock out, the worst roll of the round gets all the lids at once. Whoever loses a round starts the next.</p>
+<p><strong>Halves and final</strong>: Whoever has all the lids loses the half and starts the next one. If the same player loses both halves, they have lost the game. Otherwise the two losers play a final as a pair, started by the loser of the second half; whoever loses it loses the game.</p>
+<p><strong>Variants</strong>: The number of lids, a single half and the “Jule” (4-2-1 is worth 7 lids, right after Schock out) can be set when you create the game.</p>
+    <h2>Goal</h2>
+<p>Don’t end up with all the lids. Whoever loses both halves or the final has lost the game.</p>
+    <div class="card">
+      <h3>Scoring at a glance</h3>
+<p>Up to three rolls, set by the first player. Rank: Schock out (1-1-1), Schock 6 to 2 (two ones, lids equal to the third die), general (3 lids), straight (2), number up to 6-6-5 (1). Equal rolls: fewer rolls, then earlier. The worst roll takes the value of the best, first from the middle, then from the best. All lids lose the half.</p>
+      <h3>Keeping score in the app</h3>
+<p>Pub dice game with three dice and lids. Everyone rolls up to three times, and the first player sets how often; the worst roll collects lids. After each turn you tap the three dice and the number of rolls, and the app knows the ranking, hands out the lids and guides you through both halves and the final.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Download on the App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Support</a></p>
+      <p>Game names are generic terms; the app is not affiliated with any publisher.</p>
+    </footer>
+  </main>
+</body>
+</html>

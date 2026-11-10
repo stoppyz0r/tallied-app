@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cinco dados – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/fiveDice.html">
+  <link rel="alternate" hreflang="en" href="../en/fiveDice.html">
+  <link rel="alternate" hreflang="fr" href="../fr/fiveDice.html">
+  <link rel="alternate" hreflang="nl" href="../nl/fiveDice.html">
+  <link rel="alternate" hreflang="it" href="../it/fiveDice.html">
+  <link rel="alternate" hreflang="es" href="../es/fiveDice.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/fiveDice.html" lang="de">Deutsch</a> <a href="../en/fiveDice.html" lang="en">English</a> <a href="../fr/fiveDice.html" lang="fr">Français</a> <a href="../nl/fiveDice.html" lang="nl">Nederlands</a> <a href="../it/fiveDice.html" lang="it">Italiano</a> <a class="current" href="../es/fiveDice.html">Español</a></nav>
+    <p><a href="index.html">← Todos los juegos</a></p>
+    <h1>Cinco dados</h1>
+    <p class="meta">Cinco dados, tres tiradas, llena la hoja · 1–8 personas · Juegos de dados</p>
+    <h2>¿Qué es?</h2>
+<p>El clásico de dados con cinco dados, un cubilete y una hoja de 13 casillas: arriba, de unos a seises; abajo, tres iguales, cuatro iguales, full, escalera pequeña y grande, cinco iguales y suerte. Gana quien tenga más puntos tras 13 rondas.</p>
+    <h2>Cómo se juega</h2>
+<p><strong>Preparación</strong>: Hacen falta cinco dados, un cubilete y, para cada persona, una columna con 13 casillas vacías; la app se encarga de la hoja. Se juega por turnos.</p>
+<p><strong>Turno</strong>: En tu turno, tira los cinco dados. Después puedes guardar los dados que quieras y volver a tirar los demás, hasta tres tiradas en total. Los dados guardados se pueden volver a tirar en la siguiente tirada. También puedes plantarte antes.</p>
+<p><strong>Anotar</strong>: Tras tu última tirada, anota el resultado en exactamente una casilla libre. Cada casilla solo se puede rellenar una vez. Si la tirada no encaja en ninguna casilla libre o no quieres usarla, tacha una casilla libre con un 0.</p>
+<p><strong>Parte superior</strong>: En las casillas de unos a seises solo cuentan los dados con ese número; así, tres cuatros dan 12 puntos. Si tu parte superior suma al menos 63, recibes 35 puntos de bonus.</p>
+<p>Parte inferior:</p>
+<ul><li>Tres iguales: al menos tres dados iguales; vale la suma de todos los dados.</li><li>Cuatro iguales: al menos cuatro dados iguales; vale la suma de todos los dados.</li><li>Full: tres de un número y dos de otro, 25 puntos.</li><li>Escalera pequeña: cuatro números consecutivos, 30 puntos.</li><li>Escalera grande: cinco números consecutivos, 40 puntos.</li><li>Cinco iguales: los cinco dados iguales, 50 puntos.</li><li>Suerte: cualquier tirada; vale la suma de todos los dados.</li></ul>
+<p><strong>Fin de la partida</strong>: Tras 13 rondas, todas las casillas están llenas. La parte superior, el bonus y la parte inferior forman el total; gana el más alto. Si juegas en solitario, el total es tu resultado personal. Las reglas de la casa, como el bonus extra por más cinco iguales, comodines, orden fijo o tres columnas, se pueden ajustar al crear la partida.</p>
+    <h2>Objetivo</h2>
+<p>Tener el total más alto en la hoja tras 13 rondas, con el bonus por 63 puntos en la parte superior.</p>
+    <div class="card">
+      <h3>La puntuación en resumen</h3>
+<p>Por turnos, cada persona tira hasta tres veces y anota el resultado en una casilla libre. En la parte superior solo cuentan los dados de ese número (p. ej. tres cuatros = 12), y con 63 o más hay un bonus de 35 puntos. Parte inferior: tres iguales y cuatro iguales suman todos los dados, full 25, escalera pequeña 30, escalera grande 40, cinco iguales 50, suerte todos los dados. Si nada encaja, se tacha una casilla con 0.</p>
+      <h3>Cómo anotarlo en la app</h3>
+<p><strong>Juego con cinco dados</strong>: por turnos, cada persona tira hasta tres veces y anota el resultado en una casilla libre, como tres iguales, full o escalera. Cada casilla solo se puede usar una vez. Introduces el valor de cada casilla, y la app conoce los valores permitidos y calcula los totales y el bonus de la parte superior.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Descargar en el App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacidad</a> · <a href="../../support.html">Soporte</a></p>
+      <p>Los nombres de los juegos son genéricos; la app no está vinculada a ninguna editorial.</p>
+    </footer>
+  </main>
+</body>
+</html>

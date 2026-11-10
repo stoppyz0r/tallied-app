@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Schach – Mitgezählt</title>
+  <link rel="alternate" hreflang="de" href="../de/chess.html">
+  <link rel="alternate" hreflang="en" href="../en/chess.html">
+  <link rel="alternate" hreflang="fr" href="../fr/chess.html">
+  <link rel="alternate" hreflang="nl" href="../nl/chess.html">
+  <link rel="alternate" hreflang="it" href="../it/chess.html">
+  <link rel="alternate" hreflang="es" href="../es/chess.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a class="current" href="../de/chess.html">Deutsch</a> <a href="../en/chess.html" lang="en">English</a> <a href="../fr/chess.html" lang="fr">Français</a> <a href="../nl/chess.html" lang="nl">Nederlands</a> <a href="../it/chess.html" lang="it">Italiano</a> <a href="../es/chess.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Alle Spiele</a></p>
+    <h1>Schach</h1>
+    <p class="meta">Matt setzen, auf Wunsch mit Schachuhr · 2 Personen · Brett- und Legespiele</p>
+    <h2>Was ist das?</h2>
+<p>Das klassische Strategiespiel auf 64 Feldern: Weiß und Schwarz ziehen abwechselnd mit König, Dame, Türmen, Läufern, Springern und Bauern.</p>
+    <h2>So wird gespielt</h2>
+<p><strong>Aufbau</strong>: Das Brett liegt so, dass rechts unten ein helles Feld ist. In der zweiten Reihe stehen die Bauern, dahinter von außen nach innen Türme, Springer, Läufer, die Dame auf ihrer Farbe und der König. Weiß beginnt.</p>
+<p><strong>Ziehen</strong>: Der König zieht ein Feld in jede Richtung, die Dame beliebig weit gerade und schräg, der Turm gerade, der Läufer schräg, der Springer zwei Felder gerade und eins zur Seite und springt dabei. Bauern ziehen ein Feld vor, beim ersten Zug auch zwei, und schlagen schräg nach vorn. Wer auf ein Feld mit einer gegnerischen Figur zieht, schlägt sie.</p>
+<p><strong>Sonderzüge</strong>: Rochade (König zwei Felder zum Turm, der Turm springt über ihn), Schlagen im Vorbeigehen und Umwandlung eines Bauern auf der letzten Reihe.</p>
+<p><strong>Schach und Matt</strong>: Wird der König angegriffen, steht er im Schach und muss sofort befreit werden. Geht das nicht, ist er matt und die Partie verloren.</p>
+<p><strong>Remis</strong>: bei Patt (kein Zug möglich, aber kein Schach), bei Einigung, bei dreimaliger Wiederholung der Stellung oder wenn niemand mehr matt setzen kann.</p>
+<p><strong>Schachuhr</strong>: Mit Uhr hat jede Seite eine Bedenkzeit für die ganze Partie, oft mit einem Zuschlag nach jedem Zug. Wer die Zeit überschreitet, verliert.</p>
+    <h2>Ziel</h2>
+<p>Den gegnerischen König mattsetzen: Er wird angegriffen und kann nicht mehr entkommen.</p>
+    <div class="card">
+      <h3>Wertung in Kürze</h3>
+<p>Matt gewinnt, Remis bei Patt, Einigung oder Wiederholung. Mit Schachuhr verliert, wessen Zeit abläuft.</p>
+      <h3>So erfasst du es in der App</h3>
+<p>Das Brettspiel zu zweit. Du tippst nach jeder Partie Sieg oder Remis an – die App führt die Begegnung, die Spielstärke und auf Wunsch eine Schachuhr mit Bedenkzeit und Zuschlag.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Im App Store laden</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Datenschutz</a> · <a href="../../support.html">Support</a></p>
+      <p>Spielnamen sind allgemeine Bezeichnungen; die App ist mit keinem Verlag verbunden.</p>
+    </footer>
+  </main>
+</body>
+</html>

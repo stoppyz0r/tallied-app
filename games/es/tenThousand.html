@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diez mil – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/tenThousand.html">
+  <link rel="alternate" hreflang="en" href="../en/tenThousand.html">
+  <link rel="alternate" hreflang="fr" href="../fr/tenThousand.html">
+  <link rel="alternate" hreflang="nl" href="../nl/tenThousand.html">
+  <link rel="alternate" hreflang="it" href="../it/tenThousand.html">
+  <link rel="alternate" hreflang="es" href="../es/tenThousand.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/tenThousand.html" lang="de">Deutsch</a> <a href="../en/tenThousand.html" lang="en">English</a> <a href="../fr/tenThousand.html" lang="fr">Français</a> <a href="../nl/tenThousand.html" lang="nl">Nederlands</a> <a href="../it/tenThousand.html" lang="it">Italiano</a> <a class="current" href="../es/tenThousand.html">Español</a></nav>
+    <p><a href="index.html">← Todos los juegos</a></p>
+    <h1>Diez mil</h1>
+    <p class="meta">Tira, aparta, arriésgate · 1–10 personas · Juegos de dados</p>
+    <h2>¿Qué es?</h2>
+<p>El conocido juego con seis dados, también llamado 5000. Solo necesitas dados y algo para escribir.</p>
+    <h2>Cómo se juega</h2>
+<p><strong>Material</strong>: seis dados; se juega por turnos.</p>
+<p><strong>Un turno</strong>: tira los seis dados. Aparta al menos un dado que puntúe: un 1 vale 100, un 5 vale 50, tres iguales valen el número por 100, tres unos 1000. Con cuatro, cinco o seis iguales, cada dado de más dobla el valor. Una escalera del 1 al 6 vale 1500. Después decides: plantarte y apuntar los puntos del turno, o seguir tirando con los dados que quedan. Si has apartado los seis, puedes volver a tirar los seis.</p>
+<p><strong>Fallo</strong>: si una tirada no tiene ningún dado que puntúe, se pierden todos los puntos de ese turno y tira la siguiente persona.</p>
+<p><strong>Entrada</strong>: quien aún no tiene puntos necesita al menos 350 en un turno; si no, sigue tirando o falla.</p>
+<p><strong>Final</strong>: gana quien llega antes a 10.000. Solo cuentan juntos los dados de una misma tirada: un 5 de la primera tirada y dos 5 de la segunda no son un trío.</p>
+<p>En la app marcas los dados apartados en cada tirada o introduces solo la suma; el objetivo, la entrada, la escalera, las tres parejas y una última ronda se ajustan como reglas de la casa.</p>
+    <h2>Objetivo</h2>
+<p>Llegar antes que nadie a 10.000 puntos.</p>
+    <div class="card">
+      <h3>La puntuación en resumen</h3>
+<p>Tras cada tirada aparta los dados que puntúan (1 = 100, 5 = 50, tres iguales = valor × 100, tres unos 1000) y luego anota o sigue tirando. Una tirada sin ningún dado que puntúe es nula. Para entrar, al menos 350 en un turno. Gana quien llega antes a 10 000.</p>
+      <h3>Cómo anotarlo en la app</h3>
+<p>Tras cada tirada apartáis los dados que puntúan y decidís si seguís tirando. La app puntúa unos, cincos, tríos y escaleras, vigila el mínimo de entrada y cuenta hasta 10.000.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Descargar en el App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacidad</a> · <a href="../../support.html">Soporte</a></p>
+      <p>Los nombres de los juegos son genéricos; la app no está vinculada a ninguna editorial.</p>
+    </footer>
+  </main>
+</body>
+</html>

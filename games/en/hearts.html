@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hearts – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/hearts.html">
+  <link rel="alternate" hreflang="en" href="../en/hearts.html">
+  <link rel="alternate" hreflang="fr" href="../fr/hearts.html">
+  <link rel="alternate" hreflang="nl" href="../nl/hearts.html">
+  <link rel="alternate" hreflang="it" href="../it/hearts.html">
+  <link rel="alternate" hreflang="es" href="../es/hearts.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/hearts.html" lang="de">Deutsch</a> <a class="current" href="../en/hearts.html">English</a> <a href="../fr/hearts.html" lang="fr">Français</a> <a href="../nl/hearts.html" lang="nl">Nederlands</a> <a href="../it/hearts.html" lang="it">Italiano</a> <a href="../es/hearts.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← All games</a></p>
+    <h1>Hearts</h1>
+    <p class="meta">Avoid hearts and the queen of spades · 3–6 players · Card games</p>
+    <h2>What is it?</h2>
+<p>A trick-taking game with a standard 52-card deck, also known as Black Lady. Before each round you pass three cards on. Hearts and the queen of spades bring penalty points – but whoever collects them all “shoots the moon” and turns the tables.</p>
+    <h2>How it’s played</h2>
+<p><strong>Setup</strong>: With four players, use all 52 cards without jokers; everyone gets 13 cards. With three, five or six players, first take out the lowest clubs and diamonds until everyone gets the same number of cards; hearts and the queen of spades always stay in. Before each round everyone picks three cards and passes them face down, usually to the left, to the right, across and not at all every fourth round. Only then do you pick up the cards you received.</p>
+<p><strong>Tricks</strong>: Whoever holds the 2 of clubs leads it to the first trick (if it’s out, the lowest club). Going clockwise, everyone adds one card. You must follow the suit led; if you can’t, you may discard any card. There are no trumps. The highest card of the suit led wins the trick (ace high), and the winner leads the next.</p>
+<p><strong>Penalty cards</strong>: In the first trick you may not discard hearts or the queen of spades if you have another card. Hearts may only be led once a heart has been discarded – unless you have nothing but hearts left.</p>
+<p><strong>Scoring</strong>: After all tricks, each heart taken counts one penalty point, the queen of spades 13. Whoever takes all 13 hearts and the queen of spades shoots the moon: they get 0 points and everyone else 26 each. As a variant, they get −26 instead and the others nothing; with the jack-of-diamonds rule, the jack of diamonds counts −10.</p>
+<p><strong>End of the game</strong>: The game ends after the round in which someone reaches the limit, usually 100 points. The lowest total wins.</p>
+    <h2>Goal</h2>
+<p>Avoid hearts and the queen of spades – or take them all and shoot the moon. Once someone reaches the limit, the lowest total wins.</p>
+    <div class="card">
+      <h3>Scoring at a glance</h3>
+<p>Each heart counts one penalty point, the queen of spades 13. Whoever takes all the hearts and the queen of spades shoots the moon: 0 points for them, 26 for everyone else. The game ends after the round in which someone reaches the limit (default 100); the lowest total wins.</p>
+      <h3>Keeping score in the app</h3>
+<p>Trick-taking game without trumps in which nobody wants hearts or the queen of spades – unless you take them all. After each round you tap how many hearts each player took and who got the queen of spades. The app adds the points, notices when someone shoots the moon and knows when the game is over.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Download on the App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Support</a></p>
+      <p>Game names are generic terms; the app is not affiliated with any publisher.</p>
+    </footer>
+  </main>
+</body>
+</html>

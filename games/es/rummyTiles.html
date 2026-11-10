@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rummy de fichas – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/rummyTiles.html">
+  <link rel="alternate" hreflang="en" href="../en/rummyTiles.html">
+  <link rel="alternate" hreflang="fr" href="../fr/rummyTiles.html">
+  <link rel="alternate" hreflang="nl" href="../nl/rummyTiles.html">
+  <link rel="alternate" hreflang="it" href="../it/rummyTiles.html">
+  <link rel="alternate" hreflang="es" href="../es/rummyTiles.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/rummyTiles.html" lang="de">Deutsch</a> <a href="../en/rummyTiles.html" lang="en">English</a> <a href="../fr/rummyTiles.html" lang="fr">Français</a> <a href="../nl/rummyTiles.html" lang="nl">Nederlands</a> <a href="../it/rummyTiles.html" lang="it">Italiano</a> <a class="current" href="../es/rummyTiles.html">Español</a></nav>
+    <p><a href="index.html">← Todos los juegos</a></p>
+    <h1>Rummy de fichas</h1>
+    <p class="meta">Baja fichas numeradas y reorganízalas · 2–4 personas · Juegos de tablero y de fichas</p>
+    <h2>¿Qué es?</h2>
+<p><strong>Rummy con 106 fichas</strong>: cada número del 1 al 13 dos veces en cuatro colores, más dos comodines. Cada persona coloca sus fichas en un pequeño atril para que nadie más las vea. Lo que lo distingue es que cualquiera puede reorganizar los grupos y escaleras de la mesa para deshacerse de sus propias fichas.</p>
+    <h2>Cómo se juega</h2>
+<p><strong>Preparación</strong>: Se mezclan las 106 fichas boca abajo. Cada persona coge 14 fichas y las coloca en su atril, y el resto queda como reserva. Se juega por turnos.</p>
+<p><strong>Combinaciones</strong>: Un grupo son tres o cuatro fichas del mismo número y de colores distintos. Una escalera son al menos tres números consecutivos del mismo color; después del 13 no va el 1. Un comodín sustituye cualquier ficha.</p>
+<p><strong>Primera bajada</strong>: La primera vez tienes que bajar combinaciones que sumen al menos 30 puntos con fichas de tu propio atril; un comodín cuenta lo mismo que la ficha que sustituye. Antes de eso no puedes cambiar nada de la mesa.</p>
+<p><strong>Turnos siguientes</strong>: Después puedes bajar nuevos grupos y escaleras, añadir fichas y reorganizar todo lo que hay en la mesa – por ejemplo, partir una escalera larga o quitar una ficha de un grupo de cuatro. Al final de tu turno, todo lo que hay en la mesa debe volver a formar combinaciones válidas de al menos tres fichas. Puedes cambiar un comodín por la ficha correspondiente, pero tienes que volver a bajarlo en el mismo turno.</p>
+<p><strong>Sin bajar</strong>: Si no puedes o no quieres bajar nada, roba una ficha de la reserva; con eso termina tu turno.</p>
+<p><strong>Fin de la ronda y puntuación</strong>: Quien baja primero todas sus fichas gana la ronda. Los demás suman las fichas que les quedan – cada número su valor, un comodín 30 – y pierden esos puntos. Quien gana se apunta la suma de todos los restos.</p>
+<p><strong>Reserva vacía</strong>: Si se acaba la reserva y nadie puede jugar, gana el resto más bajo. Los demás pierden la diferencia entre su resto y ese total, y quien gana recibe todas las diferencias juntas. Si varias personas empatan con el total más bajo, cada una recibe la cantidad completa.</p>
+<p><strong>Fin de la partida</strong>: Se juega sin límite o un número acordado de rondas, normalmente cuatro. Gana el total más alto.</p>
+    <h2>Objetivo</h2>
+<p>Baja antes que nadie todas tus fichas y cobra lo que les queda a los demás. Al final gana el total más alto.</p>
+    <div class="card">
+      <h3>La puntuación en resumen</h3>
+<p>Quien se queda antes sin fichas recibe la suma de las fichas restantes de los demás; cada uno de ellos pierde lo que le queda. Las fichas valen su número; un comodín, 30. Si nadie cierra, gana el resto más bajo y los demás pierden la diferencia con él. Gana el total más alto.</p>
+      <h3>Cómo anotarlo en la app</h3>
+<p>Rummy con fichas numeradas del 1 al 13 en cuatro colores en lugar de cartas: se bajan grupos y escaleras y se reorganizan. Quien se queda primero sin fichas se apunta los valores que les quedan a los demás, y los demás pierden los suyos. Tú introduces las fichas restantes y la app calcula los puntos.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Descargar en el App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacidad</a> · <a href="../../support.html">Soporte</a></p>
+      <p>Los nombres de los juegos son genéricos; la app no está vinculada a ninguna editorial.</p>
+    </footer>
+  </main>
+</body>
+</html>

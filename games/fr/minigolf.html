@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mini-golf – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/minigolf.html">
+  <link rel="alternate" hreflang="en" href="../en/minigolf.html">
+  <link rel="alternate" hreflang="fr" href="../fr/minigolf.html">
+  <link rel="alternate" hreflang="nl" href="../nl/minigolf.html">
+  <link rel="alternate" hreflang="it" href="../it/minigolf.html">
+  <link rel="alternate" hreflang="es" href="../es/minigolf.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/minigolf.html" lang="de">Deutsch</a> <a href="../en/minigolf.html" lang="en">English</a> <a class="current" href="../fr/minigolf.html">Français</a> <a href="../nl/minigolf.html" lang="nl">Nederlands</a> <a href="../it/minigolf.html" lang="it">Italiano</a> <a href="../es/minigolf.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← Tous les jeux</a></p>
+    <h1>Mini-golf</h1>
+    <p class="meta">Rentrez la balle en un minimum de coups · 1–8 joueurs · Jeux de boules, de lancer et de piste</p>
+    <h2>Qu’est-ce que c’est ?</h2>
+<p>Le mini-golf sur un parcours aux pistes pleines d’obstacles – tremplins, loopings, tubes. Avec un club et une balle, vous jouez chaque piste du départ jusqu’au trou et comptez vos coups. Un trou en un, c’est rentrer la balle au premier coup.</p>
+    <h2>Comment on joue</h2>
+<p><strong>Mise en place</strong> : Il vous faut un club, une balle et la carte de score du parcours – l’app la remplace. On joue en général 18 trous, avec une limite de coups par trou, souvent six.</p>
+<p><strong>Jouer un trou</strong> : Posez la balle dans la zone de départ. Un joueur termine le trou, puis le suivant ; ce n’est que lorsque tout le monde a fini qu’on passe au trou suivant. Chaque coup compte, même un coup raté.</p>
+<p><strong>Continuer</strong> : On joue depuis l’endroit où la balle s’arrête. Si elle sort de la piste ou ne franchit pas un obstacle, les règles du parcours s’appliquent : souvent, on repart du départ ou d’une ligne marquée. Vous ne pouvez pas simplement rapprocher la balle du trou.</p>
+<p><strong>Rentrer la balle et limite</strong> : Rentrer la balle au premier coup est un trou en un et compte 1. Si la balle n’est toujours pas dans le trou une fois la limite atteinte, ramassez-la et notez un coup de plus que la limite – 7 avec une limite de six. Si vous la rentrez au dernier coup autorisé, notez le nombre réel.</p>
+<p><strong>Décompte et fin</strong> : Après le dernier trou, tous les coups sont additionnés ; le total le plus bas gagne. En cas d’égalité, celui qui a le plus de trous en un passe devant. Si vous saisissez le par de chaque trou, vous voyez aussi de combien de coups vous êtes au-dessus ou en dessous du par ; cela ne change pas le classement.</p>
+    <h2>Objectif</h2>
+<p>Jouez chaque trou en un minimum de coups. Après le dernier trou, le total le plus bas gagne.</p>
+    <div class="card">
+      <h3>Le décompte en bref</h3>
+<p>Chaque coup compte ; rentrer la balle au premier coup est un trou en un. Si la balle n’est pas rentrée à la limite, on note un coup de plus, soit 7 avec une limite de six. Après le dernier trou, le total le plus bas gagne, en cas d’égalité le plus de trous en un. Le par montre seulement l’écart avec le nombre de coups prévu.</p>
+      <h3>La saisie dans l’app</h3>
+<p><strong>Mini-golf sur 1 à 36 trous</strong> : chaque coup jusqu’au trou compte, et moins c’est mieux. Après chaque trou, vous saisissez les coups de chacun. L’app connaît la limite de coups et compte un coup de plus pour une balle non rentrée, affiche l’écart au par, compte les trous en un et calcule les totaux et le classement.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Télécharger dans l’App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Confidentialité</a> · <a href="../../support.html">Assistance</a></p>
+      <p>Les noms des jeux sont des termes génériques ; l’app n’est liée à aucun éditeur.</p>
+    </footer>
+  </main>
+</body>
+</html>

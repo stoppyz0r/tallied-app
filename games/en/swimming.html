@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thirty-One – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/swimming.html">
+  <link rel="alternate" hreflang="en" href="../en/swimming.html">
+  <link rel="alternate" hreflang="fr" href="../fr/swimming.html">
+  <link rel="alternate" hreflang="nl" href="../nl/swimming.html">
+  <link rel="alternate" hreflang="it" href="../it/swimming.html">
+  <link rel="alternate" hreflang="es" href="../es/swimming.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/swimming.html" lang="de">Deutsch</a> <a class="current" href="../en/swimming.html">English</a> <a href="../fr/swimming.html" lang="fr">Français</a> <a href="../nl/swimming.html" lang="nl">Nederlands</a> <a href="../it/swimming.html" lang="it">Italiano</a> <a href="../es/swimming.html" lang="es">Español</a></nav>
+    <p><a href="index.html">← All games</a></p>
+    <h1>Thirty-One</h1>
+    <p class="meta">Swap cards and aim for 31 · 2–9 players · Card games</p>
+    <h2>What is it?</h2>
+<p>Thirty-One, known in German as Schwimmen or Schnauz, is a swapping game with 32 cards. Everyone holds three cards, three more lie face up in the middle, and the cards of one suit are added up. Knocking signals the end of the round; whoever loses their last life is “swimming” and gets one last chance.</p>
+    <h2>How it’s played</h2>
+<p><strong>Setup</strong>: The game uses 32 cards from 7 to ace in four suits. Everyone starts with three lives and gets three face-down cards. Three more cards go face up in the middle, and the rest stays as the stock. The player to the dealer’s left starts, and play moves clockwise.</p>
+<p><strong>Value of a hand</strong>: Only cards of the same suit are added up, and the best suit counts. Ace counts 11, king, queen and jack 10 each, number cards their value; 31 is the maximum. Three cards of the same rank count 30.5. Three aces are “fire”.</p>
+<p><strong>Taking a turn</strong>: On your turn, swap exactly one card with a card from the middle, or all three cards for the whole middle; swapping two cards isn’t allowed. You may also pass or knock. If everyone passes in a row, the middle is replaced by three new cards from the stock.</p>
+<p><strong>End of the round</strong>: Whoever knocks stops swapping, and everyone else gets one more turn. Whoever has 31 points shows their cards at once, and the round ends without further turns. Then the hands are compared: the weakest hand loses a life; if several are equally weak, each of them loses one. Whoever has fire ends the round at once, and everyone else loses a life.</p>
+<p><strong>Swimming and the end</strong>: Losing your last life doesn’t put you out yet – you are swimming. Only the next loss eliminates you. Cards are only dealt to those still in the game. The last player left wins. The number of lives, swimming and fire can be set when you create the game.</p>
+    <h2>Goal</h2>
+<p>Avoid having the weakest hand and keep your lives as long as possible. The last player left wins.</p>
+    <div class="card">
+      <h3>Scoring at a glance</h3>
+<p>After a knock, everyone else gets one more turn; 31 ends the round at once. The weakest hand loses a life, on a tie everyone with the weakest hand. Anyone with no lives left is swimming and out after the next loss. With fire (three aces) everyone else loses a life. The last player left wins.</p>
+      <h3>Keeping score in the app</h3>
+<p><strong>Card game with lives</strong>: everyone holds three cards and swaps with the open middle to collect as close to 31 points in one suit as possible. Whoever has the weakest hand at the end of a round loses a life. You tap who lost – the app keeps track of lives, swimming and who is out.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Download on the App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Support</a></p>
+      <p>Game names are generic terms; the app is not affiliated with any publisher.</p>
+    </footer>
+  </main>
+</body>
+</html>

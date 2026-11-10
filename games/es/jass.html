@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jass (Schieber) – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/jass.html">
+  <link rel="alternate" hreflang="en" href="../en/jass.html">
+  <link rel="alternate" hreflang="fr" href="../fr/jass.html">
+  <link rel="alternate" hreflang="nl" href="../nl/jass.html">
+  <link rel="alternate" hreflang="it" href="../it/jass.html">
+  <link rel="alternate" hreflang="es" href="../es/jass.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/jass.html" lang="de">Deutsch</a> <a href="../en/jass.html" lang="en">English</a> <a href="../fr/jass.html" lang="fr">Français</a> <a href="../nl/jass.html" lang="nl">Nederlands</a> <a href="../it/jass.html" lang="it">Italiano</a> <a class="current" href="../es/jass.html">Español</a></nav>
+    <p><a href="index.html">← Todos los juegos</a></p>
+    <h1>Jass (Schieber)</h1>
+    <p class="meta">Cuatro en equipos, con cantes, Stöck y factores · 4 personas · Juegos de cartas</p>
+    <h2>¿Qué es?</h2>
+<p>El juego de cartas más conocido de Suiza, con 36 cartas. En el Schieber juegan juntas las dos personas sentadas una frente a otra; quien elige el triunfo también puede pasarle la elección a su pareja.</p>
+    <h2>Cómo se juega</h2>
+<p><strong>Cartas</strong>: 36 cartas; en cada palo, as, rey, Ober, Under, Banner (diez) y del nueve al seis. Cada persona recibe nueve cartas. Quien es mano elige el triunfo o le pasa la elección a su pareja.</p>
+<p><strong>Triunfo</strong>: En el palo de triunfo, el Under (la jota) es la carta más alta (20 puntos), seguido del Nell (el nueve de triunfo, 14). Obenabe significa sin triunfo, con el as como carta más alta; Undenufe, sin triunfo, con el seis como carta más alta.</p>
+<p><strong>Bazas</strong>: Hay que asistir al palo, pero siempre se puede fallar con triunfo; nunca estás obligado a asistir con el Under de triunfo. Quien se lleva la baza sale.</p>
+<p><strong>Recuento</strong>: Las cartas suman 152 puntos y la última baza da 5 más: 157 en total. Un equipo cuenta sus bazas y el otro se queda con el resto. Si un equipo se lleva todas las bazas, hace Match: 257.</p>
+<p><strong>Cantes y Stöck</strong>: Antes de la primera baza se cantan las escaleras (de tres cartas 20, de cuatro 50, de cinco 100…) y cuatro cartas iguales (cuatro Under 200, cuatro nueves 150, las demás 100). Solo puntúa el equipo con el cante más alto. El rey y el Ober de triunfo juntos forman el Stöck: 20 puntos.</p>
+<p><strong>Factor</strong>: Según el triunfo, todos los puntos cuentan una, dos o tres veces. Se juega hasta la meta.</p>
+    <h2>Objetivo</h2>
+<p>Ser el primer equipo en alcanzar la meta, normalmente 2500 con factores o 1000 sin ellos.</p>
+    <div class="card">
+      <h3>La puntuación en resumen</h3>
+<p>157 puntos por mano, un match 257; solo anota sus cantes el equipo con el cante más alto, Stöck 20. Todo cuenta por el factor del triunfo.</p>
+      <h3>Cómo anotarlo en la app</h3>
+<p>El juego de cartas suizo para cuatro, en dos equipos. En cada mano tocas el triunfo, los puntos de cartas contados, el Match, los cantes y el Stöck; la app aplica el factor del triunfo y lleva la cuenta hasta la meta.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Descargar en el App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacidad</a> · <a href="../../support.html">Soporte</a></p>
+      <p>Los nombres de los juegos son genéricos; la app no está vinculada a ninguna editorial.</p>
+    </footer>
+  </main>
+</body>
+</html>

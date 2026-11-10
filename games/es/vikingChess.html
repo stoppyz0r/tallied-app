@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ajedrez vikingo – Tallied</title>
+  <link rel="alternate" hreflang="de" href="../de/vikingChess.html">
+  <link rel="alternate" hreflang="en" href="../en/vikingChess.html">
+  <link rel="alternate" hreflang="fr" href="../fr/vikingChess.html">
+  <link rel="alternate" hreflang="nl" href="../nl/vikingChess.html">
+  <link rel="alternate" hreflang="it" href="../it/vikingChess.html">
+  <link rel="alternate" hreflang="es" href="../es/vikingChess.html">
+  <style>
+:root { --bg:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --card:#f2f2f7; --accent:#1f7a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg:#000000; --fg:#f2f2f7; --muted:#a1a1a6; --card:#1c1c1e; --accent:#4cc38a; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 36px 0 12px; padding-top: 8px; border-top: 1px solid var(--card); }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+.meta { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+nav { display:flex; flex-wrap:wrap; gap:8px 16px; margin-bottom: 16px; font-size: 15px; }
+nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.games { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
+.games strong { display:block; }
+.games span { color: var(--muted); font-size: 14px; }
+.store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
+footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
+</style>
+</head>
+<body>
+  <main>
+    <nav><a href="../de/vikingChess.html" lang="de">Deutsch</a> <a href="../en/vikingChess.html" lang="en">English</a> <a href="../fr/vikingChess.html" lang="fr">Français</a> <a href="../nl/vikingChess.html" lang="nl">Nederlands</a> <a href="../it/vikingChess.html" lang="it">Italiano</a> <a class="current" href="../es/vikingChess.html">Español</a></nav>
+    <p><a href="index.html">← Todos los juegos</a></p>
+    <h1>Ajedrez vikingo</h1>
+    <p class="meta">Derriba los bloques y luego el rey · 2–12 personas · Juegos de bolas, lanzamiento y pista</p>
+    <h2>¿Qué es?</h2>
+<p>Un juego de lanzamiento escandinavo con bloques de madera y un rey en el centro del campo. Dos equipos lanzan palos contra los bloques del otro lado; quien los ha derribado todos puede lanzar contra el rey.</p>
+    <h2>Cómo se juega</h2>
+<p><strong>Montaje</strong>: El campo mide unos 5 por 8 metros. En cada línea de fondo hay cinco bloques base, y el rey está en el centro. Cada equipo tiene seis palos.</p>
+<p><strong>Lanzar</strong>: El equipo que empieza lanza los palos desde su línea de fondo, por abajo y girando en vertical, contra los bloques base del otro lado. Después, el otro equipo lanza los bloques derribados a la mitad del equipo que ha lanzado, donde se ponen de pie como bloques de campo.</p>
+<p><strong>Bloques de campo</strong>: El equipo al que le toca debe derribar primero todos los bloques de campo de la mitad contraria antes de que cuenten los bloques base. Si un bloque de campo queda en pie, el otro equipo puede lanzar en su siguiente turno desde la línea de ese bloque.</p>
+<p><strong>El rey</strong>: Cuando un equipo ha derribado todos los bloques de campo y base del otro lado, puede lanzar los palos que le quedan contra el rey desde la línea de fondo. Si cae, gana el set. Quien derriba el rey antes de tiempo pierde el set en el acto.</p>
+<p><strong>Final</strong>: Normalmente se juega al mejor de tres sets; en torneos también suelen contar los bloques base que siguen en pie.</p>
+    <h2>Objetivo</h2>
+<p>Derribar primero todos los bloques del otro lado y luego el rey, y ganar así el número de sets acordado.</p>
+    <div class="card">
+      <h3>La puntuación en resumen</h3>
+<p>Primero los bloques del campo, luego los bloques de la base del otro lado y después el rey. Si el rey cae demasiado pronto, se pierde el set. Normalmente a dos sets ganados.</p>
+      <h3>Cómo anotarlo en la app</h3>
+<p>Juego de lanzamiento sobre césped para dos equipos. Tras cada set marcas qué equipo ha ganado, con los bloques base en pie si quieres; la app cuenta los sets hasta la victoria y guarda los equipos.</p>
+      <p><a class="store" href="https://apps.apple.com/app/id6824289370">Descargar en el App Store</a></p>
+    </div>
+    <footer>
+      <p><a href="../../index.html">Privacidad</a> · <a href="../../support.html">Soporte</a></p>
+      <p>Los nombres de los juegos son genéricos; la app no está vinculada a ninguna editorial.</p>
+    </footer>
+  </main>
+</body>
+</html>

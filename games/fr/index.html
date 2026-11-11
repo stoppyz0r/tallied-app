@@ -28,6 +28,7 @@ nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
 .games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
 .games strong { display:block; }
 .games span { color: var(--muted); font-size: 14px; }
+.games .known { display:block; margin-top: 4px; font-style: italic; }
 .store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
 footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
 </style>
@@ -41,10 +42,10 @@ footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
     <p><a class="store" href="https://apps.apple.com/app/id6824289370">Télécharger dans l’App Store</a></p>
     <h2>Jeux de cartes</h2>
     <ul class="games">
-        <li><a href="colorDiscard.html"><strong>Défausse !</strong><span>Couleur sur couleur, chiffre sur chiffre</span></a></li>
-        <li><a href="trickBidding.html"><strong>Combien de plis ?</strong><span>Prévoir ses plis, viser juste</span></a></li>
+        <li><a href="colorDiscard.html"><strong>Défausse !</strong><span>Couleur sur couleur, chiffre sur chiffre</span><span class="known">Aussi appelé UNO</span></a></li>
+        <li><a href="trickBidding.html"><strong>Combien de plis ?</strong><span>Prévoir ses plis, viser juste</span><span class="known">Aussi appelé Wizard</span></a></li>
         <li><a href="rommee.html"><strong>Rami</strong><span>Poser des groupes et des suites</span></a></li>
-        <li><a href="phaseRummy.html"><strong>Rami à phases</strong><span>Réussir dix phases dans l’ordre</span></a></li>
+        <li><a href="phaseRummy.html"><strong>Rami à phases</strong><span>Réussir dix phases dans l’ordre</span><span class="known">Aussi appelé Phase 10</span></a></li>
         <li><a href="doppelkopf.html"><strong>Doppelkopf</strong><span>Les dames de trèfle font équipe</span></a></li>
         <li><a href="skat.html"><strong>Skat</strong><span>Enchérir, choisir l’atout, jouer un contre deux</span></a></li>
         <li><a href="schafkopf.html"><strong>Schafkopf</strong><span>Appeler un as ou jouer seul pour 61 points</span></a></li>
@@ -60,28 +61,28 @@ footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
         <li><a href="mus.html"><strong>Mus</strong><span>À quatre, avec señas, envites et órdago</span></a></li>
         <li><a href="tute.html"><strong>Tute</strong><span>Annonces à 20 et 40, et le tute</span></a></li>
         <li><a href="chinchon.html"><strong>Chinchón</strong><span>Rami avec élimination et retour</span></a></li>
-        <li><a href="cardGolf.html"><strong>Golf aux cartes</strong><span>Échangez vos cartes cachées, marquez peu</span></a></li>
+        <li><a href="cardGolf.html"><strong>Golf aux cartes</strong><span>Échangez vos cartes cachées, marquez peu</span><span class="known">Aussi appelé Skyjo</span></a></li>
         <li><a href="hearts.html"><strong>Dame de pique</strong><span>Évitez les cœurs et la dame de pique</span></a></li>
         <li><a href="swimming.html"><strong>Trente et un</strong><span>Échangez des cartes et visez 31</span></a></li>
         <li><a href="mauMau.html"><strong>Mau-Mau</strong><span>Même couleur ou valeur, le valet choisit la couleur</span></a></li>
     </ul>
     <h2>Jeux de dés</h2>
     <ul class="games">
-        <li><a href="fiveDice.html"><strong>Dés en folie</strong><span>Cinq dés, trois lancers, remplissez la feuille</span></a></li>
+        <li><a href="fiveDice.html"><strong>Dés en folie</strong><span>Cinq dés, trois lancers, remplissez la feuille</span><span class="known">Aussi appelé Yams, Yahtzee</span></a></li>
         <li><a href="schocken.html"><strong>Schocken</strong><span>Trois dés, des sous-bocks et Schock out</span></a></li>
         <li><a href="maexchen.html"><strong>Mia</strong><span>Lancez en secret, annoncez plus haut, bluffez</span></a></li>
-        <li><a href="crossRows.html"><strong>Rangées à cocher</strong><span>Six dés, quatre rangées de couleur à cocher</span></a></li>
+        <li><a href="crossRows.html"><strong>Rangées à cocher</strong><span>Six dés, quatre rangées de couleur à cocher</span><span class="known">Aussi appelé Qwixx</span></a></li>
         <li><a href="tenThousand.html"><strong>Dix mille</strong><span>Lancer, mettre de côté, tenter sa chance</span></a></li>
     </ul>
     <h2>Jeux de plateau et de tuiles</h2>
     <ul class="games">
-        <li><a href="tileLaying.html"><strong>Châteaux &amp; routes</strong><span>Bâtir un paysage, occuper villes et routes</span></a></li>
-        <li><a href="wordTiles.html"><strong>Jeu de lettres</strong><span>Poser des mots, exploiter les cases primes</span></a></li>
+        <li><a href="tileLaying.html"><strong>Châteaux &amp; routes</strong><span>Bâtir un paysage, occuper villes et routes</span><span class="known">Aussi appelé Carcassonne</span></a></li>
+        <li><a href="wordTiles.html"><strong>Jeu de lettres</strong><span>Poser des mots, exploiter les cases primes</span><span class="known">Aussi appelé Scrabble</span></a></li>
         <li><a href="backgammon.html"><strong>Backgammon</strong><span>Ramener tous ses pions et les sortir</span></a></li>
         <li><a href="chess.html"><strong>Échecs</strong><span>Échec et mat, avec pendule si vous voulez</span></a></li>
         <li><a href="checkers.html"><strong>Dames</strong><span>Avancer en diagonale, sauter, devenir dame</span></a></li>
         <li><a href="mill.html"><strong>Jeu du moulin</strong><span>Trois en ligne, puis prenez un pion</span></a></li>
-        <li><a href="rummyTiles.html"><strong>Rami à tuiles</strong><span>Poser des tuiles et tout réorganiser</span></a></li>
+        <li><a href="rummyTiles.html"><strong>Rami à tuiles</strong><span>Poser des tuiles et tout réorganiser</span><span class="known">Aussi appelé Rummikub</span></a></li>
     </ul>
     <h2>Fléchettes</h2>
     <ul class="games">
@@ -101,9 +102,9 @@ footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
         <li><a href="bowling.html"><strong>Bowling</strong><span>Dix quilles, dix frames, strikes et spares</span></a></li>
         <li><a href="minigolf.html"><strong>Mini-golf</strong><span>Rentrez la balle en un minimum de coups</span></a></li>
         <li><a href="boule.html"><strong>Pétanque</strong><span>Au plus près du cochonnet, premier à 13</span></a></li>
-        <li><a href="skittleToss.html"><strong>Quilles finlandaises</strong><span>Faire tomber douze quilles, viser pile 50</span></a></li>
+        <li><a href="skittleToss.html"><strong>Quilles finlandaises</strong><span>Faire tomber douze quilles, viser pile 50</span><span class="known">Aussi appelé Mölkky</span></a></li>
         <li><a href="sjoelen.html"><strong>Billard hollandais</strong><span>30 palets, quatre portes, la série vaut 20</span></a></li>
-        <li><a href="vikingChess.html"><strong>Échecs vikings</strong><span>Renverser les blocs, puis le roi</span></a></li>
+        <li><a href="vikingChess.html"><strong>Échecs vikings</strong><span>Renverser les blocs, puis le roi</span><span class="known">Aussi appelé Kubb</span></a></li>
     </ul>
     <h2>Sport</h2>
     <ul class="games">
@@ -120,11 +121,11 @@ footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
     <h2>Score libre</h2>
     <ul class="games">
         <li><a href="cityCountryRiver.html"><strong>Petit Bac</strong><span>Une lettre, plein de mots</span></a></li>
-        <li><a href="wordGuessing.html"><strong>Mots à deviner</strong><span>Décrire, dessiner, mimer – deviner en équipe</span></a></li>
+        <li><a href="wordGuessing.html"><strong>Mots à deviner</strong><span>Décrire, dessiner, mimer – deviner en équipe</span><span class="known">Aussi appelé Time’s Up!, Taboo, Pictionary</span></a></li>
     </ul>
     <footer>
       <p><a href="../../index.html">Confidentialité</a> · <a href="../../support.html">Assistance</a></p>
-      <p>Les noms des jeux sont des termes génériques ; l’app n’est liée à aucun éditeur.</p>
+      <p>Les marques citées appartiennent à leurs titulaires. Tallied est une app indépendante qui n’est liée à aucun éditeur ; les noms servent seulement à reconnaître le jeu.</p>
     </footer>
   </main>
 </body>

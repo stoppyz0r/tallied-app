@@ -28,6 +28,7 @@ nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
 .games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
 .games strong { display:block; }
 .games span { color: var(--muted); font-size: 14px; }
+.games .known { display:block; margin-top: 4px; font-style: italic; }
 .store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
 footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
 </style>
@@ -41,10 +42,10 @@ footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
     <p><a class="store" href="https://apps.apple.com/app/id6824289370">Download in de App Store</a></p>
     <h2>Kaartspellen</h2>
     <ul class="games">
-        <li><a href="colorDiscard.html"><strong>Afleggen!</strong><span>Kleur op kleur, getal op getal</span></a></li>
-        <li><a href="trickBidding.html"><strong>Hoeveel slagen?</strong><span>Voorspel je slagen, haal ze precies</span></a></li>
+        <li><a href="colorDiscard.html"><strong>Afleggen!</strong><span>Kleur op kleur, getal op getal</span><span class="known">Bekend als UNO</span></a></li>
+        <li><a href="trickBidding.html"><strong>Hoeveel slagen?</strong><span>Voorspel je slagen, haal ze precies</span><span class="known">Bekend als Wizard, Boerenbridge</span></a></li>
         <li><a href="rommee.html"><strong>Rummy</strong><span>Kaarten als sets en reeksen uitleggen</span></a></li>
-        <li><a href="phaseRummy.html"><strong>Fase-rummy</strong><span>Tien fases op volgorde voltooien</span></a></li>
+        <li><a href="phaseRummy.html"><strong>Fase-rummy</strong><span>Tien fases op volgorde voltooien</span><span class="known">Bekend als Phase 10</span></a></li>
         <li><a href="doppelkopf.html"><strong>Doppelkopf</strong><span>De klaverenvrouwen spelen samen</span></a></li>
         <li><a href="skat.html"><strong>Skat</strong><span>Bieden, troef noemen, één tegen twee</span></a></li>
         <li><a href="schafkopf.html"><strong>Schafkopf</strong><span>Een aas roepen of alleen voor 61 punten</span></a></li>
@@ -60,28 +61,28 @@ footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
         <li><a href="mus.html"><strong>Mus</strong><span>Met z’n vieren, met señas, envites en órdago</span></a></li>
         <li><a href="tute.html"><strong>Tute</strong><span>Roem van 20 en 40, en de tute</span></a></li>
         <li><a href="chinchon.html"><strong>Chinchón</strong><span>Rummy met afvallen en terugkomen</span></a></li>
-        <li><a href="cardGolf.html"><strong>Kaartgolf</strong><span>Ruil dichte kaarten, houd je score laag</span></a></li>
+        <li><a href="cardGolf.html"><strong>Kaartgolf</strong><span>Ruil dichte kaarten, houd je score laag</span><span class="known">Bekend als Skyjo</span></a></li>
         <li><a href="hearts.html"><strong>Hartenjagen</strong><span>Ontwijk harten en de schoppenvrouw</span></a></li>
         <li><a href="swimming.html"><strong>Eenendertigen</strong><span>Ruil kaarten en mik op 31</span></a></li>
         <li><a href="mauMau.html"><strong>Pesten</strong><span>Kleur of waarde volgen, boer kiest een kleur</span></a></li>
     </ul>
     <h2>Dobbelspellen</h2>
     <ul class="games">
-        <li><a href="fiveDice.html"><strong>Dobbelpret</strong><span>Vijf dobbelstenen, drie worpen, vul het blad</span></a></li>
+        <li><a href="fiveDice.html"><strong>Dobbelpret</strong><span>Vijf dobbelstenen, drie worpen, vul het blad</span><span class="known">Bekend als Yahtzee</span></a></li>
         <li><a href="schocken.html"><strong>Schocken</strong><span>Drie dobbelstenen, viltjes en Schock uit</span></a></li>
         <li><a href="maexchen.html"><strong>Mexen</strong><span>Stiekem gooien, hoger noemen, bluffen</span></a></li>
-        <li><a href="crossRows.html"><strong>Kruisrijen</strong><span>Zes dobbelstenen, vier kleurrijen afkruisen</span></a></li>
+        <li><a href="crossRows.html"><strong>Kruisrijen</strong><span>Zes dobbelstenen, vier kleurrijen afkruisen</span><span class="known">Bekend als Qwixx</span></a></li>
         <li><a href="tenThousand.html"><strong>Tienduizend</strong><span>Gooien, apart leggen, doorgokken</span></a></li>
     </ul>
     <h2>Bord- en legspellen</h2>
     <ul class="games">
-        <li><a href="tileLaying.html"><strong>Kastelen &amp; wegen</strong><span>Bouw een landschap, claim steden en wegen</span></a></li>
-        <li><a href="wordTiles.html"><strong>Woorden leggen</strong><span>Leg woorden, benut de premievakken</span></a></li>
+        <li><a href="tileLaying.html"><strong>Kastelen &amp; wegen</strong><span>Bouw een landschap, claim steden en wegen</span><span class="known">Bekend als Carcassonne</span></a></li>
+        <li><a href="wordTiles.html"><strong>Woorden leggen</strong><span>Leg woorden, benut de premievakken</span><span class="known">Bekend als Scrabble</span></a></li>
         <li><a href="backgammon.html"><strong>Backgammon</strong><span>Breng al je stenen thuis en speel ze uit</span></a></li>
         <li><a href="chess.html"><strong>Schaken</strong><span>Mat zetten, desgewenst met schaakklok</span></a></li>
         <li><a href="checkers.html"><strong>Dammen</strong><span>Schuin zetten, springen, dam halen</span></a></li>
         <li><a href="mill.html"><strong>Molenspel</strong><span>Drie op een rij, dan een steen pakken</span></a></li>
-        <li><a href="rummyTiles.html"><strong>Stenenrummy</strong><span>Getalstenen uitleggen en herschikken</span></a></li>
+        <li><a href="rummyTiles.html"><strong>Stenenrummy</strong><span>Getalstenen uitleggen en herschikken</span><span class="known">Bekend als Rummikub</span></a></li>
     </ul>
     <h2>Darts</h2>
     <ul class="games">
@@ -101,9 +102,9 @@ footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
         <li><a href="bowling.html"><strong>Bowlen</strong><span>Tien kegels, tien frames, strikes en spares</span></a></li>
         <li><a href="minigolf.html"><strong>Minigolf</strong><span>Zo weinig mogelijk slagen tot in het gat</span></a></li>
         <li><a href="boule.html"><strong>Jeu de boules</strong><span>Dicht bij het but, als eerste naar 13</span></a></li>
-        <li><a href="skittleToss.html"><strong>Fins kegelen</strong><span>Twaalf kegels omgooien, precies 50 halen</span></a></li>
+        <li><a href="skittleToss.html"><strong>Fins kegelen</strong><span>Twaalf kegels omgooien, precies 50 halen</span><span class="known">Bekend als Mölkky</span></a></li>
         <li><a href="sjoelen.html"><strong>Sjoelen</strong><span>30 schijven, vier poortjes, series tellen 20</span></a></li>
-        <li><a href="vikingChess.html"><strong>Vikingschaak</strong><span>Gooi de blokken om, dan de koning</span></a></li>
+        <li><a href="vikingChess.html"><strong>Vikingschaak</strong><span>Gooi de blokken om, dan de koning</span><span class="known">Bekend als Kubb</span></a></li>
     </ul>
     <h2>Sport</h2>
     <ul class="games">
@@ -120,11 +121,11 @@ footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
     <h2>Vrije telling</h2>
     <ul class="games">
         <li><a href="cityCountryRiver.html"><strong>Stad, land, rivier</strong><span>Eén letter, veel woorden</span></a></li>
-        <li><a href="wordGuessing.html"><strong>Woorden raden</strong><span>Uitleggen, tekenen, uitbeelden – samen raden</span></a></li>
+        <li><a href="wordGuessing.html"><strong>Woorden raden</strong><span>Uitleggen, tekenen, uitbeelden – samen raden</span><span class="known">Bekend als 30 Seconds, Pictionary</span></a></li>
     </ul>
     <footer>
       <p><a href="../../index.html">Privacy</a> · <a href="../../support.html">Support</a></p>
-      <p>Spelnamen zijn algemene benamingen; de app is niet verbonden aan een uitgever.</p>
+      <p>Genoemde merknamen zijn van hun eigenaars. Tallied is onafhankelijk en niet verbonden aan een uitgever; de namen helpen je alleen het spel te herkennen.</p>
     </footer>
   </main>
 </body>

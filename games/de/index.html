@@ -28,6 +28,7 @@ nav .current { font-weight: 600; color: var(--fg); text-decoration: none; }
 .games a { display:block; background: var(--card); border-radius: 12px; padding: 10px 14px; text-decoration: none; color: var(--fg); height: 100%; }
 .games strong { display:block; }
 .games span { color: var(--muted); font-size: 14px; }
+.games .known { display:block; margin-top: 4px; font-style: italic; }
 .store { display:inline-block; background: var(--accent); color: #fff; border-radius: 10px; padding: 10px 16px; text-decoration: none; font-weight: 600; margin: 8px 0 4px; }
 footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
 </style>
@@ -41,15 +42,15 @@ footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
     <p><a class="store" href="https://apps.apple.com/app/id6824289370">Im App Store laden</a></p>
     <h2>Kartenspiele</h2>
     <ul class="games">
-        <li><a href="colorDiscard.html"><strong>Ablegen!</strong><span>Farbe auf Farbe, Zahl auf Zahl</span></a></li>
-        <li><a href="trickBidding.html"><strong>Wie viele Stiche?</strong><span>Stiche vorhersagen, genau treffen</span></a></li>
+        <li><a href="colorDiscard.html"><strong>Ablegen!</strong><span>Farbe auf Farbe, Zahl auf Zahl</span><span class="known">Bekannt als UNO</span></a></li>
+        <li><a href="trickBidding.html"><strong>Wie viele Stiche?</strong><span>Stiche vorhersagen, genau treffen</span><span class="known">Bekannt als Wizard</span></a></li>
         <li><a href="rommee.html"><strong>Rommé</strong><span>Karten zu Sätzen und Reihen auslegen</span></a></li>
-        <li><a href="phaseRummy.html"><strong>Phasen-Rommé</strong><span>Zehn Phasen nacheinander erfüllen</span></a></li>
+        <li><a href="phaseRummy.html"><strong>Phasen-Rommé</strong><span>Zehn Phasen nacheinander erfüllen</span><span class="known">Bekannt als Phase 10</span></a></li>
         <li><a href="doppelkopf.html"><strong>Doppelkopf</strong><span>Die Kreuz-Damen spielen zusammen</span></a></li>
         <li><a href="skat.html"><strong>Skat</strong><span>Reizen, Trumpf ansagen, allein gegen zwei</span></a></li>
         <li><a href="schafkopf.html"><strong>Schafkopf</strong><span>Eine Sau rufen oder allein auf 61 Augen</span></a></li>
         <li><a href="watten.html"><strong>Watten</strong><span>Schlag und Trumpf ansagen, bieten, bluffen</span></a></li>
-        <li><a href="sixtySix.html"><strong>Sechsundsechzig</strong><span>Zu zweit auf 66 Augen, bis 7 Punkte</span></a></li>
+        <li><a href="sixtySix.html"><strong>Sechsundsechzig</strong><span>Zu zweit auf 66 Augen, bis 7 Punkte</span><span class="known">Bekannt als Schnapsen</span></a></li>
         <li><a href="jass.html"><strong>Jass (Schieber)</strong><span>Zu viert im Team, mit Weis, Stöck und Faktor</span></a></li>
         <li><a href="tarot.html"><strong>Tarot</strong><span>78 Karten, ein Nehmer gegen alle</span></a></li>
         <li><a href="belote.html"><strong>Belote</strong><span>Zu viert, Trumpf und Belote-Rebelote</span></a></li>
@@ -60,28 +61,28 @@ footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
         <li><a href="mus.html"><strong>Mus</strong><span>Zu viert mit Señas, Envites und Órdago</span></a></li>
         <li><a href="tute.html"><strong>Tute</strong><span>Cantes zu 20 und 40, und der Tute</span></a></li>
         <li><a href="chinchon.html"><strong>Chinchón</strong><span>Rommé mit Ausscheiden und Wiedereinstieg</span></a></li>
-        <li><a href="cardGolf.html"><strong>Karten-Golf</strong><span>Verdeckte Karten tauschen, Punkte drücken</span></a></li>
-        <li><a href="hearts.html"><strong>Herzen</strong><span>Herzen und die Pik-Dame meiden</span></a></li>
-        <li><a href="swimming.html"><strong>Schwimmen</strong><span>Mit drei Karten auf 31 kommen</span></a></li>
+        <li><a href="cardGolf.html"><strong>Karten-Golf</strong><span>Verdeckte Karten tauschen, Punkte drücken</span><span class="known">Bekannt als Skyjo</span></a></li>
+        <li><a href="hearts.html"><strong>Herzen</strong><span>Herzen und die Pik-Dame meiden</span><span class="known">Bekannt als Hearts</span></a></li>
+        <li><a href="swimming.html"><strong>Schwimmen</strong><span>Mit drei Karten auf 31 kommen</span><span class="known">Bekannt als 31, Schnauz</span></a></li>
         <li><a href="mauMau.html"><strong>Mau-Mau</strong><span>Farbe auf Farbe, Bube wünscht sich was</span></a></li>
     </ul>
     <h2>Würfelspiele</h2>
     <ul class="games">
-        <li><a href="fiveDice.html"><strong>Würfelspaß</strong><span>Fünf Würfel, dreimal werfen, Block füllen</span></a></li>
+        <li><a href="fiveDice.html"><strong>Würfelspaß</strong><span>Fünf Würfel, dreimal werfen, Block füllen</span><span class="known">Bekannt als Kniffel, Yahtzee</span></a></li>
         <li><a href="schocken.html"><strong>Schocken</strong><span>Drei Würfel, Deckel und Schock aus</span></a></li>
-        <li><a href="maexchen.html"><strong>Mäxchen</strong><span>Verdeckt würfeln, höher ansagen, bluffen</span></a></li>
-        <li><a href="crossRows.html"><strong>Kreuzreihen</strong><span>Sechs Würfel, vier Farbreihen ankreuzen</span></a></li>
+        <li><a href="maexchen.html"><strong>Mäxchen</strong><span>Verdeckt würfeln, höher ansagen, bluffen</span><span class="known">Bekannt als Meiern, Mäxle</span></a></li>
+        <li><a href="crossRows.html"><strong>Kreuzreihen</strong><span>Sechs Würfel, vier Farbreihen ankreuzen</span><span class="known">Bekannt als Qwixx</span></a></li>
         <li><a href="tenThousand.html"><strong>Zehntausend</strong><span>Würfeln, herauslegen, weiterzocken</span></a></li>
     </ul>
     <h2>Brett- und Legespiele</h2>
     <ul class="games">
-        <li><a href="tileLaying.html"><strong>Burgen &amp; Straßen</strong><span>Landschaft legen, Städte und Straßen besetzen</span></a></li>
-        <li><a href="wordTiles.html"><strong>Wörterlegen</strong><span>Wörter legen, Prämienfelder nutzen</span></a></li>
+        <li><a href="tileLaying.html"><strong>Burgen &amp; Straßen</strong><span>Landschaft legen, Städte und Straßen besetzen</span><span class="known">Bekannt als Carcassonne</span></a></li>
+        <li><a href="wordTiles.html"><strong>Wörterlegen</strong><span>Wörter legen, Prämienfelder nutzen</span><span class="known">Bekannt als Scrabble</span></a></li>
         <li><a href="backgammon.html"><strong>Backgammon</strong><span>Alle Steine heimbringen und abtragen</span></a></li>
         <li><a href="chess.html"><strong>Schach</strong><span>Matt setzen, auf Wunsch mit Schachuhr</span></a></li>
         <li><a href="checkers.html"><strong>Dame</strong><span>Schräg ziehen, überspringen, zur Dame werden</span></a></li>
         <li><a href="mill.html"><strong>Mühle</strong><span>Drei in einer Reihe, dann einen Stein nehmen</span></a></li>
-        <li><a href="rummyTiles.html"><strong>Zahlenstein-Rommé</strong><span>Zahlensteine auslegen und umbauen</span></a></li>
+        <li><a href="rummyTiles.html"><strong>Zahlenstein-Rommé</strong><span>Zahlensteine auslegen und umbauen</span><span class="known">Bekannt als Rummikub</span></a></li>
     </ul>
     <h2>Darts</h2>
     <ul class="games">
@@ -100,10 +101,10 @@ footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
         <li><a href="ninePin.html"><strong>Kegeln</strong><span>Neun Kegel: Volle, Abräumen und Kegelspiele</span></a></li>
         <li><a href="bowling.html"><strong>Bowling</strong><span>Zehn Pins, zehn Frames, Strike und Spare</span></a></li>
         <li><a href="minigolf.html"><strong>Minigolf</strong><span>Mit wenigen Schlägen einlochen</span></a></li>
-        <li><a href="boule.html"><strong>Boule</strong><span>Nah an die Zielkugel, zuerst auf 13</span></a></li>
-        <li><a href="skittleToss.html"><strong>Wurfholz-Kegeln</strong><span>Zwölf Kegel umwerfen, genau 50 treffen</span></a></li>
+        <li><a href="boule.html"><strong>Boule</strong><span>Nah an die Zielkugel, zuerst auf 13</span><span class="known">Bekannt als Pétanque</span></a></li>
+        <li><a href="skittleToss.html"><strong>Wurfholz-Kegeln</strong><span>Zwölf Kegel umwerfen, genau 50 treffen</span><span class="known">Bekannt als Mölkky</span></a></li>
         <li><a href="sjoelen.html"><strong>Sjoelen</strong><span>30 Scheiben, vier Fächer, Sätze zählen 20</span></a></li>
-        <li><a href="vikingChess.html"><strong>Wikinger-Schach</strong><span>Klötze umwerfen, dann den König</span></a></li>
+        <li><a href="vikingChess.html"><strong>Wikinger-Schach</strong><span>Klötze umwerfen, dann den König</span><span class="known">Bekannt als Kubb</span></a></li>
     </ul>
     <h2>Sport</h2>
     <ul class="games">
@@ -120,11 +121,11 @@ footer { color: var(--muted); font-size: 14px; margin-top: 48px; }
     <h2>Freie Wertung</h2>
     <ul class="games">
         <li><a href="cityCountryRiver.html"><strong>Stadt-Land-Fluss</strong><span>Ein Buchstabe, viele Wörter</span></a></li>
-        <li><a href="wordGuessing.html"><strong>Begriffe raten</strong><span>Erklären, zeichnen, vorspielen – im Team raten</span></a></li>
+        <li><a href="wordGuessing.html"><strong>Begriffe raten</strong><span>Erklären, zeichnen, vorspielen – im Team raten</span><span class="known">Bekannt als Activity, Tabu, Pictionary</span></a></li>
     </ul>
     <footer>
       <p><a href="../../index.html">Datenschutz</a> · <a href="../../support.html">Support</a></p>
-      <p>Spielnamen sind allgemeine Bezeichnungen; die App ist mit keinem Verlag verbunden.</p>
+      <p>Genannte Markennamen gehören ihren Inhabern. Mitgezählt ist unabhängig und mit keinem Verlag verbunden; die Namen dienen nur dazu, das Spiel zu erkennen.</p>
     </footer>
   </main>
 </body>
